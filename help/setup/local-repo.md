@@ -2,9 +2,8 @@
 title: 로컬로 Git 리포지토리 설정
 seo-title: 로컬로 Adobe 설명서를 위한 Git 리포지토리 설정
 description: 이 문서에서는 포크 및 복제 프로세스를 포함하여, 로컬 Git 리포지토리를 만들고 Adobe 설명서에 기여하는 지침을 제공합니다.
-seo-description: 이 문서에서는 포크 및 복제 프로세스를 포함하여, 로컬 Git 리포지토리를 만들고 Adobe 설명서에 기여하는 지침을
-  제공합니다.
-translation-type: tm+mt
+seo-description: 이 문서에서는 포크 및 복제 프로세스를 포함하여, 로컬 Git 리포지토리를 만들고 Adobe 설명서에 기여하는 지침을 제공합니다.
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
@@ -28,7 +27,7 @@ Adobe 설명서에 기여하기 위해 읽기/쓰기 권한이 생기도록 적�
 
 ## 리포지토리 결정
 
-제안된 변경 사항을 저장할 수 있는 읽기/쓰기 권한이 생기도록 적절한 리포지토리를 고유한 GitHub 계정에 포크합니다. [!UICONTROL Adobe Experience Cloud] 설명서는 [github.com의 여러 다른 저장소에 있습니다](https://www.github.com/adobedocs).
+제안된 변경 사항을 저장할 수 있는 읽기/쓰기 권한이 생기도록 적절한 리포지토리를 고유한 GitHub 계정에 포크합니다. [!UICONTROL Adobe Experience Cloud] 설명서는 [github.com](https://www.github.com/adobedocs)의 여러 저장소에 있습니다.
 
 1. 어떤 리포지토리를 사용할지 잘 모른다면 웹 브라우저를 사용하여 해당 문서를 방문합니다. 문서의 오른쪽 상단에 있는 **편집** 링크(연필 아이콘)를 선택합니다. ([편집] 링크가 보이지 않는다면 해당 내용은 Github에서 아직 사용할 수 없습니다.)
 
@@ -71,6 +70,6 @@ GitHub 웹 사이트를 통해 적절한 리포지토리를 사용하여 고유�
 
 ![리포지토리 복제](assets/clone-pulldown.png)
 
-1. GitHub Desktop을 사용하여 로컬 파일을 포크된 리포지토리와 계속 동기화할 수 있습니다.
+1. GitHub Desktop을 사용하여 로컬 파일을 포크된 저장소와 계속 동기화할 수 있습니다.
 
 자세한 내용은 [GitHub Desktop 설명서](https://help.github.com/desktop/)를 참조하십시오.
