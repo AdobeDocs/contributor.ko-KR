@@ -4,16 +4,16 @@ title: 설명서 작성에 Markdown을 사용하는 방법
 seo-title: Adobe 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
 seo-description: 이 문서에서는 Adobe 설명서용 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
 
 # 기술 설명서 작성에 Markdown을 사용하는 방법
 
-Adobe 기술 설명서 문서는 읽기 쉽고 배우기 쉬운 [Markdown](https://daringfireball.net/projects/markdown/)이라는 간단한 마크업 언어로 작성됩니다.
+Adobe 기술 문서 문서는 읽기 쉽고 쉽게 배울 수 있는 [Markdown](https://daringfireball.net/projects/markdown/)이라는 작은 마크업 언어로 작성됩니다.
 
-Adobe Docs 내용은 GitHub에 저장되므로 일반적인 형식 요구 사항에 대한 추가 기능을 제공하는 [GFM(GitHub Flavored Markdown)](https://help.github.com/categories/writing-on-github/)이라는 Markdown의 버전을 사용할 수 있습니다. 또한 Adobe에서는 참고 사항, 팁 및 포함된 비디오와 같은 특정 도움말 관련 기능을 지원하기 위해 몇 가지 방법으로 Markdown을 확장했습니다.
+GitHub에 Adobe Docs 콘텐츠를 저장하고 있으므로, 일반적인 서식 요구 사항에 대한 추가 기능을 제공하는 [GitHub Flavored Markdown(GFM)](https://help.github.com/categories/writing-on-github/)이라는 버전의 마크다운을 사용할 수 있습니다. 또한 Adobe에서는 참고 사항, 팁 및 포함된 비디오와 같은 특정 도움말 관련 기능을 지원하기 위해 몇 가지 방법으로 Markdown을 확장했습니다.
 
 ## Markdown 기본 사항
 
@@ -65,7 +65,7 @@ This is not \*italicized\* type.
 1. This is yet another step, the third.
 ```
 
-표시:
+표시 -
 
 1. 1단계입니다.
 1. 그다음 단계입니다.
@@ -81,7 +81,7 @@ This is not \*italicized\* type.
 - Here we go again.
 ```
 
-표시:
+표시 -
 
 - 무순서 목록의 첫 번째 항목입니다.
 - 다른 항목입니다.
@@ -107,7 +107,7 @@ This is not \*italicized\* type.
 1. Do another step.
 ```
 
-표시:
+표시 -
 
 1. 표 및 코드 블록을 설정합니다.
 1. 이 단계를 수행합니다.
@@ -136,7 +136,7 @@ This is not \*italicized\* type.
 | row 2 | row 2 column 2 | row 2 column 3 |
 ```
 
-표시:
+표시 -
 
 | 헤더 | 다른 헤더 | 연이은 헤더 |
 |------------|:---------------:|-----------------------:|
@@ -148,8 +148,8 @@ This is not \*italicized\* type.
 표 만들기에 대한 자세한 내용은 다음을 참조하십시오.
 
 - GitHub의 [표 구성 정보](https://help.github.com/articles/organizing-information-with-tables/)
-- [Markdown 표 생성기](https://www.tablesgenerator.com/markdown_tables) 웹앱
-- [HTML 표를 Markdown으로 변환](https://jmalarcon.github.io/markdowntables/)
+- [Markdown 테이블 생성기](https://www.tablesgenerator.com/markdown_tables) 웹 앱
+- [HTML 테이블을 Markdown으로 변환](https://jmalarcon.github.io/markdowntables/)
 
 ### 링크
 
@@ -161,9 +161,9 @@ This is not \*italicized\* type.
 [Adobe](https://www.adobe.com) or <https://www.adobe.com>
 ```
 
-표시:
+표시 -
 
-[Adobe](https://www.adobe.com) 또는 <https://www.adobe.com>
+[Adobe](https://www.adobe.com/kr/) 또는 <https://www.adobe.com>
 
 리포지토리 내의 문서에 연결되는 링크(상호 참조)에 대해서는 상대 링크를 사용하십시오. ./(현재 디렉토리), ../(한 디렉토리 뒤로) 및 ../../(두 디렉토리 뒤로)와 같은 모든 상대 링크 피연산자를 사용할 수 있습니다.
 
@@ -179,7 +179,7 @@ See [Overview example article](../../overview.md)
 ![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Hover text")
 ```
 
-표시:
+표시 -
 
 ![Adobe 로고](assets/no-localize/adobe_standard_logo.png "마우스로 가리키면 표시되는 텍스트")
 
@@ -187,15 +187,15 @@ See [Overview example article](../../overview.md)
 
 Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 "펜싱된" 블록으로 배치할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)
 
-단락 내에서 인라인 코드 스타일을 만들려면 역따옴표( \` )를 사용하십시오. 특정한 여러 줄 코드 블록을 만들려면 코드 블록(Markdown에서 "펜싱된 코드 블록"이라고 하고, AEM에서는 단순히 "코드 블록" 구성 요소라고 함)의 앞과 뒤에 세 개의 역따옴표(\`\`\`)를 추가하십시오. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예: \`\`\`javascript
+단락 내에서 인라인 코드 스타일을 만들려면 역따옴표( \` )를 사용하십시오. 특정한 여러 줄 코드 블록을 만들려면 코드 블록(Markdown에서 "펜싱된 코드 블록"이라고 하고, AEM에서는 단순히 "코드 블록" 구성 요소라고 함)의 앞과 뒤에 세 개의 역따옴표(\`\`\`)를 추가하십시오. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예, \`\`\`javascript
 
-예:
+예
 
 ```markdown
 This is `inline code` within a paragraph of text.
 ```
 
-표시:
+표시 -
 
 이 코드는 텍스트 단락 내 `inline code`입니다.
 
@@ -208,7 +208,7 @@ function test() {
 \```
 ```
 
-표시:
+표시 -
 
 ```javascript
 function test() {
@@ -279,7 +279,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 >This is a standard NOTE block.
 ```
 
-표시:
+표시 -
 
 >[!NOTE]
 >표준 참고 블록입니다.
@@ -289,7 +289,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 >This is a standard tip.
 ```
 
-표시:
+표시 -
 
 >[!TIP]
 >표준 팁입니다.
@@ -302,7 +302,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
 ```
 
-표시:
+표시 -
 
 >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
 
@@ -333,11 +333,11 @@ Displayed:
 
 솔루션의 사용자 인터페이스와 메뉴에 있는 요소의 경우 Adobe에서는 `[!UICONTROL]` 확장을 사용합니다.
 
-**예:**
+**예**
 
-In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+[!DNL Adobe Target]에서는 [!DNL Target]-enabled 페이지에서 직접 테스트를 생성할 수 있습니다.
 
-**소스:**
+**소스 -**
 
 ```markdown
 In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
@@ -345,9 +345,9 @@ In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-ena
 
 **예**
 
-[!UICONTROL Visual Experience Composer] 에서 [!DNL Target] 를 사용하여 페이지에서 직접 테스트를 만듭니다.
+[!UICONTROL Visual Experience Composer]에서 [!DNL Target]을(를) 사용하여 페이지에서 직접 테스트를 만듭니다.
 
-**소스:**
+**소스 -**
 
 ```markdown
 Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
@@ -375,10 +375,10 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 이러한 "스마트" 버전의 문장 부호는 다음과 같이 인코딩합니다.
 
-- 왼쪽(열린) 큰따옴표: `&#8220;`
-- 오른쪽(닫힌) 큰따옴표: `&#8221;`
-- 오른쪽(닫힌) 작은따옴표 또는 아포스트로피: `&#8217;`
-- 왼쪽(열린) 작은따옴표(거의 사용 안 함): `&#8216;`
+- 왼쪽(열린) 큰따옴표 - `&#8220;`
+- 오른쪽(닫힌) 큰따옴표 - `&#8221;`
+- 오른쪽(닫힌) 작은따옴표 또는 아포스트로피 - `&#8217;`
+- 왼쪽(열린) 작은따옴표(거의 사용 안 함) - `&#8216;`
 
 ### 꺾쇠 괄호
 
@@ -390,7 +390,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 앰퍼샌드(&)는 제목에서 허용되지 않습니다. 대신 "and"(및)를 사용하거나 `&amp;` 인코딩을 사용하십시오.
 
-## 참조:
+## 참조 -
 
 ### Markdown 리소스
 
