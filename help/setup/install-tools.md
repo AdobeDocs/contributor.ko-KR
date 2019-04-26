@@ -3,9 +3,8 @@ lastModified: 2018년 06월 28일
 title: 작성 도구 설치
 seo-title: Adobe 설명서를 위한 Git 및 GitHub 작성 도구 설치
 description: 이 문서는 Git/GitHub 및 Markdown 파일 편집에 필요한 클라이언트 도구를 다운로드하고 설치하는 데 도움이 됩니다.
-seo-description: 이 문서는 Git/GitHub과, Adobe 설명서용 Markdown 파일 편집에 필요한 클라이언트 도구를 다운로드하고
-  설치하는 데 도움이 됩니다.
-translation-type: tm+mt
+seo-description: 이 문서는 Git/GitHub과, Adobe 설명서용 Markdown 파일 편집에 필요한 클라이언트 도구를 다운로드하고 설치하는 데 도움이 됩니다.
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
@@ -21,9 +20,9 @@ source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ## Git 클라이언트 도구 설치
 
-로컬 파일을 서버 파일과 동기화하는 데 유용한 그래픽 사용자 인터페이스 도구가 필요하면 [Github Desktop](https://desktop.github.com/)을 다운로드하십시오. 기타 널리 사용되는 옵션으로는 [소프트웨어 자유 단체의 사용 가능한 GUI 클라이언트 페이지](https://git-scm.com/downloads/guis) 또는 [Microsoft Visual Studio 코드](https://www.visualstudio.com/products/code-vs.aspx) 등이 있습니다.
+로컬 파일을 서버 파일과 동기화하는 데 도움이 되는 그래픽 유저 인터페이스 도구를 보려면 [GitHub Desktop](https://desktop.github.com/)을 다운로드하십시오. 기타 널리 사용되는 옵션으로는 [Software Freedom Conservancy의 사용 가능한 GUI 클라이언트 페이지](https://git-scm.com/downloads/guis) 또는 [Microsoft Visual Studio Code](https://www.visualstudio.com/products/code-vs.aspx)등이 있습니다.
 
-GUI(그래픽 사용자 인터페이스)보다 CLI(명령줄 인터페이스)를 선호하는 경우 최신 버전의 [소프트웨어 자유 단체의 Git 클라이언트 도구](https://git-scm.com/downloads)를 설치하십시오. 이 설치에는 Git 버전 제어 시스템과, 로컬 Git 리포지토리와 상호 작용하는 데 사용할 수 있는 명령줄 앱인 Git Bash가 포함되어 있습니다.
+GUI(그래픽 사용자 인터페이스)보다 CLI(명령줄 인터페이스)를 선호하는 경우 [Software Freedom Conservancy의 Git 클라이언트 도구](https://git-scm.com/downloads) 최신 버전을 설치하십시오. 이 설치에는 Git 버전 제어 시스템과, 로컬 Git 리포지토리와 상호 작용하는 데 사용할 수 있는 명령줄 앱인 Git Bash가 포함되어 있습니다.
 
 Git 학습 리소스는 다음과 같습니다.
 
@@ -33,7 +32,7 @@ Git 학습 리소스는 다음과 같습니다.
 
 ## Markdown 편집기 이해
 
-Markdown은 읽기 쉽고 배우기 쉬운 간단한 마크업 언어입니다. 따라서 빠르게 업계 표준이 되었습니다. Markdown으로 문서를 작성하려면 먼저 Markdown 편집기를 다운로드하여 설치하는 것이 좋습니다. 널리 사용되는 옵션에는 [Visual Studio Code](https://code.visualstudio.com/), [Adobe Brackets](https://brackets.io) 및 [Atom](https://atom.io)이 있습니다.
+Markdown은 읽기 쉽고 배우기 쉬운 간단한 마크업 언어입니다. 따라서 빠르게 업계 표준이 되었습니다. Markdown으로 문서를 작성하려면 먼저 Markdown 편집기를 다운로드하여 설치하는 것이 좋습니다. 인기 있는 옵션으로는 [Visual Studio Code](https://code.visualstudio.com/), [Adobe Brackets](https://brackets.io) 및 [Atom](https://atom.io) 등이 있습니다.
 
 Markdown 텍스트는 확장명이 .md인 파일에 저장됩니다.
 
