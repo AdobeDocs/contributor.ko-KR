@@ -2,9 +2,9 @@
 lastModified: 2018년 06월 28일
 title: 설명서에서 링크 사용
 seo-title: Adobe Git/Markdown 설명서에서 링크 사용
-description: 이 문서에서는 컨텐츠 및 이미지에 대한 링크 만들기에 대한 지침을 제공합니다.
-seo-description: 이 문서에서는 Adobe 설명서에 대한 컨텐츠 및 이미지에 대한 링크 만들기에 대한 지침을 제공합니다.
-translation-type: tm+mt
+description: 이 문서에서는 콘텐츠 및 이미지에 대한 링크 만들기에 대한 지침을 제공합니다.
+seo-description: 이 문서에서는 Adobe 설명서에 대한 콘텐츠 및 이미지에 대한 링크 만들기에 대한 지침을 제공합니다.
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
@@ -15,13 +15,13 @@ source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 이 문서에서는 설명서 페이지에 하이퍼링크를 사용하는 방법에 대해 설명합니다. 링크는 몇 가지 다양한 규칙을 사용하여 Markdown에 쉽게 추가할 수 있습니다. 링크는 사용자에게 동일한 페이지의 내용을 가리켜 주거나, 인접한 다른 페이지를 가리키거나, 외부 사이트 및 URL을 가리킵니다.
 
 > [!IMPORTANT]
-> 모든 링크는 Target 이 지원할 때마다 (대다수가) 항상 보안 링크`https` (vs) `http`여야 합니다.
+> 모든 링크는 Target이 지원할 때마다 (대다수가) 항상 보안 링크(`https` vs `http`)여야 합니다.
 
 ## URL 링크
 
 링크 텍스트에 포함되는 단어는 연결하는 페이지의 제목이거나 특정하는 설명적 텍스트여야 합니다.
 
-**예:**
+**예**
 
 - `For more information, see the [overview article](https://github.com/AdobeDocs/target.en/help/overview.md).`
 
