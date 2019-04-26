@@ -1,6 +1,6 @@
 ---
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # 기여
@@ -15,9 +15,9 @@ translation-type: tm+mt
 이 수칙을 준수해야 합니다. 부적절한 행동은
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com)에 신고해 주십시오.
 
-## Contributor Guide 설명서
+## 기여자 안내서 설명서
 
-[Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+[기여자 안내서](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 ## 질문이 있습니까?
 
@@ -29,15 +29,15 @@ translation-type: tm+mt
 
 본 프로젝트에 대한 모든 제3자 기여는 서명된 기여자 라이선스 계약을
 동반해야 합니다. 이를 통해 Adobe는 귀하의 기여를 프로젝트의 일부로서
-재배포할 수 있는 권한을 얻게 됩니다. [CLA에 서명](http://opensource.adobe.com/cla.html)하십시오. Adobe
+재배포할 수 있는 권한을 얻게 됩니다. [Adobe CLA](http://opensource.adobe.com/cla.html)에 서명하십시오. Adobe
 CLA는 한 번만 제출하면 되므로 이전에 제출한 적이 있다면 언제든지
 해당 제품을 이용할 수 있습니다.
 
 ## 수칙 검토
 
 모든 제출 사항은 끌어오기 요청 양식으로 제출해야 하며 프로젝트
-커미터가 검토해야 합니다. 끌어오기 요청 전송에 대한 자세한 내용은
-[GitHub의 끌어오기 요청 설명서](https://help.github.com/articles/about-pull-requests/)를 참조하십시오.
+커미터가 검토해야 합니다. 풀 요청 전송에 대한 자세한 내용은 [GitHub의 풀 요청 설명서](https://help.github.com/articles/about-pull-requests/)
+를 참조하십시오.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -55,4 +55,4 @@ Adobe는 커뮤니티의 기여를 환영합니다. 기여자를 넘어 한 걸�
 
 ## 보안 문제
 
-보안 문제는 이 문제 추적기에서 보고할 수 없습니다. 대신, [보안 전문가에게 문제를 제기하십시오.](https://helpx.adobe.com/security/alertus.html)
+보안 문제는 이 문제 추적기에서 보고할 수 없습니다. 대신, [보안 전문가에게 문제를 제기하십시오.](https://helpx.adobe.com/kr/security/alertus.html)
