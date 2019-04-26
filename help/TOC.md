@@ -3,7 +3,7 @@ git-repo: https://github.com/AdobeDocs/contributor.en
 cloud: experience-cloud
 index: true
 user-guide-title: Adobe 기여자 안내서
-user-guide-url: https://www.adobe.com
+user-guide-url: https://www.adobe.com/kr/
 solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud.html
 solution-image: assets/experience-cloud-logo-24.png
@@ -12,7 +12,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 자습서
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 test-meta: 테스트
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 + GitHub 설정 {#setup}
    + [GitHub 계정 설정](setup/github-signup.md)
    + [Git 및 Markdown 작성 도구 설치](setup/install-tools.md)
-   + [로컬 Git 리포지토리 설정](setup/local-repo.md)
+   + [로컬 Git 저장소 설정](setup/local-repo.md)
    + [GitHub 설명서 핵심 사항](setup/git-fundamentals.md)
    + [주요 변경 사항에 대한 GitHub 워크플로우](setup/full-workflow.md)
 + 작성 핵심 사항 {#writing-essentials}
