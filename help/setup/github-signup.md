@@ -6,7 +6,7 @@ description: Adobe 설명서에 내용을 기여하기 위해 필요한 GitHub�
 seo-description: Adobe 설명서에 내용을 기여하기 위해 필요한 GitHub용 계정을 설정하는 프로세스를 차근차근 수행합니다.
 index: true
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: beff041de31171a7ddd8a3b829adea7cc142e046
 
 ---
 

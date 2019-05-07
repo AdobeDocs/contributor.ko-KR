@@ -4,7 +4,7 @@ seo-title: Git 및 GitHub 설명서 핵심 사항
 description: 이 문서에서는 Git, GitHub 리포지토리 및 내용이 구성되는 방식에 대한 개요와 Adobe 설명서에 사용되는 명명 규칙을 설명합니다.
 seo-description: 이 문서에서는 Git, GitHub 리포지토리 및 내용이 구성되는 방식에 대한 개요와 Adobe 설명서에 사용되는 명명 규칙을 설명합니다.
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: 223b40e1903c5de90dee90a138967efb02237a42
 
 ---
 

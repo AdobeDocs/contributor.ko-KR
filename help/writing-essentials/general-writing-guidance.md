@@ -5,7 +5,7 @@ seo-title: Adobe 설명서 작성 지침 작성
 description: 이 문서에는 Adobe 설명서에 기여하는 데 필수적인 지침이 포함되어 있습니다.
 seo-description: 이 문서에는 Adobe 설명서에 기여하는 데 필수적인 지침이 포함되어 있습니다.
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: 1c289ce5a8fdceb7187676e48511c560a69d69c9
 
 ---
 

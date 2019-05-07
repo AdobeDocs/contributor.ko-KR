@@ -5,7 +5,7 @@ seo-title: Adobe 설명서의 주요 변경 사항에 대한 GitHub 기여 워�
 description: 이 문서에서는 "주요" 기여자 워크플로우를 사용하여 Adobe 설명서에 기여하는 방법을 보여줍니다.
 seo-description: 이 문서에서는 "주요" 기여자 워크플로우를 사용하여 Adobe 설명서에 기여하는 방법을 보여줍니다.
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: cb9e20da64bb04a2b1765338b237825cae7aabeb
 
 ---
 

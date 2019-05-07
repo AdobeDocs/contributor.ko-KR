@@ -5,7 +5,7 @@ seo-title: Adobe Git/Markdown 설명서에서 링크 사용
 description: 이 문서에서는 콘텐츠 및 이미지에 대한 링크 만들기에 대한 지침을 제공합니다.
 seo-description: 이 문서에서는 Adobe 설명서에 대한 콘텐츠 및 이미지에 대한 링크 만들기에 대한 지침을 제공합니다.
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: 9060d24142e0f03283b42a2a4bbc638abe2952aa
 
 ---
 
