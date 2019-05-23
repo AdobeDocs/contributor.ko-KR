@@ -4,16 +4,17 @@ title: 설명서 작성에 Markdown을 사용하는 방법
 seo-title: Adobe 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
 seo-description: 이 문서에서는 Adobe 설명서용 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-translation-type: ht
-source-git-commit: cda3618353a35ebb7dd73a64777ca1c788f5b72b
+translation-type: tm+mt
+source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
 
+
 # 기술 설명서 작성에 Markdown을 사용하는 방법
 
-Adobe 기술 문서 문서는 읽기 쉽고 쉽게 배울 수 있는 [Markdown](https://daringfireball.net/projects/markdown/)이라는 작은 마크업 언어로 작성됩니다.
+Adobe 기술 설명서 문서는 읽기 쉽고 배우기 쉬운 [Markdown](https://daringfireball.net/projects/markdown/)이라는 간단한 마크업 언어로 작성됩니다.
 
-GitHub에 Adobe Docs 콘텐츠를 저장하고 있으므로, 일반적인 서식 요구 사항에 대한 추가 기능을 제공하는 [GitHub Flavored Markdown(GFM)](https://help.github.com/categories/writing-on-github/)이라는 버전의 마크다운을 사용할 수 있습니다. 또한 Adobe에서는 참고 사항, 팁 및 포함된 비디오와 같은 특정 도움말 관련 기능을 지원하기 위해 몇 가지 방법으로 Markdown을 확장했습니다.
+Adobe Docs 내용은 GitHub에 저장되므로 일반적인 형식 요구 사항에 대한 추가 기능을 제공하는 [GFM(GitHub Flavored Markdown)](https://help.github.com/categories/writing-on-github/)이라는 Markdown의 버전을 사용할 수 있습니다. 또한 Adobe에서는 참고 사항, 팁 및 포함된 비디오와 같은 특정 도움말 관련 기능을 지원하기 위해 몇 가지 방법으로 Markdown을 확장했습니다.
 
 ## Markdown 기본 사항
 
@@ -148,8 +149,8 @@ This is not \*italicized\* type.
 표 만들기에 대한 자세한 내용은 다음을 참조하십시오.
 
 - GitHub의 [표 구성 정보](https://help.github.com/articles/organizing-information-with-tables/)
-- [Markdown 테이블 생성기](https://www.tablesgenerator.com/markdown_tables) 웹 앱
-- [HTML 테이블을 Markdown으로 변환](https://jmalarcon.github.io/markdowntables/)
+- [Markdown 표 생성기](https://www.tablesgenerator.com/markdown_tables) 웹앱
+- [HTML 표를 Markdown으로 변환](https://jmalarcon.github.io/markdowntables/)
 
 ### 링크
 
@@ -163,7 +164,7 @@ This is not \*italicized\* type.
 
 표시 -
 
-[Adobe](https://www.adobe.com/kr/) 또는 <https://www.adobe.com>
+[Adobe](https://www.adobe.com) 또는 <https://www.adobe.com>
 
 리포지토리 내의 문서에 연결되는 링크(상호 참조)에 대해서는 상대 링크를 사용하십시오. ./(현재 디렉토리), ../(한 디렉토리 뒤로) 및 ../../(두 디렉토리 뒤로)와 같은 모든 상대 링크 피연산자를 사용할 수 있습니다.
 
@@ -185,9 +186,9 @@ See [Overview example article](../../overview.md)
 
 ### 코드 블록
 
-Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 "펜싱된" 블록으로 배치할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)
+Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 &quot;펜싱된&quot; 블록으로 배치할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)
 
-단락 내에서 인라인 코드 스타일을 만들려면 역따옴표( \` )를 사용하십시오. 특정한 여러 줄 코드 블록을 만들려면 코드 블록(Markdown에서 "펜싱된 코드 블록"이라고 하고, AEM에서는 단순히 "코드 블록" 구성 요소라고 함)의 앞과 뒤에 세 개의 역따옴표(\`\`\`)를 추가하십시오. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예, \`\`\`javascript
+단락 내에서 인라인 코드 스타일을 만들려면 역따옴표( \` )를 사용하십시오. 특정한 여러 줄 코드 블록을 만들려면 코드 블록(Markdown에서 &quot;펜싱된 코드 블록&quot;이라고 하고, AEM에서는 단순히 &quot;코드 블록&quot; 구성 요소라고 함)의 앞과 뒤에 세 개의 역따옴표(\`\`\`)를 추가하십시오. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예, \`\`\`javascript
 
 예
 
@@ -215,11 +216,11 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-코드 블록에 대한 속성을 지정하여 줄 번호를 끄거나(기본적으로 켜져 있음) 줄 바꿈을 추가(기본적으로 꺼져 있음)할 수 있습니다. {line-numbers="no"} 및 {line-wrap="yes"}를 사용하십시오. 이러한 속성은 사용자 지정 Markdown 확장입니다.
+코드 블록에 대한 속성을 지정하여 줄 번호를 끄거나(기본적으로 켜져 있음) 줄 바꿈을 추가(기본적으로 꺼져 있음)할 수 있습니다. {line-numbers=&quot;no&quot;} 및 {line-wrap=&quot;yes&quot;}를 사용하십시오. 이러한 속성은 사용자 지정 Markdown 확장입니다.
 
-\`\`\`javascript {line-numbers="no"}
+\`\`\`javascript {line-numbers=&quot;no&quot;}
 function test() {
-console.log("notice the blank line before this function?");
+console.log(&quot;notice the blank line before this function?&quot;);
 \`\`\`
 
 ### 정의 목록
@@ -258,7 +259,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 - 현지화하지 않음
 - 다른 제목 ID를 제목에 지정하는 것과 같은 구성 요소 속성
 
-참고 사항과 같은 확장된 구성 요소를 함께 연결하려면 각 줄의 맨 앞에 Markdown 블록 따옴표(>)를 사용하십시오. 구성 요소 내에 하위 구성 요소를 사용해야 하는 경우에는 해당 하위 구성 요소 섹션용으로 추가 블록 따옴표(> >)를 추가합니다. 예를 들어, DONOTLOCALIZE 섹션 내의 NOTE는 >    >로 시작해야 합니다.
+참고 사항과 같은 확장된 구성 요소를 함께 연결하려면 각 줄의 맨 앞에 Markdown 블록 따옴표(&gt;)를 사용하십시오. 구성 요소 내에 하위 구성 요소를 사용해야 하는 경우에는 해당 하위 구성 요소 섹션용으로 추가 블록 따옴표(&gt; &gt;)를 추가합니다. 예를 들어, DONOTLOCALIZE 섹션 내의 NOTE는 &gt;    &gt;로 시작해야 합니다.
 
 제목 및 코드 블록과 같은 일부 일반적인 Markdown 요소에는 확장된 속성이 포함됩니다. 기본 속성을 변경해야 하는 경우 구성 요소 뒤에 프랑스식 중괄호 /{ /}로 매개 변수를 추가하십시오. 확장된 속성은 문맥 내에 설명되어 있습니다.
 
@@ -302,13 +303,13 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
 ```
 
-표시 -
+표시:
 
 >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
 
 ### 다음과 같음
 
-AEM의 "다음과 같음"(More Like This) 구성 요소는 문서의 끝에 나타납니다. 이 구성 요소는 관련 링크를 표시합니다. 문서가 렌더링되면 미니 목차에 추가되지 않고 수준 2 제목(##)과 동일한 서식을 지정할 수 있습니다.
+AEM의 &quot;다음과 같음&quot;(More Like This) 구성 요소는 문서의 끝에 나타납니다. 이 구성 요소는 관련 링크를 표시합니다. 문서가 렌더링되면 미니 목차에 추가되지 않고 수준 2 제목(##)과 동일한 서식을 지정할 수 있습니다.
 
 <!--
 ```markdown
@@ -371,9 +372,9 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ### 아포스트로피 및 큰따옴표
 
-텍스트를 Markdown 편집기에 복사하는 경우 텍스트에 "스마트"(둥근) 아포스트로피나 큰따옴표가 있을 수 있습니다. 이러한 기호는 인코딩하거나 기본 아포스트로피나 큰따옴표로 변경해야 합니다. 그렇지 않을 경우 파일이 게시되면 Itâ€™s와 같이 이상한 문자가 표시됩니다.
+텍스트를 Markdown 편집기에 복사하는 경우 텍스트에 &quot;스마트&quot;(둥근) 아포스트로피나 큰따옴표가 있을 수 있습니다. 이러한 기호는 인코딩하거나 기본 아포스트로피나 큰따옴표로 변경해야 합니다. 그렇지 않을 경우 파일이 게시되면 Itâ€™s와 같이 이상한 문자가 표시됩니다.
 
-이러한 "스마트" 버전의 문장 부호는 다음과 같이 인코딩합니다.
+이러한 &quot;스마트&quot; 버전의 문장 부호는 다음과 같이 인코딩합니다.
 
 - 왼쪽(열린) 큰따옴표 - `&#8220;`
 - 오른쪽(닫힌) 큰따옴표 - `&#8221;`
@@ -388,7 +389,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ### 제목의 앰퍼샌드
 
-앰퍼샌드(&)는 제목에서 허용되지 않습니다. 대신 "and"(및)를 사용하거나 `&amp;` 인코딩을 사용하십시오.
+앰퍼샌드(&amp;)는 제목에서 허용되지 않습니다. 대신 &quot;and&quot;(및)를 사용하거나 `&amp;` 인코딩을 사용하십시오.
 
 ## 참조 -
 
