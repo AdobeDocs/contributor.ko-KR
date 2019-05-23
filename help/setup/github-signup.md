@@ -5,10 +5,11 @@ seo-title: Adobe Experience Cloud 설명서에 대한 GitHub 계정 설정 단�
 description: Adobe 설명서에 내용을 기여하기 위해 필요한 GitHub용 계정을 설정하는 프로세스를 차근차근 수행합니다.
 seo-description: Adobe 설명서에 내용을 기여하기 위해 필요한 GitHub용 계정을 설정하는 프로세스를 차근차근 수행합니다.
 index: true
-translation-type: ht
-source-git-commit: beff041de31171a7ddd8a3b829adea7cc142e046
+translation-type: tm+mt
+source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
+
 
 # GitHub 계정 설정
 
@@ -16,7 +17,7 @@ source-git-commit: beff041de31171a7ddd8a3b829adea7cc142e046
 
 GitHub에서 변경 또는 추가 작업을 Adobe(또는 다른 조직) 설명서에 기여하려면 고유한 GitHub 계정을 설정해야 합니다. 쉽습니다.
 
-1. 아직 GitHub 계정이 없는 경우 [https://github.com/join](https://github.com/join)으로 이동하십시오.
+1. 아직 GitHub 계정이 없다면 [https://github.com/join](https://github.com/join)으로 이동합니다.
 1. 화면의 지침에 따라 계정을 만듭니다.
 1. GitHub에 익숙하지 않다면 설정 프로세스가 끝난 후 자습서를 참조하십시오.
 
@@ -28,7 +29,7 @@ GitHub 프로필에서 모든 소속을 식별합니다. 식별은 모든 활동
 동반해야 합니다. 이를 통해 Adobe는 귀하의 기여를 프로젝트의 일부로서
 재배포할 수 있는 권한을 얻게 됩니다.
 
-1. 수락하려면 [기여자 라이선스 계약(CLA)](http://opensource.adobe.com/cla.html)에 서명하십시오.
+1. 수락 가능한 경우 [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) 에 서명합니다.
 
 ## Adobe 직원
 
