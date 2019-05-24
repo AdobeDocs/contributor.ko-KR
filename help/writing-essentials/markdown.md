@@ -4,7 +4,7 @@ title: 설명서 작성에 Markdown을 사용하는 방법
 seo-title: Adobe 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
 seo-description: 이 문서에서는 Adobe 설명서용 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 # 기술 설명서 작성에 Markdown을 사용하는 방법
 
-Adobe 기술 설명서 문서는 읽기 쉽고 배우기 쉬운 [Markdown](https://daringfireball.net/projects/markdown/)이라는 간단한 마크업 언어로 작성됩니다.
+Adobe 기술 문서 문서는 읽기 쉽고 쉽게 배울 수 있는 [Markdown](https://daringfireball.net/projects/markdown/)이라는 작은 마크업 언어로 작성됩니다.
 
-Adobe Docs 내용은 GitHub에 저장되므로 일반적인 형식 요구 사항에 대한 추가 기능을 제공하는 [GFM(GitHub Flavored Markdown)](https://help.github.com/categories/writing-on-github/)이라는 Markdown의 버전을 사용할 수 있습니다. 또한 Adobe에서는 참고 사항, 팁 및 포함된 비디오와 같은 특정 도움말 관련 기능을 지원하기 위해 몇 가지 방법으로 Markdown을 확장했습니다.
+GitHub에 Adobe Docs 콘텐츠를 저장하고 있으므로, 일반적인 서식 요구 사항에 대한 추가 기능을 제공하는 [GitHub Flavored Markdown(GFM)](https://help.github.com/categories/writing-on-github/)이라는 버전의 마크다운을 사용할 수 있습니다. 또한 Adobe에서는 참고 사항, 팁 및 포함된 비디오와 같은 특정 도움말 관련 기능을 지원하기 위해 몇 가지 방법으로 Markdown을 확장했습니다.
 
 ## Markdown 기본 사항
 
@@ -149,8 +149,8 @@ This is not \*italicized\* type.
 표 만들기에 대한 자세한 내용은 다음을 참조하십시오.
 
 - GitHub의 [표 구성 정보](https://help.github.com/articles/organizing-information-with-tables/)
-- [Markdown 표 생성기](https://www.tablesgenerator.com/markdown_tables) 웹앱
-- [HTML 표를 Markdown으로 변환](https://jmalarcon.github.io/markdowntables/)
+- [Markdown 테이블 생성기](https://www.tablesgenerator.com/markdown_tables) 웹 앱
+- [HTML 테이블을 Markdown으로 변환](https://jmalarcon.github.io/markdowntables/)
 
 ### 링크
 
@@ -164,7 +164,7 @@ This is not \*italicized\* type.
 
 표시 -
 
-[Adobe](https://www.adobe.com) 또는 <https://www.adobe.com>
+[Adobe](https://www.adobe.com/kr/) 또는 <https://www.adobe.com>
 
 리포지토리 내의 문서에 연결되는 링크(상호 참조)에 대해서는 상대 링크를 사용하십시오. ./(현재 디렉토리), ../(한 디렉토리 뒤로) 및 ../../(두 디렉토리 뒤로)와 같은 모든 상대 링크 피연산자를 사용할 수 있습니다.
 
@@ -303,7 +303,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
 ```
 
-표시:
+표시 -
 
 >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
 
