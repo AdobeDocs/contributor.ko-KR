@@ -12,8 +12,8 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 자습서
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 test-meta: 테스트
-translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+translation-type: tm+mt
+source-git-commit: cc70a5ea1be2a7e7c8d3a685c500b6bf33824cea
 
 ---
 
@@ -31,6 +31,8 @@ source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
    + [Markdown 사용](writing-essentials/markdown.md)
    + [일반 작성 지침](writing-essentials/general-writing-guidance.md)
    + [연결](writing-essentials/linking.md)
++ 번역 피드백 {#localization}
+   + [Adobe Experience Cloud 제품 설명서에 대한 언어 지원](localization/machine-translation.md)
 + [Git 및 GitHub 학습 리소스](resources.md)
 + 행동 및 기여 {#conduct-contributions}
    + [행동 수칙](conduct/code-of-conduct.md)
