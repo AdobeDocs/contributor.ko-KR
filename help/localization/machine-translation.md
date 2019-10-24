@@ -3,7 +3,7 @@ title: Adobe Experience Cloud 제품 설명서에 대한 언어 지원
 seo-title: Adobe Experience Cloud 제품 설명서에 대한 언어 지원
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
 seo-description: 이 안내서에서는 [!UICONTROL Adobe Experience Cloud] 기술 설명서에 기여할 수 있는 방법에 대해 설명합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c4ff238f6fa4287b9032a123959db3666cb463c
 
 ---
@@ -11,17 +11,17 @@ source-git-commit: 6c4ff238f6fa4287b9032a123959db3666cb463c
 
 # Adobe Experience Cloud 제품 설명서에 대한 언어 지원
 
-Adobe는 사용자가 Adobe 제품에서 지원하는 언어로 즉시 사용할 수 있도록 제품 설명서, 도움말 및 지원 컨텐츠를 사용하고 있음을 인식하고 있습니다. 이러한 목표를 달성하기 위해 Adobe는 원하는 언어를 선택하고 번역된 컨텐츠의 품질에 대한 피드백을 제공할 수 있는 고유한 번역 환경을 제공합니다.
+Adobe에서는 사용자가 설명서, 도움말 및 지원 콘텐츠를 Adobe 제품에서 지원되는 언어로 쉽게 이용할 수 있게 되기를 기대하는 것으로 알고 있습니다. 이 목표를 달성하기 위해 Adobe에서는 사용자가 원하는 언어를 선택할 수 있고 번역된 콘텐츠의 품질에 대한 피드백을 제공할 수 있는 고유한 번역 경험을 제공합니다.
 
 ## 언어 선택
 
-대부분의 언어로 Adobe Experience Cloud 제품 설명서를 볼 수 있습니다.
+대부분 언어로 Adobe Experience Cloud 제품 설명서를 볼 수 있습니다.
 
-1. Experience Cloud [제품 설명서로](https://helpx.adobe.com/support/experience-cloud.html)이동합니다.
+1. Experience Cloud [제품 설명서](https://helpx.adobe.com/kr/support/experience-cloud.html)로 이동합니다.
 
-1. 도움말 페이지(예: Analytics)를 찾아 [봅니다](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
+1. 도움말 페이지(예: [Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html))를 찾습니다.
 
-1. 언어 선택기(세계 아이콘)를 클릭한 다음 언어를 선택합니다.
+1. 언어 선택기(지구 모양 아이콘)를 클릭하여 언어를 선택합니다.
 
    ![언어 선택기](assets/language-dropdown.png)
 
@@ -29,40 +29,38 @@ Adobe는 사용자가 Adobe 제품에서 지원하는 언어로 즉시 사용할
 
    ![번역된 페이지](assets/french.png)
 
-   귀하의 언어 버전을 아직 사용할 수 없는 경우, Adobe는 귀하의 컨텐트를 자동으로 변환할 수 있습니다. Adobe의 자동 번역 서비스는 페이지 상단에 파란색 필드에 메시지를 표시합니다.
+   원하는 언어 버전을 아직 이용할 수 없는 경우에는 원하는 콘텐츠를 Adobe에서 자동으로 번역할 수 있습니다. Adobe의 자동 번역 서비스를 통해 페이지 맨 위의 파란색 필드에 메시지가 표시됩니다.
 
    ![번역 메시지](assets/machine-translation-message.png)
 
-   컨텐츠는 사용자의 언어로 자동으로 렌더링되거나 링크를 클릭하여 번역을 트리거할 수 있습니다. (이 시나리오는 번역된 페이지에서 영어 소스로 돌아가기 위해 하이퍼링크를 클릭하면 발생할 수 있습니다. 번역된 페이지를 주문형 볼 수 있는 옵션이 제공됩니다.) 언제든지 영어 출처로 돌아갈 수 있습니다
+   콘텐츠가 원하는 언어로 자동으로 제공되거나 사용자가 링크를 클릭하여 번역을 작동할 수 있습니다. (이 시나리오는 번역된 페이지에서 영어 소스로 돌아가려고 하이퍼링크를 클릭하면 발생할 수 있습니다. 필요할 때 번역된 페이지를 볼 수 있는 옵션이 제공됩니다.) 언제든지 영문 소스로 돌아갈 수 있습니다.
 
-   경우에 따라 번역이 완료되기 전에 영어 소스 컨텐츠가 최근에 업데이트되고 게시되었을 수 있습니다. 드롭다운 메뉴에서 언어를 클릭하면 알림이 표시됩니다. 페이지 상단의 연한 파란색 가로 막대에서 — 페이지가 이전 버전에서 자동으로 번역되었음을 알리고 업데이트된 컨텐츠를 곧 사용할 수 있습니다. 원하는 경우 새로운 브라우저 창에서 최신 영어 소스 컨텐츠를 볼 수 있는 옵션이 제공됩니다.
+   가끔 영문 소스가 최근에 업데이트되어 번역이 완료되기 전에 게시되는 경우가 있습니다. 드롭다운 메뉴에서 원하는 언어를 클릭하면 페이지가 이전 버전에서 번역되었으며 업데이트된 콘텐츠가 곧 제공될 예정이라는 알림이 페이지 맨 위의 담청색 가로 막대에 표시됩니다. 필요하면 새 브라우저 창에서 최신 영문 소스 콘텐츠를 선택하여 볼 수 있습니다.
 
-## 자동 번역을 사용해야 하는 이유
+## 자동 번역을 사용하는 이유
 
-Adobe takes advantage of automatic translation capabilities to publish product support content in various languages, as close to content creation time as possible. Because support content is critical to product usage, we prioritize the translation of content by skilled professionals, but we may also opt for automatic translation where velocity and urgency matter most.
+Adobe에서는 자동 번역 기능을 이용하여 콘텐츠 생성과 최대한 가까운 시점에 다양한 언어로 제품 지원 콘텐츠를 게시합니다. 제품을 사용하려면 지원 콘텐츠가 매우 중요하므로 숙련된 전문가의 콘텐츠 번역을 우선시하지만, 속도가 가장 중요하고 긴급하면 자동 번역을 선택할 수도 있습니다.
 
-Automatic translation is ubiquitous on the internet and its usage is generally accepted as a powerful information-gathering tool. 그것은 인간의 개입이 거의 없는 지식 기반 콘텐트에 널리 채택되었습니다. Although there have been major technological breakthroughs in recent years, automatically-generated translations may contain occasional inaccuracies and errors in language and meaning.
+자동 번역은 인터넷의 어디에나 존재하며 강력한 정보 수집 도구로 사용하는 것이 일반적으로 용인되고 있습니다. 사람의 개입이 거의 필요 없을 수도 있는 기술 자료 콘텐츠에 널리 이용되고 있습니다. 최근 몇 년 사이에 기술이 획기적으로 발전했지만, 자동으로 생성한 번역에는 가끔 언어와 의미의 부정확성과 오류가 포함될 수 있습니다.
 
-### Automatic Translation via the Browser
+### 브라우저를 통한 자동 번역
 
-If you have set your browser preferences to automatically translate any page into your language, be aware that the resulting translations will differ from those obtained through the Adobe page. That is because the service offered by the browser may be stock translations, while the Adobe translations will have been customized to adhere to Adobe style guidelines and terminology. To obtain optimal automatic translation results, we recommend that you either disable the browser option for this specific site in your browser preferences, or click Never translate when it displays.****
+원하는 언어로 자동으로 페이지를 번역하도록 브라우저 환경 설정을 설정하면 번역 결과가 Adobe 페이지를 통해 얻은 결과와 다를 수 있습니다. 이유는 브라우저에서 제공되는 서비스는 상투적인 번역일 수 있는 반면, Adobe 스타일 지침과 용어를 준수하도록 사용자 지정되기 때문입니다. 최적 자동 번역 결과를 얻으려면 브라우저 환경 설정에서 이 특정 사이트에 대한 브라우저 옵션을 비활성화하거나 옵션이 표시될 때 **번역하지 않음**&#x200B;을 클릭하는 것이 좋습니다.
 
 ### 알려진 문제
 
-불완전한 번역, 손상된 문자 또는 페이지 레이아웃 문제와 같은 자동 번역 출력에 문제가 발생할 수 있습니다. These are caused by any of the various authoring, publishing, or translation technology tools Adobe uses. We will make every effort to list the known issues here
-below.
+불완전한 번역, 손상된 문자 또는 페이지 레이아웃과 같은 문제가 자동 번역 출력에서 가끔 발생할 수도 있습니다. Adobe에서 사용하는 작성, 게시 또는 번역 기술 도구가 다양하기 때문에 이러한 문제가 발생합니다. 이 세상의 온갖 노력을 다하여 알려진 문제 목록을 작성하겠습니다.
 
 | **ISSUE ID** | **설명** | **상태** |
 |--------------|-------------------------------------------------------------------------------------|------------|
-| G11N3558 | Some Audience Manager pages are half English and half translated (French, Spanish). | 열기 |
+| G11N3558 | 일부 Audience Manager 페이지는 절반은 영어로 번역되며 절반은 프랑스어로 번역됩니다(프랑스어, 스페인어). | 미해결 |
 
 ### 피드백
 
-Whenever content is automatically translated, either by default or user action, there is the option to provide feedback to Adobe about the translations. 페이지 상단의 밝은 파란색 가로 막대에서 "이 번역이 유용했습니까?"라는 질문에 "예" 또는 "아니요"로 대답할 수 있습니다. Adobe collects this valuable
-metric and analyzes the compiled data in order to make decisions about content translation. We value your feedback and encourage you to respond.
+기본적으로 또는 사용자 조치를 통해 콘텐츠가 자동으로 번역될 때마다 번역에 대한 피드백을 Adobe에 제공하는 옵션이 있습니다. 페이지 맨 위의 담청색 가로 막대에서 “이 번역이 유용했습니까?”라는 질문에 “예” 또는 “아니요”로 답변할 수 있습니다. Adobe에서는 콘텐츠 번역에 대한 의사를 결정하기 위해 이 귀중한 지표를 수집하여 축적된 데이터를 분석합니다. Adobe에서는 피드백을 존중하며 응답을 장려합니다.
 
 ![피드백](assets/machine-translation-feedback.png)
 
-향후 문제 기록, 개선 제안, 추가 언어 요청 등 보다 광범위한 피드백을 제공할 계획입니다. 이러한 기능 중 일부는 이미 영어 페이지에서 사용할 수 있습니다. 장기적으로 볼 때 Adobe는 이러한 페이지에서 사용자 경험을 향상시키는 데 도움이 될 것으로 믿습니다.
+앞으로 문제를 기록하고 개선 사항을 제안하고 추가 언어를 요청하는 형태로 더욱 광범위한 피드백을 제공할 수 있도록 할 계획입니다. 이러한 기능 중 일부는 이미 영문 페이지에서 제공되고 있습니다. 장기적으로 Adobe에서 이러한 페이지의 사용자 경험을 개선하는 데 도움이 될 것으로 생각합니다.
 
 ![이 페이지 개선](assets/feedback.png)
