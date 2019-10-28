@@ -3,7 +3,7 @@ title: Adobe 설명서에 대한 기여자 안내서
 seo-title: Adobe Experience Cloud 기술 설명서에 대한 기여자 안내서 개요
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
 seo-description: 이 안내서에서는 [!UICONTROL Adobe Experience Cloud] 기술 설명서에 기여할 수 있는 방법에 대해 설명합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3a769e92e724694b17c5412303d533c7402f5cd0
 
 ---
@@ -38,7 +38,7 @@ source-git-commit: 3a769e92e724694b17c5412303d533c7402f5cd0
 
 빠른 편집은 문서의 사소한 오류와 누락을 수정하는 좋은 방법입니다. 문서에 아래와 같이 [편집] 단추가 표시되는 경우 직접 빠른 수정 작업을 할 수 있습니다. 문서를 편집할 때, 끌어오기 요청(PR)을 제출하여 수정/제안을 Adobe에 제출하십시오. 그러면 Adobe에서 제안을 조사하고, 승인하고, 게시할 수 있습니다.
 
-1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptible.
+1. 수락하려면 [기여자 라이선스 계약(CLA)](http://opensource.adobe.com/cla.html)에 서명하십시오.
 
    Adobe CLA는 한 번만 제출하면 됩니다.
 1. 오른쪽 열의 **`Edit this page`**&#x200B;을 클릭하여 GitHub의 Markdown 소스 파일로 이동합니다.
