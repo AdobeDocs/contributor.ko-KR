@@ -3,7 +3,7 @@ title: Adobe Experience Cloud 제품 설명서에 대한 언어 지원
 seo-title: Adobe Experience Cloud 제품 설명서에 대한 언어 지원
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
 seo-description: 이 안내서에서는 [!UICONTROL Adobe Experience Cloud] 기술 설명서에 기여할 수 있는 방법에 대해 설명합니다.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6c4ff238f6fa4287b9032a123959db3666cb463c
 
 ---
@@ -17,9 +17,9 @@ Adobe에서는 사용자가 설명서, 도움말 및 지원 콘텐츠를 Adobe �
 
 대부분 언어로 Adobe Experience Cloud 제품 설명서를 볼 수 있습니다.
 
-1. Experience Cloud [제품 설명서](https://helpx.adobe.com/kr/support/experience-cloud.html)로 이동합니다.
+1. Experience Cloud [제품 설명서로](https://helpx.adobe.com/support/experience-cloud.html)이동합니다.
 
-1. 도움말 페이지(예: [Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html))를 찾습니다.
+1. 도움말 페이지(예: Analytics)를 찾아 [봅니다](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
 1. 언어 선택기(지구 모양 아이콘)를 클릭하여 언어를 선택합니다.
 
