@@ -3,7 +3,7 @@ title: Adobe Experience Cloud 제품 설명서에 대한 언어 지원
 seo-title: Adobe Experience Cloud 제품 설명서에 대한 언어 지원
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
 seo-description: 이 안내서에서는 [!UICONTROL Adobe Experience Cloud] 기술 설명서에 기여할 수 있는 방법에 대해 설명합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9db7dd1fb9b22bc35f887d0441a1837813efc9cc
 
 ---
@@ -17,9 +17,9 @@ Adobe에서는 사용자가 설명서, 도움말 및 지원 콘텐츠를 Adobe �
 
 대부분 언어로 Adobe Experience Cloud 제품 설명서를 볼 수 있습니다.
 
-1. Experience Cloud [제품 설명서로](https://helpx.adobe.com/support/experience-cloud.html)이동합니다.
+1. Experience Cloud [제품 설명서](https://helpx.adobe.com/kr/support/experience-cloud.html)로 이동합니다.
 
-1. 도움말 페이지(예: Analytics)를 찾아 [봅니다](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
+1. 도움말 페이지(예: [Analytics](https://docs.adobe.com/content/help/ko-KR/analytics/landing/home.html))를 찾아봅니다.
 
 1. 언어 선택기(지구 모양 아이콘)를 클릭하여 언어를 선택합니다.
 
@@ -65,8 +65,8 @@ Adobe에서는 자동 번역 기능을 이용하여 콘텐츠 생성과 최대�
 
 ![이 페이지 개선](assets/feedback.png)
 
-### 번역 부인
+### 번역 면책조항
 
-Adobe는 기계 번역 프로그램을 사용하여 여러 언어로 텍스트를 변환합니다. 컴퓨터화된 번역은 문자 그대로 번역되며 오류가 있을 수 있습니다. Adobe는 제공된 번역의 정확성, 신뢰성 또는 적시성을 보장하지 않습니다. Adobe는 번역된 정보의 정확성 또는 신뢰성에 의존하여 발생한 손해나 손해에 대해 책임을 지지 않습니다. 영어와 다른 언어 사이에 차이가 있으면 영어 버전이 제어됩니다.
+Adobe는 기계 번역 프로그램을 사용하여 여러 언어로 텍스트를 번역합니다. 컴퓨터화된 번역은 직역되며 오류가 있을 수 있습니다. Adobe는 제공된 번역의 정확성, 신뢰성 또는 적시성을 보장하지 않습니다. Adobe는 번역된 정보의 정확성 또는 신뢰성으로 인해 발생한 손실 또는 손해에 대해 책임지지 않습니다. 영어와 다른 언어 사이에 차이가 있으면 영어 버전이 우선합니다.
 
-번역 오류 또는 부정확도를 보고하려면 Adobe에 문의하시기 바랍니다.
+번역 오류 또는 부정확성을 보고하려면 Adobe에 문의하시기 바랍니다.
