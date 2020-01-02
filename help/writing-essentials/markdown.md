@@ -1,20 +1,20 @@
 ---
-lastModified: 2018년 06월 28일
+lastModified: 2018-06-28T00:00:00Z
 title: 설명서 작성에 Markdown을 사용하는 방법
 seo-title: Adobe 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
 seo-description: 이 문서에서는 Adobe 설명서용 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-translation-type: ht
-source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
+translation-type: tm+mt
+source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
 
 ---
 
 
 # 기술 설명서 작성에 Markdown을 사용하는 방법
 
-Adobe 기술 문서 문서는 읽기 쉽고 쉽게 배울 수 있는 [Markdown](https://daringfireball.net/projects/markdown/)이라는 작은 마크업 언어로 작성됩니다.
+Adobe 기술 설명서 문서는 읽기 쉽고 배우기 쉬운 [Markdown](https://daringfireball.net/projects/markdown/)이라는 간단한 마크업 언어로 작성됩니다.
 
-GitHub에 Adobe Docs 콘텐츠를 저장하고 있으므로, 일반적인 서식 요구 사항에 대한 추가 기능을 제공하는 [GitHub Flavored Markdown(GFM)](https://help.github.com/categories/writing-on-github/)이라는 버전의 마크다운을 사용할 수 있습니다. 또한 Adobe에서는 참고 사항, 팁 및 포함된 비디오와 같은 특정 도움말 관련 기능을 지원하기 위해 몇 가지 방법으로 Markdown을 확장했습니다.
+Adobe Docs 내용은 GitHub에 저장되므로 일반적인 형식 요구 사항에 대한 추가 기능을 제공하는 [GFM(GitHub Flavored Markdown)](https://help.github.com/categories/writing-on-github/)이라는 Markdown의 버전을 사용할 수 있습니다. 또한 Adobe에서는 참고 사항, 팁 및 포함된 비디오와 같은 특정 도움말 관련 기능을 지원하기 위해 몇 가지 방법으로 Markdown을 확장했습니다.
 
 ## Markdown 기본 사항
 
@@ -34,7 +34,7 @@ GitHub에 Adobe Docs 콘텐츠를 저장하고 있으므로, 일반적인 서식
 
 단락에는 Markdown으로 된 특별한 구문이 필요하지 않습니다.
 
-텍스트 서식을 **굵게**로 지정하려면 두 개의 별표로 묶습니다. 텍스트 서식을 *기울임꼴*로 지정하려면 한 개의 별표로 묶습니다.
+텍스트 서식을 **굵게**&#x200B;로 지정하려면 두 개의 별표로 묶습니다. 텍스트 서식을 *기울임꼴*&#x200B;로 지정하려면 한 개의 별표로 묶습니다.
 
 ```markdown
     This text is **bold**.
@@ -58,7 +58,7 @@ This is not \*italicized\* type.
 
 ### 번호 매기기 목록 및 글머리 기호 목록
 
-번호가 매겨진 목록을 만들려면 줄을 1. 또는 1)로 시작하되, 동일한 목록 내에서 두 서식을 모두 사용하지는 마십시오. 그렇게 되면, 새 목록이 시작됩니다. 번호를 지정할 필요는 없습니다. GitHub에서 자동으로 수행합니다.
+To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both formats within the same list. 번호를 지정할 필요는 없습니다. GitHub에서 자동으로 수행합니다.
 
 ```markdown
 1. This is step 1.
@@ -73,20 +73,20 @@ This is not \*italicized\* type.
 1. 이어지는 세 번째 단계입니다.
 
 <!-- markdownlint-disable MD037 -->
-글머리 기호 목록을 만들려면, 줄을 \* 또는 - 또는 +로 시작하되, 동일한 목록 내에서 형식들을 혼합하지 마십시오. (\* 및 \+와 같은 형식들을 혼합하면 기본적으로 새 목록이 시작됩니다.)
+글머리 기호 목록을 만들려면, 줄을 \* 또는 - 또는 +로 시작하되, 동일한 목록 내에서 형식들을 혼합하지 마십시오. 동일한 문서 내에서 \* 및 \+와 같은 글머리 기호 형식을 혼합하지 마십시오.
 <!-- markdownlint-disable MD037 -->
 
 ```markdown
-- First item in an unordered list.
-- Another item.
-- Here we go again.
+* First item in an unordered list.
+* Another item.
+* Here we go again.
 ```
 
 표시 -
 
-- 무순서 목록의 첫 번째 항목입니다.
-- 다른 항목입니다.
-- 또 다른 항목입니다.
+* 무순서 목록의 첫 번째 항목입니다.
+* 다른 항목입니다.
+* 또 다른 항목입니다.
 
 목록 내에 목록을 포함하고 목록 항목 사이에 내용을 추가할 수도 있습니다.
 
@@ -97,9 +97,9 @@ This is not \*italicized\* type.
    ![screen](assets/no-localize/adobe_standard_logo.png)
 1. Make sure that your table looks like this: 
 
-    | Hello | World |
-    |---|---|
-    | How | are you? |  
+   | Hello | World |
+   |---|---|
+   | How | are you? |  
 1. This is the fourth step.
 
    >[!NOTE]
@@ -132,25 +132,25 @@ This is not \*italicized\* type.
 
 ```markdown
 | Header | Another header | Yet another header |
-|------------|:---------------:|-----------------------:|
-| row 1 | centered column 2 | right-aligned column 3 |
+|--- |--- |--- |
+| row 1 | column 2 | column 3 |
 | row 2 | row 2 column 2 | row 2 column 3 |
 ```
 
 표시 -
 
 | 헤더 | 다른 헤더 | 연이은 헤더 |
-|------------|:---------------:|-----------------------:|
-| 행 1 | 가운데 열 2 | 오른쪽에 정렬된 열 3 |
+|--- |--- |--- |
+| 행 1 | 열 2 | 열 3 |
 | 행 2 | 행 2 열 2 | 행 2 열 3 |
 
 간단한 표는 Markdown으로 적절히 작동합니다. 그러나 셀 내에 여러 단락이나 목록을 포함하는 표는 함께 사용하기 어렵습니다. 이러한 내용의 경우 제목 및 텍스트와 같이 서로 다른 형식을 사용하는 것이 좋습니다.
 
 표 만들기에 대한 자세한 내용은 다음을 참조하십시오.
 
-- GitHub의 [표 구성 정보](https://help.github.com/articles/organizing-information-with-tables/)
-- [Markdown 테이블 생성기](https://www.tablesgenerator.com/markdown_tables) 웹 앱
-- [HTML 테이블을 Markdown으로 변환](https://jmalarcon.github.io/markdowntables/)
+* GitHub의 [표 구성 정보](https://help.github.com/articles/organizing-information-with-tables/)
+* [Markdown 표 생성기](https://www.tablesgenerator.com/markdown_tables) 웹앱
+* [HTML 표를 Markdown으로 변환](https://jmalarcon.github.io/markdowntables/)
 
 ### 링크
 
@@ -159,12 +159,12 @@ This is not \*italicized\* type.
 `[link text](file-name.md)`
 
 ```markdown
-[Adobe](https://www.adobe.com) or <https://www.adobe.com>
+[Adobe](https://www.adobe.com)
 ```
 
 표시 -
 
-[Adobe](https://www.adobe.com/kr/) 또는 <https://www.adobe.com>
+[Adobe](https://www.adobe.com)
 
 리포지토리 내의 문서에 연결되는 링크(상호 참조)에 대해서는 상대 링크를 사용하십시오. ./(현재 디렉토리), ../(한 디렉토리 뒤로) 및 ../../(두 디렉토리 뒤로)와 같은 모든 상대 링크 피연산자를 사용할 수 있습니다.
 
@@ -254,12 +254,12 @@ Cat
 
 Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에 표준 Markdown을 사용합니다. 더 많은 서식의 경우 문서는 다음과 같은 확장된 Markdown 기능을 사용할 수 있습니다.
 
-- 참고 블록
-- 포함된 비디오
-- 현지화하지 않음
-- 다른 제목 ID를 제목에 지정하는 것과 같은 구성 요소 속성
+* 참고 블록
+* 포함된 비디오
+* 현지화하지 않음
+* 다른 제목 ID를 제목에 지정하는 것과 같은 구성 요소 속성
 
-참고 사항과 같은 확장된 구성 요소를 함께 연결하려면 각 줄의 맨 앞에 Markdown 블록 따옴표(&gt;)를 사용하십시오. 구성 요소 내에 하위 구성 요소를 사용해야 하는 경우에는 해당 하위 구성 요소 섹션용으로 추가 블록 따옴표(&gt; &gt;)를 추가합니다. 예를 들어, DONOTLOCALIZE 섹션 내의 NOTE는 &gt;    &gt;로 시작해야 합니다.
+참고 사항과 같은 확장된 구성 요소를 함께 연결하려면 각 줄의 맨 앞에 Markdown 블록 따옴표(>)를 사용하십시오. 구성 요소 내에 하위 구성 요소를 사용해야 하는 경우에는 해당 하위 구성 요소 섹션용으로 추가 블록 따옴표(> >)를 추가합니다. 예를 들어, DONOTLOCALIZE 섹션 내의 NOTE는 >    >로 시작해야 합니다.
 
 제목 및 코드 블록과 같은 일부 일반적인 Markdown 요소에는 확장된 속성이 포함됩니다. 기본 속성을 변경해야 하는 경우 구성 요소 뒤에 프랑스식 중괄호 /{ /}로 매개 변수를 추가하십시오. 확장된 속성은 문맥 내에 설명되어 있습니다.
 
@@ -267,10 +267,10 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 특정 내용에 주의를 집중하도록 하려면 4가지 형식의 참고 블록 중에 선택할 수 있습니다.
 
-- `[!NOTE]`
-- `[!CAUTION]`
-- `[!TIP]`
-- `[!IMPORTANT]`
+* `[!NOTE]`
+* `[!CAUTION]`
+* `[!TIP]`
+* `[!IMPORTANT]`
 
 일반적으로 참고 블록은 문맥을 끊을 수 있으므로 제한적으로 사용해야 합니다. 참고 블록에 코드 블록, 이미지, 목록, 링크를 사용할 수도 있지만 참고 블록은 간단하고 단순하게 유지하도록 하십시오.
 
@@ -303,7 +303,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
 ```
 
-표시 -
+표시:
 
 >[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
 
@@ -311,19 +311,18 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 AEM의 &quot;다음과 같음&quot;(More Like This) 구성 요소는 문서의 끝에 나타납니다. 이 구성 요소는 관련 링크를 표시합니다. 문서가 렌더링되면 미니 목차에 추가되지 않고 수준 2 제목(##)과 동일한 서식을 지정할 수 있습니다.
 
-<!--
 ```markdown
->[!MORE]
+>[!MORELIKETHIS]
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
+>* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
 
-Displayed:
+표시 -
 
->[!MORE]
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
--->
+>[!MORELIKETHIS]
+>* [제 1 조](https://helpx.adobe.com/support/analytics.html)
+>* [제 2 조](https://helpx.adobe.com/support/audience-manager.html)
+
 
 ### DNL - 현지화하지 않음 - 및 UICONTROL
 
@@ -332,7 +331,7 @@ Displayed:
 
 현지화하지 말아야 하는 단어 또는 구문의 경우 `[!DNL]` 확장을 사용하여 단어 또는 섹션을 둘러싸십시오.
 
-솔루션의 사용자 인터페이스와 메뉴에 있는 요소의 경우 Adobe에서는 `[!UICONTROL]` 확장을 사용합니다.
+솔루션의 사용자 인터페이스와 메뉴에 있는 요소의 경우 Adobe에서는 `` 확장을 사용합니다.
 
 **예**
 
@@ -361,13 +360,13 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 밑줄이 포함된 대체 텍스트는 올바로 렌더링되지 않습니다. 예를 들어 아래 텍스트를 사용하는 대신
 
 ```markdown
-![Settings_Step_2] (/assets/settings_step_2.png)
+![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
 다음과 같은 텍스트를 사용하는 것이 좋습니다(파일 이름에서 밑줄(_) 대신 하이픈(-) 사용).
 
 ```markdown
-![Settings-Step-2] (/assets/settings-step-2.png)
+![Settings-Step-2](/assets/settings-step-2.png)
 ```
 
 ### 아포스트로피 및 큰따옴표
@@ -376,10 +375,10 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 이러한 &quot;스마트&quot; 버전의 문장 부호는 다음과 같이 인코딩합니다.
 
-- 왼쪽(열린) 큰따옴표 - `&#8220;`
-- 오른쪽(닫힌) 큰따옴표 - `&#8221;`
-- 오른쪽(닫힌) 작은따옴표 또는 아포스트로피 - `&#8217;`
-- 왼쪽(열린) 작은따옴표(거의 사용 안 함) - `&#8216;`
+* 왼쪽(열린) 큰따옴표 - `&#8220;`
+* 오른쪽(닫힌) 큰따옴표 - `&#8221;`
+* 오른쪽(닫힌) 작은따옴표 또는 아포스트로피 - `&#8217;`
+* 왼쪽(열린) 작은따옴표(거의 사용 안 함) - `&#8216;`
 
 ### 꺾쇠 괄호
 
@@ -395,5 +394,5 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ### Markdown 리소스
 
-- [Markdown 소개](https://daringfireball.net/projects/markdown/syntax)
-- [GitHub의 Markdown 기본 사항](https://help.github.com/articles/markdown-basics/)
+* [Markdown 소개](https://daringfireball.net/projects/markdown/syntax)
+* [GitHub의 Markdown 기본 사항](https://help.github.com/articles/markdown-basics/)
