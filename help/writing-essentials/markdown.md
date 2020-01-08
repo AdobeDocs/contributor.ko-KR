@@ -4,7 +4,7 @@ title: 설명서 작성에 Markdown을 사용하는 방법
 seo-title: Adobe 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
 seo-description: 이 문서에서는 Adobe 설명서용 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
 
 ---
@@ -58,7 +58,7 @@ This is not \*italicized\* type.
 
 ### 번호 매기기 목록 및 글머리 기호 목록
 
-To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both formats within the same list. 번호를 지정할 필요는 없습니다. GitHub에서 자동으로 수행합니다.
+번호 매기기 목록을 만들려면 줄을 `1.` 또는 `1)`로 시작하되 동일한 목록 내에서 두 형식을 함께 사용하지 마십시오. 번호를 지정할 필요는 없습니다. GitHub에서 자동으로 수행합니다.
 
 ```markdown
 1. This is step 1.
@@ -68,12 +68,12 @@ To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both
 
 표시 -
 
-1. 1단계입니다.
-1. 그다음 단계입니다.
-1. 이어지는 세 번째 단계입니다.
+1. This is step 1.
+1. This is the next step.
+1. This is yet another step, the third.
 
 <!-- markdownlint-disable MD037 -->
-글머리 기호 목록을 만들려면, 줄을 \* 또는 - 또는 +로 시작하되, 동일한 목록 내에서 형식들을 혼합하지 마십시오. 동일한 문서 내에서 \* 및 \+와 같은 글머리 기호 형식을 혼합하지 마십시오.
+글머리 기호 목록을 만들려면, 줄을 \* 또는 - 또는 +로 시작하되, 동일한 목록 내에서 형식들을 혼합하지 마십시오. (동일한 문서 내에서 \* 및 \+와 같은 글머리 기호 형식을 혼합하지 마십시오.)
 <!-- markdownlint-disable MD037 -->
 
 ```markdown
@@ -84,9 +84,9 @@ To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both
 
 표시 -
 
-* 무순서 목록의 첫 번째 항목입니다.
-* 다른 항목입니다.
-* 또 다른 항목입니다.
+* First item in an unordered list.
+* Another item.
+* Here we go again.
 
 목록 내에 목록을 포함하고 목록 항목 사이에 내용을 추가할 수도 있습니다.
 
@@ -110,21 +110,21 @@ To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both
 
 표시 -
 
-1. 표 및 코드 블록을 설정합니다.
-1. 이 단계를 수행합니다.
+1. Set up your table and code blocks.
+1. Perform this step.
 
-   ![화면](assets/no-localize/adobe_standard_logo.png)
-1. 표의 모양이 다음과 같도록 합니다.
+   ![screen](assets/no-localize/adobe_standard_logo.png)
+1. Make sure that your table looks like this:
 
    | Hello | World |
    |---|---|
    | How | are you? |
-1. 네 번째 단계입니다.
+1. This is the fourth step.
 
    >[!NOTE]
    >
-   >참고 텍스트입니다.
-1. 다른 단계를 수행합니다.
+   >This is note text.
+1. Do another step.
 
 ### 표
 
@@ -139,17 +139,17 @@ To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both
 
 표시 -
 
-| 헤더 | 다른 헤더 | 연이은 헤더 |
+| Header | Another header | Yet another header |
 |--- |--- |--- |
-| 행 1 | 열 2 | 열 3 |
-| 행 2 | 행 2 열 2 | 행 2 열 3 |
+| row 1 | column 2 | column 3 |
+| row 2 | row 2 column 2 | row 2 column 3 |
 
 간단한 표는 Markdown으로 적절히 작동합니다. 그러나 셀 내에 여러 단락이나 목록을 포함하는 표는 함께 사용하기 어렵습니다. 이러한 내용의 경우 제목 및 텍스트와 같이 서로 다른 형식을 사용하는 것이 좋습니다.
 
 표 만들기에 대한 자세한 내용은 다음을 참조하십시오.
 
 * GitHub의 [표 구성 정보](https://help.github.com/articles/organizing-information-with-tables/)
-* [Markdown 표 생성기](https://www.tablesgenerator.com/markdown_tables) 웹앱
+* [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) 웹앱
 * [HTML 표를 Markdown으로 변환](https://jmalarcon.github.io/markdowntables/)
 
 ### 링크
@@ -164,7 +164,7 @@ To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both
 
 표시 -
 
-[Adobe](https://www.adobe.com)
+[Adobe](https://www.adobe.com/kr/)
 
 리포지토리 내의 문서에 연결되는 링크(상호 참조)에 대해서는 상대 링크를 사용하십시오. ./(현재 디렉토리), ../(한 디렉토리 뒤로) 및 ../../(두 디렉토리 뒤로)와 같은 모든 상대 링크 피연산자를 사용할 수 있습니다.
 
@@ -198,7 +198,7 @@ This is `inline code` within a paragraph of text.
 
 표시 -
 
-이 코드는 텍스트 단락 내 `inline code`입니다.
+This is `inline code` within a paragraph of text.
 
 다음은 펜싱된 코드 블록입니다.
 
@@ -283,7 +283,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 표시 -
 
 >[!NOTE]
->표준 참고 블록입니다.
+>This is a standard NOTE block.
 
 ```markdown
 >[!TIP]
@@ -293,7 +293,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 표시 -
 
 >[!TIP]
->표준 팁입니다.
+>This is a standard tip.
 
 ### 비디오
 
@@ -317,11 +317,11 @@ AEM의 &quot;다음과 같음&quot;(More Like This) 구성 요소는 문서의 �
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
 
-표시 -
+표시:
 
 >[!MORELIKETHIS]
->* [제 1 조](https://helpx.adobe.com/support/analytics.html)
->* [제 2 조](https://helpx.adobe.com/support/audience-manager.html)
+>* [Article 1](https://helpx.adobe.com/kr/support/analytics.html)
+>* [Article 2](https://helpx.adobe.com/kr/support/audience-manager.html)
 
 
 ### DNL - 현지화하지 않음 - 및 UICONTROL
