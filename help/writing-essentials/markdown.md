@@ -4,8 +4,11 @@ title: 설명서 작성에 Markdown을 사용하는 방법
 seo-title: Adobe 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
 seo-description: 이 문서에서는 Adobe 설명서용 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-translation-type: ht
-source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '1377'
+ht-degree: 100%
 
 ---
 
@@ -105,6 +108,7 @@ This is not \*italicized\* type.
    >[!NOTE]
    >
    >This is note text.
+
 1. Do another step.
 ```
 
@@ -124,6 +128,7 @@ This is not \*italicized\* type.
    >[!NOTE]
    >
    >This is note text.
+
 1. Do another step.
 
 ### 표
@@ -277,22 +282,26 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 ```markdown
 >[!NOTE]
+>
 >This is a standard NOTE block.
 ```
 
 표시 -
 
 >[!NOTE]
+>
 >This is a standard NOTE block.
 
 ```markdown
 >[!TIP]
+>
 >This is a standard tip.
 ```
 
 표시 -
 
 >[!TIP]
+>
 >This is a standard tip.
 
 ### 비디오
