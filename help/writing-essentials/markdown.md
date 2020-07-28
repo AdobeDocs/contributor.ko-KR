@@ -4,9 +4,9 @@ title: 설명서 작성에 Markdown을 사용하는 방법
 seo-title: Adobe 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
 seo-description: 이 문서에서는 Adobe 설명서용 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
 ht-degree: 100%
 
