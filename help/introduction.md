@@ -3,9 +3,9 @@ title: Adobe 설명서에 대한 기여자 안내서
 seo-title: Adobe Experience Cloud 기술 설명서에 대한 기여자 안내서 개요
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
 seo-description: 이 안내서에서는 [!UICONTROL Adobe Experience Cloud] 기술 설명서에 기여할 수 있는 방법에 대해 설명합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
 ht-degree: 100%
 
