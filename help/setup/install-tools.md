@@ -4,11 +4,11 @@ title: 작성 도구 설치
 seo-title: Adobe 설명서를 위한 Git 및 GitHub 작성 도구 설치
 description: 이 문서는 Git/GitHub 및 Markdown 파일 편집에 필요한 클라이언트 도구를 다운로드하고 설치하는 데 도움이 됩니다.
 seo-description: 이 문서는 Git/GitHub과, Adobe 설명서용 Markdown 파일 편집에 필요한 클라이언트 도구를 다운로드하고 설치하는 데 도움이 됩니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
