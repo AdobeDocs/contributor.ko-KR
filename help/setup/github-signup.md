@@ -5,11 +5,11 @@ seo-title: Adobe Experience Cloud 설명서에 대한 GitHub 계정 설정 단�
 description: Adobe 설명서에 내용을 기여하기 위해 필요한 GitHub용 계정을 설정하는 프로세스를 차근차근 수행합니다.
 seo-description: Adobe 설명서에 내용을 기여하기 위해 필요한 GitHub용 계정을 설정하는 프로세스를 차근차근 수행합니다.
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
