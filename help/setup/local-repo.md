@@ -3,9 +3,9 @@ title: 로컬로 Git 리포지토리 설정
 seo-title: 로컬로 Adobe 설명서를 위한 Git 리포지토리 설정
 description: 이 문서에서는 포크 및 복제 프로세스를 포함하여, 로컬 Git 리포지토리를 만들고 Adobe 설명서에 기여하는 지침을 제공합니다.
 seo-description: 이 문서에서는 포크 및 복제 프로세스를 포함하여, 로컬 Git 리포지토리를 만들고 Adobe 설명서에 기여하는 지침을 제공합니다.
-translation-type: ht
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d69ca7ee25e2a79151779687ef58d67a800f92e6
+workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 100%
 
@@ -16,8 +16,8 @@ ht-degree: 100%
 
 이 문서에서는 Adobe 설명서에 기여하기 위해 로컬 컴퓨터에서 Git 리포지토리를 설정하는 절차를 설명합니다. 기여자는 로컬로 복제된 리포지토리를 사용하여 새 문서를 추가하거나, 기존 문서에 대한 주요 편집 작업을 수행하거나, 아트워크를 변경할 수 있습니다.
 
-> [!IMPORTANT]
-> 부분 변경 사항만 문서에 적용하는 경우에는 이 문서의 절차를 완료하지 *않아도 됩니다*. 브라우저에서 편집 아이콘을 클릭하고 텍스트를 편집할 수 있습니다.
+>[!IMPORTANT]
+>부분 변경 사항만 문서에 적용하는 경우에는 이 문서의 절차를 완료하지 *않아도 됩니다*. 브라우저에서 편집 아이콘을 클릭하고 텍스트를 편집할 수 있습니다.
 
 ## 개요
 
