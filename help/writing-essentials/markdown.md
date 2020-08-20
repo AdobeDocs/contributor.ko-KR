@@ -4,10 +4,10 @@ title: 설명서 작성에 Markdown을 사용하는 방법
 seo-title: Adobe 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
 seo-description: 이 문서에서는 Adobe 설명서용 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-translation-type: ht
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: ht
-source-wordcount: '1377'
+translation-type: tm+mt
+source-git-commit: 27ba164070996d192c84493d83232484d2badb28
+workflow-type: tm+mt
+source-wordcount: '1329'
 ht-degree: 100%
 
 ---
@@ -220,13 +220,6 @@ function test() {
 function test() {
  console.log("notice the blank line before this function?");
 ```
-
-코드 블록에 대한 속성을 지정하여 줄 번호를 끄거나(기본적으로 켜져 있음) 줄 바꿈을 추가(기본적으로 꺼져 있음)할 수 있습니다. {line-numbers=&quot;no&quot;} 및 {line-wrap=&quot;yes&quot;}를 사용하십시오. 이러한 속성은 사용자 지정 Markdown 확장입니다.
-
-\`\`\`javascript {line-numbers=&quot;no&quot;}
-function test() {
-console.log(&quot;notice the blank line before this function?&quot;);
-\`\`\`
 
 ### 정의 목록
 
