@@ -2,12 +2,12 @@
 title: Adobe 설명서에 대한 기여자 안내서
 seo-title: Adobe Experience Cloud 기술 설명서에 대한 기여자 안내서 개요
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
-seo-description: 이 안내서에서는 [!UICONTROL Adobe Experience Cloud] 기술 설명서에 기여할 수 있는 방법에 대해 설명합니다.
-translation-type: ht
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
+translation-type: tm+mt
+source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
+workflow-type: tm+mt
+source-wordcount: '836'
+ht-degree: 98%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 100%
 이 안내서는 이 자료 세트에 상호 작용하고 기여하기 위해 알아야 할 모든 사항을 개략적으로 설명합니다.
 
 <!--
-> [!IMPORTANT]
-> All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../contributing.md) article.
+>[!IMPORTANT]
+>All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../contributing.md) article.
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 -->
