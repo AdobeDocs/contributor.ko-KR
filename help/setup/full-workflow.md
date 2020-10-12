@@ -4,10 +4,10 @@ title: 주요 변경 사항에 대한 GitHub 기여 워크플로우
 seo-title: Adobe 설명서의 주요 변경 사항에 대한 GitHub 기여 워크플로우
 description: 이 문서에서는 "주요" 기여자 워크플로우를 사용하여 Adobe 설명서에 기여하는 방법을 보여줍니다.
 seo-description: 이 문서에서는 "주요" 기여자 워크플로우를 사용하여 Adobe 설명서에 기여하는 방법을 보여줍니다.
-translation-type: ht
-source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
-workflow-type: ht
-source-wordcount: '1006'
+translation-type: tm+mt
+source-git-commit: 6ec1d13f80698cb5963c07656ef8183db735ff75
+workflow-type: tm+mt
+source-wordcount: '976'
 ht-degree: 100%
 
 ---
@@ -75,5 +75,3 @@ ht-degree: 100%
 ### 게시
 
 변경 사항이 그다음 예약된 게시 실행에 포함되려면 먼저 PR 검토자가 끌어오기 요청을 병합해야 합니다. 끌어오기 요청은 일반적으로 제출 순서로 검토/병합됩니다. 끌어오기 요청이 특정 게시 실행을 위해 병합되어야 하는 경우 게시 전에 병합이 일어나도록 미리 PR 검토자와 작업해야 합니다.
-
-기여가 승인되어 병합되면 이 기여가 docs.microsoft.com 게시 프로세스에서 선택됩니다. 사용자가 기여하는 리포지토리를 관리하는 팀에 따라 게시 시간은 달라질 수 있습니다.
