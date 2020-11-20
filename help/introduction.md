@@ -3,11 +3,11 @@ title: Adobe 설명서에 대한 기여자 안내서
 seo-title: Adobe Experience Cloud 기술 설명서에 대한 기여자 안내서 개요
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
 seo-description: 이 안내서에서는 [!UICONTROL Adobe Experience Cloud] 기술 설명서에 기여할 수 있는 방법에 대해 설명합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8943af2fdf406b2e33db037bb60dfea97df2959a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ ht-degree: 93%
 1. 수락하려면 [기여자 라이선스 계약(CLA)](http://opensource.adobe.com/cla.html)에 서명하십시오.
 
    Adobe CLA는 한 번만 제출하면 됩니다.
-1. Click the **`Edit this page`** icon in the right column to go to the markdown source file on GitHub.
+1. 오른쪽 열의 **`Edit this page`** 아이콘을 클릭하여 GitHub의 Markdown 소스 파일로 이동합니다.
 
-   ![이 페이지 편집 아이콘](/help/assets/git_edit.png)
+   ![이 페이지 아이콘 편집](/help/assets/git_edit.png)
 
 1. 연필 아이콘을 클릭하여 문서를 편집합니다.
 
@@ -71,7 +71,7 @@ ht-degree: 93%
 
 한 내용에 있는 문제에 대해 Adobe에 알리는 또 다른 간단한 방법은 &#39;문제를 기록&#39;하는 것입니다.
 
-1. If you see a problem with a piece of content, click the **`Log an Issue`** icon in the right column.
+1. 한 내용에 문제가 있는 것을 발견하면 오른쪽에 있는 **`Log an Issue`** 링크를 클릭합니다.
 
    ![](assets/git_log_issue.png)
 
