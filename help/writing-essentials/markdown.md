@@ -1,14 +1,11 @@
 ---
-lastModified: 2018-06-28T00:00:00Z
 title: 설명서 작성에 Markdown을 사용하는 방법
-seo-title: Adobe 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-seo-description: 이 문서에서는 Adobe 설명서용 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-translation-type: ht
-source-git-commit: 4ebbbde3337183a19fd3a59ae091b621a092e6f8
-workflow-type: ht
-source-wordcount: '1322'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,11 +23,11 @@ Adobe Docs 내용은 GitHub에 저장되므로 일반적인 형식 요구 사항
 제목을 만들려면 다음과 같이 줄의 시작 부분에 해시 표시(#)를 사용하십시오.
 
 ```
-   # This is level 1 (article title)
-   ## This is level 2
-   ### This is level 3
-   #### This is level 4
-   ##### This is level 5
+# This is level 1 (article title)
+## This is level 2
+### This is level 3
+#### This is level 4
+##### This is level 5
 ```
 
 ### 기본 텍스트
@@ -40,18 +37,10 @@ Adobe Docs 내용은 GitHub에 저장되므로 일반적인 형식 요구 사항
 텍스트 서식을 **굵게**&#x200B;로 지정하려면 두 개의 별표로 묶습니다. 텍스트 서식을 *기울임꼴*&#x200B;로 지정하려면 한 개의 별표로 묶습니다.
 
 ```markdown
-    This text is **bold**.
-    This text is *italic*.
-    This text is both ***bold and italic***.
+   This text is **bold**.
+   This text is *italic*.
+   This text is both ***bold and italic***.
 ```
-
-<!--
-To format superscript (H<sub>2</sub>O) and subscript (e=mc<sup>2</sup>) text:
-
-```markdown
-This is subscript H<sub>2</sub>O and superscript e=mc<sup>2</sup>.
-```
--->
 
 Markdown 서식 문자를 무시하려면 문자 앞에 \를 사용합니다.
 
@@ -75,9 +64,7 @@ This is not \*italicized\* type.
 1. This is the next step.
 1. This is yet another step, the third.
 
-<!-- markdownlint-disable MD037 -->
 글머리 기호 목록을 만들려면, 줄을 \* 또는 - 또는 +로 시작하되, 동일한 목록 내에서 형식들을 혼합하지 마십시오. (동일한 문서 내에서 \* 및 \+와 같은 글머리 기호 형식을 혼합하지 마십시오.)
-<!-- markdownlint-disable MD037 -->
 
 ```markdown
 * First item in an unordered list.
@@ -221,33 +208,6 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-### 정의 목록
-
-정의 목록은 AEM의 정의 목록 구성 요소를 지원하는 Markdown 확장입니다. 정의 목록은 용어와 해당 정의로 구성됩니다.
-
-<!--
-
-```markdown
-Frog
-: An amphibious green creature. Likes flies.
-
-Cat
-: A less amphibious creature than frogs.
-```
-
-Displayed:
-
-Frog
-: An amphibious green creature. Likes flies.
-
-Cat
-: A less amphibious creature than frogs.
---->
-
-#### 설명 및 주석
-
-주석(설명)은 공개 도움말 문서에는 표시되지 않습니다. 그러나 사용자가 보고 편집할 수 있는 공개 Markdown 파일에서는 주석이 표시됩니다.
-
 ## 사용자 지정 Markdown 확장
 
 Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에 표준 Markdown을 사용합니다. 더 많은 서식의 경우 문서는 다음과 같은 확장된 Markdown 기능을 사용할 수 있습니다.
@@ -263,12 +223,16 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 ### 참고 블록
 
-특정 내용에 주의를 집중하도록 하려면 4가지 형식의 참고 블록 중에 선택할 수 있습니다.
+이러한 유형의 메모 블록 중에서 선택하여 특정 컨텐츠에 주의를 집중시킬 수 있습니다.
 
 * `[!NOTE]`
-* `[!CAUTION]`
 * `[!TIP]`
 * `[!IMPORTANT]`
+* `[!CAUTION]`
+* `[!WARNING]`
+* `[!ADMINISTRATION]`
+* `[!AVAILABILITY]`
+* `[!PREREQUISITES]`
 
 일반적으로 참고 블록은 문맥을 끊을 수 있으므로 제한적으로 사용해야 합니다. 참고 블록에 코드 블록, 이미지, 목록, 링크를 사용할 수도 있지만 참고 블록은 간단하고 단순하게 유지하도록 하십시오.
 
@@ -307,7 +271,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 표시:
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### 다음과 같음
 
@@ -386,7 +350,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 파일에서 텍스트(코드가 아님)에 꺾쇠 괄호를 사용하는 경우(예를 들어, 자리 표시자를 표시하기 위해)에는 꺾쇠 괄호를 수동으로 인코딩해야 합니다. 그렇지 않으면 Markdown에서는 해당 기호를 HTML 태그로 인식합니다.
 
-예를 들어 `<script name>`을 다음과 같이 인코딩하십시오. `&lt;script name&gt;`
+예를 들어 `<script name>`을 다음과 같이 인코딩하십시오.  `&lt;script name&gt;`
 
 ### 제목의 앰퍼샌드
 
