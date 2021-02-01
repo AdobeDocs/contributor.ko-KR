@@ -2,10 +2,10 @@
 title: Adobe Experience Cloud 제품 설명서에 대한 언어 지원
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+source-git-commit: fe6adf7414680d4835a6402be2e8d1a5547cc7d8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '828'
+ht-degree: 98%
 
 ---
 
@@ -30,15 +30,13 @@ Adobe에서는 사용자가 설명서, 도움말 및 지원 콘텐츠를 Adobe �
 
    ![번역된 페이지](assets/french.png)
 
-<!--
-   In cases where your language version is not yet available, Adobe can automatically translate your content. Adobe's automatic translation service displays a message at the top of the page in a blue field:
+   원하는 언어 버전을 아직 이용할 수 없는 경우에는 원하는 콘텐츠를 Adobe에서 자동으로 번역할 수 있습니다. Adobe 자동 번역 서비스는 오른쪽 탐색 창의 맨 위에 메시지를 표시합니다.
 
-   ![Translation message](assets/machine-translation-message.png)
+   ![번역 메시지](assets/machine-translation-message.png)
 
-   The content may be rendered in your language automatically, or you can click a link to trigger the translation. (This scenario may occur when you have clicked on the hyperlink to return to the English source from the translated page. It gives you the option of viewing the translated page on-demand.) You can at any time return to the English source.
+   콘텐츠가 원하는 언어로 자동으로 제공되거나 사용자가 링크를 클릭하여 번역을 작동할 수 있습니다. (이 시나리오는 번역된 페이지에서 영어 소스로 돌아가려고 하이퍼링크를 클릭하면 발생할 수 있습니다. 필요할 때 번역된 페이지를 볼 수 있는 옵션이 제공됩니다.) 언제든지 영문 소스로 돌아갈 수 있습니다.
 
-   Occasionally, the English source content might have been recently updated and published before the translations were completed. Upon clicking on your language in the dropdown menu, you will see a notification — in the light-blue horizontal bar at the top of the page — informing that the page was automatically translated from the previous version, with updated content to be available soon. You will be offered the choice to view the most recent English source content in a new browser window, if you prefer.
--->
+   가끔 영문 소스가 최근에 업데이트되어 번역이 완료되기 전에 게시되는 경우가 있습니다. 드롭다운 메뉴에서 원하는 언어를 클릭하면 페이지가 이전 버전에서 번역되었으며 업데이트된 콘텐츠가 곧 제공될 예정이라는 알림이 페이지 맨 위의 담청색 가로 막대에 표시됩니다. 필요하면 새 브라우저 창에서 최신 영문 소스 콘텐츠를 선택하여 볼 수 있습니다.
 
 ## 자동 번역을 사용하는 이유
 
