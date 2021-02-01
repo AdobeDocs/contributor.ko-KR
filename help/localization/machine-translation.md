@@ -1,10 +1,11 @@
 ---
 title: Adobe Experience Cloud 제품 설명서에 대한 언어 지원
-seo-title: Adobe Experience Cloud 제품 설명서에 대한 언어 지원
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
-seo-description: 이 안내서에서는 [!UICONTROL Adobe Experience Cloud] 기술 설명서에 기여할 수 있는 방법에 대해 설명합니다.
-translation-type: ht
-source-git-commit: 9db7dd1fb9b22bc35f887d0441a1837813efc9cc
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,13 +30,15 @@ Adobe에서는 사용자가 설명서, 도움말 및 지원 콘텐츠를 Adobe �
 
    ![번역된 페이지](assets/french.png)
 
-   원하는 언어 버전을 아직 이용할 수 없는 경우에는 원하는 콘텐츠를 Adobe에서 자동으로 번역할 수 있습니다. Adobe의 자동 번역 서비스를 통해 페이지 맨 위의 파란색 필드에 메시지가 표시됩니다.
+<!--
+   In cases where your language version is not yet available, Adobe can automatically translate your content. Adobe's automatic translation service displays a message at the top of the page in a blue field:
 
-   ![번역 메시지](assets/machine-translation-message.png)
+   ![Translation message](assets/machine-translation-message.png)
 
-   콘텐츠가 원하는 언어로 자동으로 제공되거나 사용자가 링크를 클릭하여 번역을 작동할 수 있습니다. (이 시나리오는 번역된 페이지에서 영어 소스로 돌아가려고 하이퍼링크를 클릭하면 발생할 수 있습니다. 필요할 때 번역된 페이지를 볼 수 있는 옵션이 제공됩니다.) 언제든지 영문 소스로 돌아갈 수 있습니다.
+   The content may be rendered in your language automatically, or you can click a link to trigger the translation. (This scenario may occur when you have clicked on the hyperlink to return to the English source from the translated page. It gives you the option of viewing the translated page on-demand.) You can at any time return to the English source.
 
-   가끔 영문 소스가 최근에 업데이트되어 번역이 완료되기 전에 게시되는 경우가 있습니다. 드롭다운 메뉴에서 원하는 언어를 클릭하면 페이지가 이전 버전에서 번역되었으며 업데이트된 콘텐츠가 곧 제공될 예정이라는 알림이 페이지 맨 위의 담청색 가로 막대에 표시됩니다. 필요하면 새 브라우저 창에서 최신 영문 소스 콘텐츠를 선택하여 볼 수 있습니다.
+   Occasionally, the English source content might have been recently updated and published before the translations were completed. Upon clicking on your language in the dropdown menu, you will see a notification — in the light-blue horizontal bar at the top of the page — informing that the page was automatically translated from the previous version, with updated content to be available soon. You will be offered the choice to view the most recent English source content in a new browser window, if you prefer.
+-->
 
 ## 자동 번역을 사용하는 이유
 
@@ -63,7 +66,9 @@ Adobe에서는 자동 번역 기능을 이용하여 콘텐츠 생성과 최대�
 
 앞으로 문제를 기록하고 개선 사항을 제안하고 추가 언어를 요청하는 형태로 더욱 광범위한 피드백을 제공할 수 있도록 할 계획입니다. 이러한 기능 중 일부는 이미 영문 페이지에서 제공되고 있습니다. 장기적으로 Adobe에서 이러한 페이지의 사용자 경험을 개선하는 데 도움이 될 것으로 생각합니다.
 
-![이 페이지 개선](assets/feedback.png)
+<!--
+![Improve this page](assets/feedback.png)
+-->
 
 ### 번역 면책조항
 
