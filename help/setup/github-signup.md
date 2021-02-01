@@ -1,15 +1,11 @@
 ---
-lastModified: 2018-10-15T00:00:00Z
 title: GitHub 계정 설정 절차
-seo-title: Adobe Experience Cloud 설명서에 대한 GitHub 계정 설정 단계
 description: Adobe 설명서에 내용을 기여하기 위해 필요한 GitHub용 계정을 설정하는 프로세스를 차근차근 수행합니다.
-seo-description: Adobe 설명서에 내용을 기여하기 위해 필요한 GitHub용 계정을 설정하는 프로세스를 차근차근 수행합니다.
-index: true
-translation-type: ht
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
