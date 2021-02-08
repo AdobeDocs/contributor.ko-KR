@@ -3,11 +3,11 @@ title: Adobe 설명서에 대한 기여자 안내서
 seo-title: Adobe Experience Cloud 기술 설명서에 대한 기여자 안내서 개요
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
 seo-description: 이 안내서에서는 [!UICONTROL Adobe Experience Cloud] 기술 설명서에 기여할 수 있는 방법에 대해 설명합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '836'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 협업 설명서 소개
 
-Adobe Experience Cloud 및 기타 Adobe 엔터프라이즈 제품의 기술 설명서 및 역량 강화 내용은 새로운 플랫폼으로 전환되었습니다. 이 새로운 플랫폼은 Github, Markdown 및 Adobe Experience Cloud 솔루션을 활용하는 오픈 소스 원칙을 기반으로 합니다.
+Adobe Experience Cloud 및 기타 Adobe Enterprise 제품의 기술 설명서 및 활성화 내용은 새로운 플랫폼으로 전환되었습니다. 이 새로운 플랫폼은 Github, Markdown 및 Adobe Experience Cloud 솔루션을 활용하는 오픈 소스 원칙을 기반으로 합니다.
 
 이 오픈 소스 모델은 콘텐츠 품질을 향상시키고 고객, 설명서 팀 및 제품 팀 간의 커뮤니케이션을 향상시켜줍니다. 모든 페이지에서 콘텐츠 유용성을 평가하고, 문제를 기록하며, 콘텐츠 제안을 Git 풀 요청(PR)으로 제공할 수 있습니다. Adobe 설명서 팀은 매일 기여 및 문제를 모니터링하고 필요에 따라 업데이트, 수정 및 조정을 수행합니다.
 
