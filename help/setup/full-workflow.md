@@ -1,11 +1,11 @@
 ---
 title: 주요 변경 사항에 대한 GitHub 기여 워크플로우
 description: 이 문서에서는 "주요" 기여자 워크플로우를 사용하여 Adobe 설명서에 기여하는 방법을 보여줍니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '950'
+ht-degree: 100%
 
 ---
 
