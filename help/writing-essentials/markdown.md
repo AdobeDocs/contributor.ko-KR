@@ -1,11 +1,11 @@
 ---
 title: 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1240'
+ht-degree: 100%
 
 ---
 
@@ -223,7 +223,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 ### 참고 블록
 
-이러한 유형의 메모 블록 중에서 선택하여 특정 컨텐츠에 주의를 집중시킬 수 있습니다.
+특정 내용에 주의를 집중하도록 하려면 이 형식의 참고 블록 중에 선택할 수 있습니다.
 
 * `[!NOTE]`
 * `[!TIP]`
@@ -271,7 +271,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 표시:
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=kor)
 
 ### 다음과 같음
 
@@ -350,7 +350,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 파일에서 텍스트(코드가 아님)에 꺾쇠 괄호를 사용하는 경우(예를 들어, 자리 표시자를 표시하기 위해)에는 꺾쇠 괄호를 수동으로 인코딩해야 합니다. 그렇지 않으면 Markdown에서는 해당 기호를 HTML 태그로 인식합니다.
 
-예를 들어 `<script name>`을 다음과 같이 인코딩하십시오.  `&lt;script name&gt;`
+예를 들어 `<script name>`을 다음과 같이 인코딩하십시오. `&lt;script name&gt;`
 
 ### 제목의 앰퍼샌드
 
