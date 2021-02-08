@@ -1,11 +1,11 @@
 ---
 title: 작성 도구 설치
 description: 이 문서는 Git/GitHub 및 Markdown 파일 편집에 필요한 클라이언트 도구를 다운로드하고 설치하는 데 도움이 됩니다.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '345'
+ht-degree: 100%
 
 ---
 
