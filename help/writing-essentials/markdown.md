@@ -1,11 +1,11 @@
 ---
 title: 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
-source-wordcount: '1240'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
+workflow-type: tm+mt
+source-wordcount: '1491'
+ht-degree: 76%
 
 ---
 
@@ -176,6 +176,8 @@ See [Overview example article](../../overview.md)
 
 ![Adobe 로고](assets/no-localize/adobe_standard_logo.png "마우스로 가리키면 표시되는 텍스트")
 
+**참고:** 지역화하지 않아야 하는 이미지의 경우 자산 폴더에 별도의  `do-not-localize` 폴더를 만듭니다. 일반적으로 텍스트 또는 샘플 컨텐츠만 포함된 이미지가 없는 이미지도 여기에 배치됩니다. 이렇게 하면 에셋 폴더에서 &quot;노이즈&quot;가 제거되고 질문의 양이 줄어듭니다.
+
 ### 코드 블록
 
 Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 &quot;펜싱된&quot; 블록으로 배치할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)
@@ -271,7 +273,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 표시:
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### 다음과 같음
 
@@ -290,33 +292,44 @@ AEM의 &quot;다음과 같음&quot;(More Like This) 구성 요소는 문서의 �
 >* [Article 2](https://helpx.adobe.com/kr/support/audience-manager.html)
 
 
-### DNL - 현지화하지 않음 - 및 UICONTROL
+### UICONTROL 및 DNL
 
-경우에 따라 문서 내의 특정 내용 섹션에 [영어로만] 플래그를 지정해야 합니다.
-단어, 구문 및 기타 요소는 번역 시스템에 선언해야 합니다. 그리고 제어된 어휘를 관리하는 기능을 만듭니다.
+Adobe의 모든 Markdown 도움말 컨텐츠는 처음에 기계 번역을 사용하여 현지화되었습니다. 도움말이 현지화되지 않은 경우 기계 번역을 유지합니다. 그러나 도움말 컨텐츠가 이전에 현지화되어 있으면 기계 번역 컨텐츠가 인간별 번역 진행 중일 때 컨텐츠 자리 표시자가 됩니다.
 
-현지화하지 말아야 하는 단어 또는 구문의 경우 `[!DNL]` 확장을 사용하여 단어 또는 섹션을 둘러싸십시오.
+**``**
 
-솔루션의 사용자 인터페이스와 메뉴에 있는 요소의 경우 Adobe에서는 `` 확장을 사용합니다.
+기계 번역 중에 ``으로 태그가 지정된 항목은 적절한 번역을 위해 로컬라이제이션 데이터베이스에서 확인됩니다. UI가 현지화되지 않은 경우 이 태그를 사용하면 시스템이 특정 언어(예: 이탈리아어 분석 참조).
 
-**예**
+**예:**
 
-[!DNL Adobe Target]에서는 [!DNL Target]-enabled 페이지에서 직접 테스트를 생성할 수 있습니다.
+1. **[!UICONTROL Run Process]** 화면으로 이동합니다.
+1. 서버의 모든 파일을 인쇄하려면 **[!UICONTROL File > Print > Print All]**&#x200B;을 선택합니다.
+1. [!UICONTROL Processing Rules] 대화 상자가 나타납니다.
 
 **소스 -**
 
 ```markdown
-In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**예**
+**참고:** 3개의 태그 지정 옵션 중 높은 품질을 제공하기 위해 가장 중요하며 필수입니다.
 
-[!UICONTROL Visual Experience Composer]에서 [!DNL Target]을(를) 사용하여 페이지에서 직접 테스트를 만듭니다.
+**`[!DNL]`**
+
+일반적으로, &quot;번역 안 함&quot; 목록을 사용해서 기계 번역 엔진에 영어로 무엇을 유지할 것인지를 알려 줍니다. 가장 널리 사용되는 항목은 &quot;Adobe Analytics&quot;, &quot;Adobe Campaign&quot; 및 &quot;Adobe Target&quot;과 같은 긴 솔루션 이름이 될 수 있습니다. 하지만, 문제의 용어가 특정 또는 일반적인 방법으로 사용될 수 있기 때문에 엔진을 강제로 영어를 사용하도록 할 필요가 있는 경우가 있을 수 있습니다. 이 가장 명백한 사례는 &quot;Analytics&quot;, &quot;Campaign&quot;, &quot;Target&quot; 등과 같은 솔루션의 짧은 이름입니다. 기계가 일반 용어가 아니라 솔루션 이름이라는 것을 이해하는 것은 어려울 것이다. 또한 이 태그는 영어에 항상 남아 있는 제3자 이름/기능이나 영어로 남아야 하는 구문이나 문장과 같이 짧은 텍스트 섹션에 사용할 수 있습니다.
+
+**예:**
+
+* [!DNL Target]을 사용하여 A/B 테스트를 만들어 최적의
+* Adobe Analytics은 사이트에서 분석을 수집하는 강력한 솔루션입니다. [!DNL Analytics] 보고서를 사용하여 해당 데이터를 쉽게 다이제스트할 수도 있습니다.
 
 **소스 -**
 
 ```markdown
-Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 ```
 
 ## 과제 및 문제 해결
@@ -350,7 +363,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 파일에서 텍스트(코드가 아님)에 꺾쇠 괄호를 사용하는 경우(예를 들어, 자리 표시자를 표시하기 위해)에는 꺾쇠 괄호를 수동으로 인코딩해야 합니다. 그렇지 않으면 Markdown에서는 해당 기호를 HTML 태그로 인식합니다.
 
-예를 들어 `<script name>`을 다음과 같이 인코딩하십시오. `&lt;script name&gt;`
+예를 들어 `<script name>`을 다음과 같이 인코딩하십시오.  `&lt;script name&gt;`
 
 ### 제목의 앰퍼샌드
 
