@@ -1,8 +1,14 @@
 ---
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
-translation-type: ht
+title: Adobe 행동 강령
+description: 'Adobe 행동 강령 '
+translation-type: tm+mt
+source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 100%
 
 ---
+
 # Adobe 행동 강령
 
 ## Adobe의 약속
@@ -19,11 +25,10 @@ translation-type: ht
 * 지역 사회에 가장 적합한 것이 무엇인지에 집중
 * 다른 지역 사회 구성원과의 유대감 표시
 
-참여자의 부적절한 행동 예는 다음과 같습니다.
+참가자의 부적절한 행동 예시는 다음과 같습니다.
 
-* 성적 매력을 나타내는 언어 또는 이미지의 사용과 달갑지 않은 성적 관심
-또는 접근
-* 트롤링, 모욕/경멸적인 발언, 인신 공격 또는 정치적 공격
+* 성적인 언어나 이미지 사용, 불쾌한 성적 관심 또는 접근
+* 조롱, 모욕적인 말투, 개인적 또는 정치적 공격
 * 공개 또는 비공개적인 괴롭힘
 * 명시적 허가 없이 다른 사람의 개인 정보(예, 실제 주소 또는 이메일 주소) 게시
 * 전문적인 환경에서 부적절한 것으로 간주될 수 있는 기타 행위
@@ -40,11 +45,10 @@ translation-type: ht
 
 ## 집행
 
-학대, 괴롭힘 등의 용납될 수 없는 행동 사례는 프로젝트 팀(Grp-opensourceoffice@adobe.com)에 문의하여 보고할 수 있습니다. 모든 불만 사항은 검토와 조사를 거칠 것이며, 상황에 적절하고 필요하다고 간주되는 대응을 할 것입니다. 프로젝트 팀은 사고 발생 보고서와 관련하여 기밀을 유지할 의무가 있습니다.
-특정 집행 정책에 대한 자세한 내용은 별도로 게시될 수 있습니다.
+학대, 괴롭힘 등의 용납될 수 없는 행동 사례는 프로젝트 팀(Grp-opensourceoffice@adobe.com)에 문의하여 보고할 수 있습니다. 모든 불만 사항은 검토와 조사를 거칠 것이며, 상황에 적절하고 필요하다고 간주되는 대응을 할 것입니다. 프로젝트 팀은 사고 발생 보고서와 관련하여 기밀을 유지할 의무가 있습니다. 특정 집행 정책에 대한 자세한 내용은 별도로 게시될 수 있습니다.
 
 선의로 행동 강령을 준수하거나 시행하지 않는 프로젝트 관리자들은 해당 프로젝트 경영진의 판단에 따라 일시적 또는 영구적 영향을 받을 수 있습니다.
 
 ## 속성
 
-이 행동 강령은 [기여자 계약](https://contributor-covenant.org), 버전 1.4([https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)에서 제공됨)에서 채택되었습니다.
+이 행동 강령은 [기여자 규약](https://contributor-covenant.org), 버전 1.4([https://contributor-covenant.org/version/1/4)에서 다운로드할 수 있습니다.](https://contributor-covenant.org/version/1/4/)
