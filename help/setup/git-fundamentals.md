@@ -1,14 +1,14 @@
 ---
 title: Git 및 GitHub 설명서 핵심 사항
 description: 이 문서에서는 Git, GitHub 리포지토리 및 내용이 구성되는 방식에 대한 개요와 Adobe 설명서에 사용되는 명명 규칙을 설명합니다.
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
+exl-id: 2b2ec764-4201-4bcd-802d-a034d6675793
+translation-type: tm+mt
+source-git-commit: 1b1678b33059f4bc8f7aff4690f1d775e6aee2d6
+workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
 
 ---
-
 
 # Git 및 GitHub 설명서 핵심 사항
 
@@ -52,7 +52,8 @@ Git에는 배포된 해당 모델을 지원하는 고유한 기여 워크플로�
 
 사용자 안내서 디렉토리에는 디렉토리 내에서 참조되는 이미지 파일에 대한 `/assets` 하위 디렉토리가 있습니다.
 
-<!---
+<!--
+
 ### Markdown file template
 
 For convenience, the root directory of each repository typically contains a Markdown template file named `template.md`. You can use this template file as a "starter file" if you need to create a new article for submission to the repository. The file contains:
@@ -62,6 +63,7 @@ For convenience, the root directory of each repository typically contains a Mark
 - General **instructions on the use of Markdown extensions**, which you can use for various types of alerts.
 - Examples of **embedding video** by using an iframe.
 - General **instructions on the use of docs.adobe.com extensions**, which you can use for special controls such as buttons and selectors.
+
 -->
 
 ## 끌어오기 요청
