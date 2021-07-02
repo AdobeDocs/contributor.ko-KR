@@ -1,14 +1,13 @@
 ---
 title: 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
-translation-type: tm+mt
-source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
+exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
+source-git-commit: 4104aa1481263dabe20f2e3a117944f55a6fd800
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 76%
+source-wordcount: '1504'
+ht-degree: 72%
 
 ---
-
 
 # 기술 설명서 작성에 Markdown을 사용하는 방법
 
@@ -176,13 +175,13 @@ See [Overview example article](../../overview.md)
 
 ![Adobe 로고](assets/no-localize/adobe_standard_logo.png "마우스로 가리키면 표시되는 텍스트")
 
-**참고:** 지역화하지 않아야 하는 이미지의 경우 자산 폴더에 별도의  `do-not-localize` 폴더를 만듭니다. 일반적으로 텍스트 또는 샘플 컨텐츠만 포함된 이미지가 없는 이미지도 여기에 배치됩니다. 이렇게 하면 에셋 폴더에서 &quot;노이즈&quot;가 제거되고 질문의 양이 줄어듭니다.
+**참고:**  현지화하지 말아야 하는 이미지의 경우 자산 폴더 `do-not-localize` 에 별도의 폴더를 만드십시오. 일반적으로 텍스트 또는 샘플 컨텐츠만 포함하는 이미지가 없는 이미지가 배치됩니다. 자산 폴더에서 &quot;소음&quot;이 제거되고 질문 양이 줄어듭니다.
 
 ### 코드 블록
 
 Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 &quot;펜싱된&quot; 블록으로 배치할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)
 
-단락 내에서 인라인 코드 스타일을 만들려면 역따옴표( \` )를 사용하십시오. 특정한 여러 줄 코드 블록을 만들려면 코드 블록(Markdown에서 &quot;펜싱된 코드 블록&quot;이라고 하고, AEM에서는 단순히 &quot;코드 블록&quot; 구성 요소라고 함)의 앞과 뒤에 세 개의 역따옴표(\`\`\`)를 추가하십시오. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예, \`\`\`javascript
+역따옴표 사용(&amp;분묘;)를 클릭하여 단락 내에서 인라인 코드 스타일을 만듭니다. 특정 여러 줄 코드 블록을 만들려면 코드 블록(Markdown에서 &quot;펜싱된 코드 블록&quot;이라고 하고, AEM에서는 단순히 &quot;코드 블록&quot; 구성 요소라고 함)의 앞과 뒤에 세 개의 역따옴표(&amp;grave;&amp;grave;&amp;grave;)를 추가합니다. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예:&amp;grave;&amp;grave;&amp;grave;javascript
 
 예
 
@@ -195,15 +194,6 @@ This is `inline code` within a paragraph of text.
 This is `inline code` within a paragraph of text.
 
 다음은 펜싱된 코드 블록입니다.
-
-```markdown
-\```javascript
-function test() {
- console.log("notice the blank line before this function?");
-\```
-```
-
-표시 -
 
 ```javascript
 function test() {
@@ -294,11 +284,11 @@ AEM의 &quot;다음과 같음&quot;(More Like This) 구성 요소는 문서의 �
 
 ### UICONTROL 및 DNL
 
-Adobe의 모든 Markdown 도움말 컨텐츠는 처음에 기계 번역을 사용하여 현지화되었습니다. 도움말이 현지화되지 않은 경우 기계 번역을 유지합니다. 그러나 도움말 컨텐츠가 이전에 현지화되어 있으면 기계 번역 컨텐츠가 인간별 번역 진행 중일 때 컨텐츠 자리 표시자가 됩니다.
+모든 Markdown 도움말 컨텐츠는 처음에 기계 번역을 사용하여 현지화되었습니다. 도움말이 현지화되지 않은 경우 기계 번역을 유지합니다. 그러나 도움말 컨텐츠가 이전에 현지화된 경우 기계 번역된 컨텐츠는 번역된 컨텐츠가 사람이 번역하는 과정에 있는 동안 자리 표시자로서 작동합니다.
 
 **``**
 
-기계 번역 중에 ``으로 태그가 지정된 항목은 적절한 번역을 위해 로컬라이제이션 데이터베이스에서 확인됩니다. UI가 현지화되지 않은 경우 이 태그를 사용하면 시스템이 특정 언어(예: 이탈리아어 분석 참조).
+기계 번역 중에 `` 태그가 지정된 항목은 적절한 번역을 위해 로컬라이제이션 데이터베이스에 대해 검사됩니다. UI가 현지화되지 않은 경우 이 태그를 사용하여 시스템에서 특정 언어(예: Analytics 참조(이탈리아어).
 
 **예:**
 
@@ -314,16 +304,16 @@ Adobe의 모든 Markdown 도움말 컨텐츠는 처음에 기계 번역을 사�
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**참고:** 3개의 태그 지정 옵션 중 높은 품질을 제공하기 위해 가장 중요하며 필수입니다.
+**참고:**  세 개의 태그 지정 옵션 중, 고품질을 제공하기 위해 가장 중요하며 필수입니다.
 
 **`[!DNL]`**
 
-일반적으로, &quot;번역 안 함&quot; 목록을 사용해서 기계 번역 엔진에 영어로 무엇을 유지할 것인지를 알려 줍니다. 가장 널리 사용되는 항목은 &quot;Adobe Analytics&quot;, &quot;Adobe Campaign&quot; 및 &quot;Adobe Target&quot;과 같은 긴 솔루션 이름이 될 수 있습니다. 하지만, 문제의 용어가 특정 또는 일반적인 방법으로 사용될 수 있기 때문에 엔진을 강제로 영어를 사용하도록 할 필요가 있는 경우가 있을 수 있습니다. 이 가장 명백한 사례는 &quot;Analytics&quot;, &quot;Campaign&quot;, &quot;Target&quot; 등과 같은 솔루션의 짧은 이름입니다. 기계가 일반 용어가 아니라 솔루션 이름이라는 것을 이해하는 것은 어려울 것이다. 또한 이 태그는 영어에 항상 남아 있는 제3자 이름/기능이나 영어로 남아야 하는 구문이나 문장과 같이 짧은 텍스트 섹션에 사용할 수 있습니다.
+일반적으로, &quot;번역하지 않음&quot; 목록을 사용하여 기계 번역 엔진에 영어로 유지할 내용을 알려줍니다. 가장 일반적인 항목은 &quot;Adobe Analytics&quot;, &quot;Adobe Campaign&quot; 및 &quot;Adobe Target&quot;과 같은 긴 솔루션 이름이 됩니다. 하지만, 문제가 되는 용어가 구체적이거나 일반적인 방법으로 사용될 수 있기 때문에 엔진을 강제로 영어를 사용해야 하는 경우가 있을 수 있습니다. 이 가장 명백한 사례는 &quot;Analytics&quot;, &quot;Campaign&quot;, &quot;Target&quot; 등과 같은 솔루션에 대해 짧은 이름이 될 수 있습니다. 이러한 용어가 일반적인 용어가 아니라 솔루션 이름이라는 것을 기계에서 이해하는 것은 어려울 것입니다. 또한 태그는 항상 영어로 남아 있거나 영어로 남아 있어야 하는 구문이나 문장과 같은 짧은 텍스트 섹션에 대해 타사 이름/기능에 사용될 수 있습니다.
 
 **예:**
 
-* [!DNL Target]을 사용하여 A/B 테스트를 만들어 최적의
-* Adobe Analytics은 사이트에서 분석을 수집하는 강력한 솔루션입니다. [!DNL Analytics] 보고서를 사용하여 해당 데이터를 쉽게 다이제스트할 수도 있습니다.
+* [!DNL Target] 을 사용하면 A/B 테스트를 만들어 최적 상태를 찾을 수 있습니다
+* Adobe Analytics은 사이트에서 분석을 수집할 수 있는 강력한 솔루션입니다. [!DNL Analytics] 또한 보고 기능을 사용하여 해당 데이터를 쉽게 다이제스트할 수 있습니다.
 
 **소스 -**
 
