@@ -1,8 +1,14 @@
 ---
-source-git-commit: cbffbc356b4d5a03f93ab319a932a6c4ef979b3e
-translation-type: ht
+title: Adobe 행동 강령
+description: 보고 문제 및 편집 변경 제출 시 행동 수칙
+exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
+source-git-commit: 06b0a397f0612e5ecfca82fc7105a45ed167efc9
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 97%
 
 ---
+
 # Adobe 행동 강령
 
 ## Adobe의 약속
@@ -22,6 +28,7 @@ translation-type: ht
 참여자의 부적절한 행동 예는 다음과 같습니다.
 
 * 성적 매력을 나타내는 언어 또는 이미지의 사용과 달갑지 않은 성적 관심
+
 또는 접근
 * 트롤링, 모욕/경멸적인 발언, 인신 공격 또는 정치적 공격
 * 공개 또는 비공개적인 괴롭힘
@@ -45,6 +52,6 @@ translation-type: ht
 
 선의로 행동 강령을 준수하거나 시행하지 않는 프로젝트 관리자들은 해당 프로젝트 경영진의 판단에 따라 일시적 또는 영구적 영향을 받을 수 있습니다.
 
-## 속성
+## 귀속
 
-이 행동 강령은 [기여자 계약](https://contributor-covenant.org), 버전 1.4([https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)에서 제공됨)에서 채택되었습니다.
+이 행동 수칙은 [Contributor Covenant](https://contributor-covenant.org)(기여자 규약) 버전 1.4를 개작한 것이며 다음 사이트에서 확인할 수 있습니다. [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
