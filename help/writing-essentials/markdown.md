@@ -3,9 +3,9 @@ title: 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 4104aa1481263dabe20f2e3a117944f55a6fd800
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1504'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 72%
 
 Adobe 기술 설명서 문서는 읽기 쉽고 배우기 쉬운 [Markdown](https://daringfireball.net/projects/markdown/)이라는 간단한 마크업 언어로 작성됩니다.
 
-Adobe Docs 내용은 GitHub에 저장되므로 일반적인 형식 요구 사항에 대한 추가 기능을 제공하는 [GFM(GitHub Flavored Markdown)](https://help.github.com/categories/writing-on-github/)이라는 Markdown의 버전을 사용할 수 있습니다. 또한 Adobe에서는 참고 사항, 팁 및 포함된 비디오와 같은 특정 도움말 관련 기능을 지원하기 위해 몇 가지 방법으로 Markdown을 확장했습니다.
+Adobe Docs 내용은 GitHub에 저장되므로 일반적인 형식 요구 사항에 대한 추가 기능을 제공하는 [GFM(GitHub Flavored Markdown)](https://help.github.com/categories/writing-on-github/)이라는 Markdown의 버전을 사용할 수 있습니다. 또한 Adobe에서는 참고 사항, 팁 및 임베드된 비디오와 같은 특정 도움말 관련 기능을 지원하기 위해 몇 가지 방법으로 Markdown을 확장했습니다.
 
 ## Markdown 기본 사항
 
@@ -77,7 +77,7 @@ This is not \*italicized\* type.
 * Another item.
 * Here we go again.
 
-목록 내에 목록을 포함하고 목록 항목 사이에 내용을 추가할 수도 있습니다.
+목록 내에 목록을 임베드하고 목록 항목 사이에 내용을 추가할 수도 있습니다.
 
 ```markdown
 1. Set up your table and code blocks.
@@ -157,7 +157,7 @@ This is not \*italicized\* type.
 
 [Adobe](https://www.adobe.com/kr/)
 
-리포지토리 내의 문서에 연결되는 링크(상호 참조)에 대해서는 상대 링크를 사용하십시오. ./(현재 디렉토리), ../(한 디렉토리 뒤로) 및 ../../(두 디렉토리 뒤로)와 같은 모든 상대 링크 피연산자를 사용할 수 있습니다.
+저장소 내의 문서에 연결되는 링크(상호 참조)에 대해서는 상대 링크를 사용하십시오. ./(현재 디렉터리), ../(한 디렉터리 뒤로) 및 ../../(두 디렉터리 뒤로)와 같은 모든 상대 링크 피연산자를 사용할 수 있습니다.
 
 ```markdown
 See [Overview example article](../../overview.md)
@@ -175,15 +175,15 @@ See [Overview example article](../../overview.md)
 
 ![Adobe 로고](assets/no-localize/adobe_standard_logo.png "마우스로 가리키면 표시되는 텍스트")
 
-**참고:**  현지화하지 말아야 하는 이미지의 경우 자산 폴더 `do-not-localize` 에 별도의 폴더를 만드십시오. 일반적으로 텍스트 또는 샘플 컨텐츠만 포함하는 이미지가 없는 이미지가 배치됩니다. 자산 폴더에서 &quot;소음&quot;이 제거되고 질문 양이 줄어듭니다.
+**참고:** 현지화하면 안 되는 이미지의 경우 에셋 폴더에 별도의 `do-not-localize` 폴더를 생성합니다. 일반적으로 텍스트가 없는 이미지 또는 샘플 콘텐츠만 포함된 이미지가 배치됩니다. 이렇게 하면 에셋 폴더에서 “노이즈”가 제거되고 질문의 양이 줄어듭니다.
 
 ### 코드 블록
 
 Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 &quot;펜싱된&quot; 블록으로 배치할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)
 
-역따옴표 사용(&amp;분묘;)를 클릭하여 단락 내에서 인라인 코드 스타일을 만듭니다. 특정 여러 줄 코드 블록을 만들려면 코드 블록(Markdown에서 &quot;펜싱된 코드 블록&quot;이라고 하고, AEM에서는 단순히 &quot;코드 블록&quot; 구성 요소라고 함)의 앞과 뒤에 세 개의 역따옴표(&amp;grave;&amp;grave;&amp;grave;)를 추가합니다. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예:&amp;grave;&amp;grave;&amp;grave;javascript
+백틱( &amp;grave; )을 사용하여 단락 내에 인라인 코드 스타일을 만듭니다. 특정 여러 줄 코드 블록을 생성하려면 코드 블록(Markdown에서는 “펜스 코드 블록”이라고 하며 AEM에서는 “코드 블록” 구성 요소라고 함) 전후에 세 개의 백틱(&amp;grave;&amp;grave;&amp;grave;)을 추가합니다. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예: &amp;grave;&amp;grave;&amp;grave;javascript
 
-예
+예:
 
 ```markdown
 This is `inline code` within a paragraph of text.
@@ -200,12 +200,12 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-## 사용자 지정 Markdown 확장
+## 맞춤형 Markdown 확장 기능
 
 Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에 표준 Markdown을 사용합니다. 더 많은 서식의 경우 문서는 다음과 같은 확장된 Markdown 기능을 사용할 수 있습니다.
 
 * 참고 블록
-* 포함된 비디오
+* 임베드된 비디오
 * 현지화하지 않음
 * 다른 제목 ID를 제목에 지정하는 것과 같은 구성 요소 속성
 
@@ -255,7 +255,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 ### 비디오
 
-포함된 비디오는 기본적으로 Markdown으로 렌더링되지는 않지만 이 Markdown 확장을 사용할 수 있습니다.
+임베드된 비디오는 기본적으로 Markdown으로 렌더링되지는 않지만 이 Markdown 확장 기능을 사용할 수 있습니다.
 
 ```markdown
 >[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
@@ -284,17 +284,17 @@ AEM의 &quot;다음과 같음&quot;(More Like This) 구성 요소는 문서의 �
 
 ### UICONTROL 및 DNL
 
-모든 Markdown 도움말 컨텐츠는 처음에 기계 번역을 사용하여 현지화되었습니다. 도움말이 현지화되지 않은 경우 기계 번역을 유지합니다. 그러나 도움말 컨텐츠가 이전에 현지화된 경우 기계 번역된 컨텐츠는 번역된 컨텐츠가 사람이 번역하는 과정에 있는 동안 자리 표시자로서 작동합니다.
+모든 Markdown 도움말 콘텐츠는 초기에 기계 번역을 사용하여 현지화됩니다. 도움말이 현지화되지 않은 경우 기계 번역을 유지합니다. 그러나 도움말 콘텐츠가 과거에 현지화된 경우 기계 번역된 콘텐츠는 사람 번역 과정의 플레이스 홀더로서 기능합니다.
 
 **``**
 
-기계 번역 중에 `` 태그가 지정된 항목은 적절한 번역을 위해 로컬라이제이션 데이터베이스에 대해 검사됩니다. UI가 현지화되지 않은 경우 이 태그를 사용하여 시스템에서 특정 언어(예: Analytics 참조(이탈리아어).
+기계 번역 중에 ``로 태그가 지정된 항목은 적절한 번역을 위해 현지화 데이터베이스에 대해 확인됩니다. UI가 현지화되지 않은 경우 이 태그를 사용하면 시스템에서 특정 언어에 대한 UI 참조를 영어로 남길 수 있습니다.(예: 이탈리아어로 된 Analytics 참조).
 
 **예:**
 
 1. **[!UICONTROL Run Process]** 화면으로 이동합니다.
-1. 서버의 모든 파일을 인쇄하려면 **[!UICONTROL File > Print > Print All]**&#x200B;을 선택합니다.
-1. [!UICONTROL Processing Rules] 대화 상자가 나타납니다.
+1. **[!UICONTROL File > Print > Print All]**&#x200B;를 선택하여 서버의 모든 파일을 인쇄합니다.
+1. [!UICONTROL Processing Rules] 대화 상자가 표시됩니다.
 
 **소스 -**
 
@@ -304,16 +304,16 @@ AEM의 &quot;다음과 같음&quot;(More Like This) 구성 요소는 문서의 �
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**참고:**  세 개의 태그 지정 옵션 중, 고품질을 제공하기 위해 가장 중요하며 필수입니다.
+**참고:** 세 가지 태그 지정 옵션 중 고품질을 제공하는 데 가장 중요하며 필수입니다.
 
 **`[!DNL]`**
 
-일반적으로, &quot;번역하지 않음&quot; 목록을 사용하여 기계 번역 엔진에 영어로 유지할 내용을 알려줍니다. 가장 일반적인 항목은 &quot;Adobe Analytics&quot;, &quot;Adobe Campaign&quot; 및 &quot;Adobe Target&quot;과 같은 긴 솔루션 이름이 됩니다. 하지만, 문제가 되는 용어가 구체적이거나 일반적인 방법으로 사용될 수 있기 때문에 엔진을 강제로 영어를 사용해야 하는 경우가 있을 수 있습니다. 이 가장 명백한 사례는 &quot;Analytics&quot;, &quot;Campaign&quot;, &quot;Target&quot; 등과 같은 솔루션에 대해 짧은 이름이 될 수 있습니다. 이러한 용어가 일반적인 용어가 아니라 솔루션 이름이라는 것을 기계에서 이해하는 것은 어려울 것입니다. 또한 태그는 항상 영어로 남아 있거나 영어로 남아 있어야 하는 구문이나 문장과 같은 짧은 텍스트 섹션에 대해 타사 이름/기능에 사용될 수 있습니다.
+일반적으로 기계 번역 엔진에 영어로 무엇을 유지해야 하는지를 알리기 위해 “번역하지 않음” 목록을 사용합니다. 가장 일반적인 항목은 “Adobe Analytics”, “Adobe Campaign”, “Adobe Target”과 같은 긴 솔루션 이름입니다. 그러나 해당 용어가 특정하거나 일반적인 방법으로 사용될 수 있으므로 엔진에 영어를 사용하도록 강제해야 하는 경우가 있을 수 있습니다. 이 가장 명백한 사례는 “Analytics”, “Campaign”, “Target” 등과 같은 솔루션의 짧은 이름입니다. 이러한 이름은 일반적인 용어가 아니라 솔루션 이름이라는 것을 기계가 이해하기 어려울 것입니다. 태그는 항상 영어로 유지되는 서드파티 이름/기능이나 영어로 유지되어야 하는 문구 또는 문장과 같은 짧은 텍스트 섹션에도 사용될 수 있습니다.
 
 **예:**
 
-* [!DNL Target] 을 사용하면 A/B 테스트를 만들어 최적 상태를 찾을 수 있습니다
-* Adobe Analytics은 사이트에서 분석을 수집할 수 있는 강력한 솔루션입니다. [!DNL Analytics] 또한 보고 기능을 사용하여 해당 데이터를 쉽게 다이제스트할 수 있습니다.
+* [!DNL Target]을 사용하여 최적의 것을 찾기 위한 A/B 테스트를 만들 수 있습니다.
+* Adobe Analytics는 사이트에서 분석을 수집하는 강력한 솔루션입니다. [!DNL Analytics]는 또한 해당 데이터를 쉽게 요약할 수 있도록 보고하는 데 도움이 될 수 있습니다.
 
 **소스 -**
 
@@ -353,7 +353,7 @@ AEM의 &quot;다음과 같음&quot;(More Like This) 구성 요소는 문서의 �
 
 파일에서 텍스트(코드가 아님)에 꺾쇠 괄호를 사용하는 경우(예를 들어, 자리 표시자를 표시하기 위해)에는 꺾쇠 괄호를 수동으로 인코딩해야 합니다. 그렇지 않으면 Markdown에서는 해당 기호를 HTML 태그로 인식합니다.
 
-예를 들어 `<script name>`을 다음과 같이 인코딩하십시오.  `&lt;script name&gt;`
+예를 들어 `<script name>`을 다음과 같이 인코딩하십시오. `&lt;script name&gt;`
 
 ### 제목의 앰퍼샌드
 
