@@ -2,10 +2,10 @@
 title: 설명서 작성에 Markdown을 사용하는 방법
 description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 4104aa1481263dabe20f2e3a117944f55a6fd800
-workflow-type: ht
-source-wordcount: '1504'
-ht-degree: 100%
+source-git-commit: 9e70d10dc1ba27b593de7febf32a3ba3910bfe21
+workflow-type: tm+mt
+source-wordcount: '1489'
+ht-degree: 97%
 
 ---
 
@@ -181,7 +181,7 @@ See [Overview example article](../../overview.md)
 
 Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 &quot;펜싱된&quot; 블록으로 배치할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)
 
-백틱( &amp;grave; )을 사용하여 단락 내에 인라인 코드 스타일을 만듭니다. 특정 여러 줄 코드 블록을 생성하려면 코드 블록(Markdown에서는 “펜스 코드 블록”이라고 하며 AEM에서는 “코드 블록” 구성 요소라고 함) 전후에 세 개의 백틱(&amp;grave;&amp;grave;&amp;grave;)을 추가합니다. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예: &amp;grave;&amp;grave;&amp;grave;javascript
+역따옴표 사용(`` ` ``)를 클릭하여 단락 내에서 인라인 코드 스타일을 만듭니다. 특정 여러 줄 코드 블록을 만들려면 세 개의 역따옴표(` ``` `)를 코드 블록(Markdown에서 &quot;펜싱된 코드 블록&quot;이라고 하고, AEM에서는 단순히 &quot;코드 블록&quot; 구성 요소라고 함)의 앞과 뒤에 놓습니다. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예: ` ```javascript`
 
 예:
 
