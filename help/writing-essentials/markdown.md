@@ -1,11 +1,11 @@
 ---
 title: 설명서 작성에 Markdown을 사용하는 방법
-description: 이 문서에서는 문서 작성에 사용되는 Markdown 언어에 대한 기본 사항과 참조 정보를 제공합니다.
+description: Markdown 작성에 대한 기본 사항을 알아봅니다. 문서 작성에 사용되는 Markdown 언어에 대한 참조 정보를 찾습니다.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 9e70d10dc1ba27b593de7febf32a3ba3910bfe21
-workflow-type: ht
-source-wordcount: '1489'
-ht-degree: 100%
+source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
+workflow-type: tm+mt
+source-wordcount: '1500'
+ht-degree: 98%
 
 ---
 
@@ -16,6 +16,8 @@ Adobe 기술 설명서 문서는 읽기 쉽고 배우기 쉬운 [Markdown](https
 Adobe Docs 내용은 GitHub에 저장되므로 일반적인 형식 요구 사항에 대한 추가 기능을 제공하는 [GFM(GitHub Flavored Markdown)](https://help.github.com/categories/writing-on-github/)이라는 Markdown의 버전을 사용할 수 있습니다. 또한 Adobe에서는 참고 사항, 팁 및 임베드된 비디오와 같은 특정 도움말 관련 기능을 지원하기 위해 몇 가지 방법으로 Markdown을 확장했습니다.
 
 ## Markdown 기본 사항
+
+다음 섹션에서는 Markdown으로 작성하는 기본 사항을 설명합니다.
 
 ### 제목
 
