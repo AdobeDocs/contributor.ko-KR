@@ -1,11 +1,11 @@
 ---
 title: 설명서 작성에 Markdown을 사용하는 방법
-description: Markdown 작성에 대한 기본 사항을 알아봅니다. 문서 작성에 사용되는 Markdown 언어에 대한 참조 정보를 찾습니다.
+description: Markdown 작성의 기본 사항에 대해 알아보십시오. 문서 작성에 사용되는 Markdown 언어에 대한 참조 정보를 확인하십시오.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1500'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Docs 내용은 GitHub에 저장되므로 일반적인 형식 요구 사항
 
 ## Markdown 기본 사항
 
-다음 섹션에서는 Markdown으로 작성하는 기본 사항을 설명합니다.
+다음 섹션에서는 Markdown 작성의 기본 사항에 대해 설명합니다.
 
 ### 제목
 
@@ -65,7 +65,7 @@ This is not \*italicized\* type.
 1. This is the next step.
 1. This is yet another step, the third.
 
-글머리 기호 목록을 만들려면, 줄을 \* 또는 - 또는 +로 시작하되, 동일한 목록 내에서 형식들을 혼합하지 마십시오. (동일한 문서 내에서 \* 및 \+와 같은 글머리 기호 형식을 혼합하지 마십시오.)
+글머리 기호 목록을 만들려면 줄을 \* 또는 - 또는 +로 시작하되, 동일한 목록 내에서 형식들을 혼합하지 마십시오. (동일한 문서 내에서 \* 및 \+와 같은 글머리 기호 형식을 혼합하지 마십시오.)
 
 ```markdown
 * First item in an unordered list.
@@ -142,7 +142,7 @@ This is not \*italicized\* type.
 표 만들기에 대한 자세한 내용은 다음을 참조하십시오.
 
 * GitHub의 [표 구성 정보](https://help.github.com/articles/organizing-information-with-tables/)
-* [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) 웹앱
+* [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) 웹 앱
 * [HTML 표를 Markdown으로 변환](https://jmalarcon.github.io/markdowntables/)
 
 ### 링크
@@ -181,7 +181,7 @@ See [Overview example article](../../overview.md)
 
 ### 코드 블록
 
-Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 &quot;펜싱된&quot; 블록으로 배치할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)
+Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 “펜싱된” 블록으로 배치할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)
 
 백틱(`` ` ``)을 사용하여 단락 내에 인라인 코드 스타일을 만듭니다. 특정 여러 줄 코드 블록을 생성하려면 코드 블록(Markdown에서는 “펜스 코드 블록”이라고 하며 AEM에서는 “코드 블록” 구성 요소라고 함) 전후에 세 개의 백틱(` ``` `)을 추가합니다. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예: ` ```javascript`
 
@@ -211,9 +211,9 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 * 현지화하지 않음
 * 다른 제목 ID를 제목에 지정하는 것과 같은 구성 요소 속성
 
-참고 사항과 같은 확장된 구성 요소를 함께 연결하려면 각 줄의 맨 앞에 Markdown 블록 따옴표(>)를 사용하십시오. 구성 요소 내에 하위 구성 요소를 사용해야 하는 경우에는 해당 하위 구성 요소 섹션용으로 추가 블록 따옴표(> >)를 추가합니다. 예를 들어, DONOTLOCALIZE 섹션 내의 NOTE는 >    >로 시작해야 합니다.
+참고 사항과 같은 확장된 구성 요소를 함께 연결하려면 각 줄의 맨 앞에 Markdown 블록 따옴표(>)를 사용하십시오. 구성 요소 내에 하위 구성 요소를 사용해야 하는 경우에는 해당 하위 구성 요소 섹션용으로 추가 블록 따옴표(> >)를 추가합니다. 예를 들어 DONOTLOCALIZE 섹션 내의 NOTE는 >    >로 시작해야 합니다.
 
-제목 및 코드 블록과 같은 일부 일반적인 Markdown 요소에는 확장된 속성이 포함됩니다. 기본 속성을 변경해야 하는 경우 구성 요소 뒤에 프랑스식 중괄호 /{ /}로 매개 변수를 추가하십시오. 확장된 속성은 문맥 내에 설명되어 있습니다.
+제목 및 코드 블록과 같은 일부 일반적인 Markdown 요소에는 확장된 속성이 포함됩니다. 기본 속성을 변경해야 하는 경우 구성 요소 뒤에 프랑스식 중괄호 /{ /}로 매개변수를 추가하십시오. 확장된 속성은 문맥 내에 설명되어 있습니다.
 
 ### 참고 블록
 
@@ -269,7 +269,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 ### 다음과 같음
 
-AEM의 &quot;다음과 같음&quot;(More Like This) 구성 요소는 문서의 끝에 나타납니다. 이 구성 요소는 관련 링크를 표시합니다. 문서가 렌더링되면 미니 목차에 추가되지 않고 수준 2 제목(##)과 동일한 서식을 지정할 수 있습니다.
+AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 나타납니다. 이 구성 요소는 관련 링크를 표시합니다. 문서가 렌더링되면 미니 목차에 추가되지 않고 수준 2 제목(##)과 동일한 서식을 지정할 수 있습니다.
 
 ```markdown
 >[!MORELIKETHIS]
@@ -342,9 +342,9 @@ AEM의 &quot;다음과 같음&quot;(More Like This) 구성 요소는 문서의 �
 
 ### 아포스트로피 및 큰따옴표
 
-텍스트를 Markdown 편집기에 복사하는 경우 텍스트에 &quot;스마트&quot;(둥근) 아포스트로피나 큰따옴표가 있을 수 있습니다. 이러한 기호는 인코딩하거나 기본 아포스트로피나 큰따옴표로 변경해야 합니다. 그렇지 않을 경우 파일이 게시되면 Itâ€™s와 같이 이상한 문자가 표시됩니다.
+텍스트를 Markdown 편집기에 복사하는 경우 텍스트에 “스마트”(둥근) 아포스트로피나 큰따옴표가 있을 수 있습니다. 이러한 기호는 인코딩하거나 기본 아포스트로피나 큰따옴표로 변경해야 합니다. 그렇지 않을 경우 파일이 게시되면 Itâ€™s와 같이 이상한 문자가 표시됩니다.
 
-이러한 &quot;스마트&quot; 버전의 문장 부호는 다음과 같이 인코딩합니다.
+이러한 “스마트” 버전의 문장 부호는 다음과 같이 인코딩합니다.
 
 * 왼쪽(열린) 큰따옴표 - `&#8220;`
 * 오른쪽(닫힌) 큰따옴표 - `&#8221;`
@@ -353,13 +353,13 @@ AEM의 &quot;다음과 같음&quot;(More Like This) 구성 요소는 문서의 �
 
 ### 꺾쇠 괄호
 
-파일에서 텍스트(코드가 아님)에 꺾쇠 괄호를 사용하는 경우(예를 들어, 자리 표시자를 표시하기 위해)에는 꺾쇠 괄호를 수동으로 인코딩해야 합니다. 그렇지 않으면 Markdown에서는 해당 기호를 HTML 태그로 인식합니다.
+파일에서 텍스트(코드가 아님)에 꺾쇠 괄호를 사용하는 경우(예를 들어 자리 표시자를 표시하기 위해)에는 꺾쇠 괄호를 수동으로 인코딩해야 합니다. 그렇지 않으면 Markdown에서는 해당 기호를 HTML 태그로 인식합니다.
 
 예를 들어 `<script name>`을 다음과 같이 인코딩하십시오. `&lt;script name&gt;`
 
 ### 제목의 앰퍼샌드
 
-앰퍼샌드(&amp;)는 제목에서 허용되지 않습니다. 대신 &quot;and&quot;(및)를 사용하거나 `&amp;` 인코딩을 사용하십시오.
+앰퍼샌드(&amp;)는 제목에서 허용되지 않습니다. 대신 “and”(및)를 사용하거나 `&amp;` 인코딩을 사용하십시오.
 
 ## 참조 -
 
