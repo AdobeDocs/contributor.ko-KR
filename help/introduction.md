@@ -1,26 +1,27 @@
 ---
 title: Adobe 설명서에 대한 기여자 안내서
-seo-title: Adobe Experience Cloud 기술 설명서에 대한 기여자 안내서 개요
+seo-title: Contributor guide overview for Adobe Experience Cloud technical documentation
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
-seo-description: 이 안내서에서는 [!UICONTROL Adobe Experience Cloud] 기술 설명서에 기여할 수 있는 방법에 대해 설명합니다.
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
+exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
+source-git-commit: 5a9bbe0663a1efa8a683e892a42faed18f072e8a
+workflow-type: tm+mt
+source-wordcount: '819'
+ht-degree: 87%
 
 ---
 
+# Adobe 설명서에 대한 기여자 안내서
 
-# Adobe 설명서에 대한 기여자 안내서 개요
+이 안내서에서는 Experience League에 대한 Adobe 엔터프라이즈 도움말에 기여할 수 있는 방법에 대해 설명합니다.
 
-## 협업 설명서 소개
+## 공동 작업 문서란 무엇입니까?
 
-Adobe Experience Cloud 및 기타 Adobe Enterprise 제품의 기술 설명서 및 활성화 내용은 새로운 플랫폼으로 전환되었습니다. 이 새로운 플랫폼은 Github, Markdown 및 Adobe Experience Cloud 솔루션을 활용하는 오픈 소스 원칙을 기반으로 합니다.
+Adobe Experience Cloud 및 기타 Adobe Enterprise 제품에 대한 기술 설명서 및 지원 콘텐츠는 GitHub, Markdown 및 Adobe Experience Cloud 솔루션을 사용하는 오픈 소스 원칙을 기반으로 합니다.
 
-이 오픈 소스 모델은 콘텐츠 품질을 향상시키고 고객, 설명서 팀 및 제품 팀 간의 커뮤니케이션을 향상시켜줍니다. 모든 페이지에서 콘텐츠 유용성을 평가하고, 문제를 기록하며, 콘텐츠 제안을 Git 풀 요청(PR)으로 제공할 수 있습니다. Adobe 설명서 팀은 매일 기여 및 문제를 모니터링하고 필요에 따라 업데이트, 수정 및 조정을 수행합니다.
+이 오픈 소스 모델은 고객, 설명서 팀 및 제품 팀 간의 컨텐츠 품질 및 커뮤니케이션을 향상시켜 줍니다. 모든 페이지에서 콘텐츠 유용성을 평가하고, 문제를 기록하며, 콘텐츠 제안을 Git 풀 요청(PR)으로 제공할 수 있습니다. Adobe 설명서 팀은 매일 기여 및 문제를 모니터링하고 필요에 따라 업데이트, 수정 및 조정을 수행합니다.
 
-## 협업 설명서 작업
+## 공동 작업 문서 작업
 
 직원, 파트너, 고객 또는 잠재 고객인 경우와 상관없이 이 자료의 사용자인 경우, 귀하는 몇 가지 간단한 방법으로 이 문서에 기여하도록 선택할 수 있습니다.
 
