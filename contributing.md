@@ -1,9 +1,9 @@
 ---
 title: 기여
 description: AdobeDocs 설명서에 기고하는 방법에 대한 정보입니다.
-source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
+source-git-commit: 99540be2c2310e2250a0ceb14fb133b630ec397e
 workflow-type: ht
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 콘텐츠 작가 안내서 설명서
 
-[콘텐츠 작가 안내서](https://docs.adobe.com/content/help/ko/contributor/contributor-guide/introduction.html)를 참조하십시오.
+[콘텐츠 작가 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko-KR)를 참조하십시오.
 
 ## 질문이 있습니까?
 
