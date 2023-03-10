@@ -2,7 +2,7 @@
 title: 주요 변경 사항에 대한 GitHub 기여 워크플로
 description: Experience League에서 Adobe 설명서에 기여하는 방법을 알아봅니다.
 exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
-source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: ht
 source-wordcount: '944'
 ht-degree: 100%
@@ -38,6 +38,7 @@ ht-degree: 100%
 ## 워크플로
 
 >[!IMPORTANT]
+>
 > 아직 완료하지 않았다면 [설정](github-signup.md) 섹션의 단계를 완료해야 합니다.
 
 이 워크플로에서는 변경 사항이 반복적인 사이클로 흐릅니다. 변경 사항은 디바이스의 로컬 리포지토리에서 시작하여 위의 GitHub 포크로 다시 이동하고 주 GitHub 리포지토리로 이동한 다음 다른 기여자의 변경 사항을 통합할 때 다시 아래의 로컬로 이동합니다.
