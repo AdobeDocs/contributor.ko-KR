@@ -3,7 +3,7 @@ title: 작성 도구 설치
 description: 이 문서는 Git/GitHub 및 Markdown 파일 편집에 필요한 클라이언트 도구를 다운로드하고 설치하는 데 도움이 됩니다.
 exl-id: 930185cf-fff5-485a-9824-70c32c55800d
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
 

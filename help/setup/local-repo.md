@@ -1,14 +1,13 @@
 ---
 title: 로컬로 Git 리포지토리 설정
 description: 이 문서에서는 포크 및 복제 프로세스를 포함하여, 로컬 Git 리포지토리를 만들고 Adobe 설명서에 기여하는 지침을 제공합니다.
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
+exl-id: 679c07a2-030b-4a30-ba14-7780f88dae11
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
 
 ---
-
 
 # 로컬로 설명서를 위한 Git 리포지토리 설정
 
@@ -71,8 +70,8 @@ GitHub 웹 사이트를 통해 적절한 리포지토리를 사용하여 고유�
 
 1. **복제 또는 다운로드**&#x200B;를 클릭한 다음 **데스크탑에서 열기**&#x200B;를 선택하여 리포지토리의 사본을 현재 디렉토리에 있는 컴퓨터로 가져옵니다.
 
-![리포지토리 복제](assets/clone-pulldown.png)
+   ![저장소 복제](assets/clone-pulldown.png)
 
-1. GitHub Desktop을 사용하여 로컬 파일을 포크된 저장소와 계속 동기화할 수 있습니다.
+1. GitHub Desktop을 사용하여 로컬 파일을 포크된 리포지토리와 계속 동기화할 수 있습니다.
 
 자세한 내용은 [GitHub Desktop 설명서](https://help.github.com/desktop/)를 참조하십시오.

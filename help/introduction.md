@@ -4,10 +4,10 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 8e7d5fb9dc5686df32f7d917ebfb290547d299be
-workflow-type: ht
-source-wordcount: '800'
-ht-degree: 100%
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 69%
 
 ---
 
@@ -23,11 +23,15 @@ Adobe Experience Cloud 및 기타 Adobe Enterprise 제품에 대한 기술 문�
 
 ## 협업 설명서 작업
 
-직원, 파트너, 고객 또는 잠재 고객 등 이 자료의 사용자라면 다음과 같은 몇 가지 간단한 방법으로 이 설명서에 기여할 수 있습니다.
+직원, 파트너, 고객 또는 잠재 고객 등 이 자료의 사용자라면 몇 가지 간단한 방법으로 이 설명서에 기여할 수 있습니다.
 
-* 페이지의 유용성 평가
-* 특정 페이지에 대한 문제 기록
-* 에셋 및 코드 샘플이 포함된 전체 문서를 작성하여 간단한 편집 내용 제출
+* 페이지의 유용성을 평가하고 ❶ 선택적 주석을 ❷ 작성하십시오.
+* 특정 페이지에 대한 문제 보고(Git 로그인 필요❸)
+* 에셋 및 코드 샘플이 포함된 전체 문서를 작성하여 빠른 편집 제출(Git 로그인 필요❹)
+
+![피드백](assets/feedback-options.png)
+
+이러한 옵션은 페이지가 열린 후 몇 초 후에 페이지 하단에 나타납니다. 피드백 영역을 무시하면 페이지를 다시 로드하여 다시 가져올 수 있습니다.
 
 이 안내서는 이 자료 세트에 상호 작용하고 기여하기 위해 알아야 할 모든 사항을 개략적으로 설명합니다.
 
@@ -38,16 +42,23 @@ Adobe Experience Cloud 및 기타 Adobe Enterprise 제품에 대한 기술 문�
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 -->
 
+## 페이지의 유용성 평가 및 댓글 작성
+
+페이지를 열고 몇 초 후에 페이지 하단에 피드백 영역이 나타납니다. 페이지가 유용했는지 여부를 표시하려면 위쪽 또는 아래쪽을 클릭합니다.
+
+추가 피드백을 제공하려면 언제든지 댓글을 남겨 주십시오.
+
 ## 기존 문서의 빠른 편집
 
-빠른 편집은 문서의 사소한 오류와 누락을 수정하는 좋은 방법입니다. 문서에 아래와 같이 [편집] 버튼이 표시되는 경우 직접 빠른 수정 작업을 할 수 있습니다. 문서를 편집할 때 가져오기 요청(PR)을 제출하여 수정/제안을 Adobe에 제출하십시오. 그러면 Adobe에서 제안을 조사하고, 승인하고, 게시할 수 있습니다.
+보다 자세한 피드백을 제공하려면 빠르게 편집하는 것이 문서의 사소한 오류와 누락을 수정하는 좋은 방법입니다. 편집을 제안할 때, 귀하는 당사에 수정/제안을 제출하기 위한 가져오기 요청(PR)을 제출하며, 당사는 제안을 검토, 승인 및 게시할 수 있습니다.
 
 1. 수락하려면 [기여자 라이선스 계약(CLA)](http://opensource.adobe.com/cla.html)에 서명하십시오.
 
    Adobe CLA는 한 번만 제출하면 됩니다.
-1. 오른쪽 열의 **[!UICONTROL Edit this page]**&#x200B;을 클릭하여 GitHub의 Markdown 소스 파일로 이동합니다.
 
-   ![이 페이지 아이콘 편집](/help/assets/git_edit.png)
+1. 문서 하단에 나타나는 피드백 영역에서 을 클릭합니다. **[!UICONTROL Detailed feedback options]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Suggest an edit]** GitHub의 Markdown 소스 파일로 이동합니다.
+
+   ![이 페이지 아이콘 편집](/help/assets/feedback-suggest-edit.png)
 
 1. 연필 아이콘을 클릭하여 문서를 편집합니다.
 
@@ -55,11 +66,12 @@ Adobe Experience Cloud 및 기타 Adobe Enterprise 제품에 대한 기술 문�
    >
    >연필 아이콘이 회색으로 표시된다면 GitHub 계정에 로그인하거나 새 계정을 만들어야 합니다.
 
-   ![연필 아이콘 위치](assets/edit-icon.png)
+   ![연필 아이콘 위치](assets/git_edit.png)
 
 1. 웹 편집기에서 변경 작업을 수행합니다.
 
    **[!UICONTROL Preview changes]** 탭을 클릭하여 변경 내용의 서식을 확인할 수 있습니다.
+
 1. 변경 작업을 수행한 후 페이지 하단으로 스크롤합니다.
 
    다음 그림과 같이 PR의 제목과 설명을 입력한 다음 **[!UICONTROL Propose file change]**&#x200B;을 클릭합니다.
@@ -72,17 +84,17 @@ Adobe Experience Cloud 및 기타 Adobe Enterprise 제품에 대한 기술 문�
 
 이제 모두 완료되었습니다. 설명서 팀원이 가져오기 요청을 검토하고 병합하게 됩니다. 감사합니다.
 
-## 문제 기록
+## 문제 보고
 
-한 내용에 있는 문제에 대해 Adobe에 알리는 또 다른 간단한 방법은 **[!UICONTROL Log an Issue]**&#x200B;을 사용하는 것입니다.
+한 내용에 있는 문제에 대해 Adobe에 알리는 또 다른 간단한 방법은 **[!UICONTROL Report an issue]**&#x200B;을 사용하는 것입니다.
 
-1. 콘텐츠의 일부에 문제가 있는 것을 발견한 경우 오른쪽 열에 있는 **[!UICONTROL Log an Issue]** 아이콘을 클릭합니다.
+1. 문서 하단에 나타나는 피드백 영역에서 을 클릭합니다. **[!UICONTROL Detailed feedback options]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Report an issue]** GitHub의 Markdown 소스 파일로 이동합니다.
 
-   ![](assets/git_log_issue.png)
+   ![문제 보고](assets/feedback-report-issue.png)
 
    >[!NOTE]
    >
-   >문제를 기록하려면 GitHub 계정에 로그인하거나 계정을 만들어야 합니다.
+   >문제를 보고하려면 GitHub 계정에 로그인하거나 계정을 만들어야 합니다.
 
    이 링크를 클릭하면 GitHub 문제 인터페이스를 사용하여 Experience League에 빠른 티켓을 기록할 수 있습니다.
 
