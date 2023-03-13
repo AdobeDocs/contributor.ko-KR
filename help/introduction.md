@@ -4,10 +4,10 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+source-git-commit: 2721a71924c46e1536394625c945bdd791e8ac70
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 69%
+ht-degree: 98%
 
 ---
 
@@ -23,15 +23,15 @@ Adobe Experience Cloud 및 기타 Adobe Enterprise 제품에 대한 기술 문�
 
 ## 협업 설명서 작업
 
-직원, 파트너, 고객 또는 잠재 고객 등 이 자료의 사용자라면 몇 가지 간단한 방법으로 이 설명서에 기여할 수 있습니다.
+직원, 파트너, 고객 또는 잠재 고객인 경우와 상관없이 이 자료의 사용자인 경우, 귀하는 몇 가지 간단한 방법으로 이 문서에 기여하도록 선택할 수 있습니다.
 
 * 페이지의 유용성을 평가하고 ❶ 선택적 주석을 ❷ 작성하십시오.
-* 특정 페이지에 대한 문제 보고(Git 로그인 필요❸)
-* 에셋 및 코드 샘플이 포함된 전체 문서를 작성하여 빠른 편집 제출(Git 로그인 필요❹)
+* 특정 페이지에 대한 문제 보고(Git 로그인 필요) ❸
+* 에셋 및 코드 샘플이 포함된 전체 문서를 작성하여 빠른 편집 제출(Git 로그인 필요) ❹
 
 ![피드백](assets/feedback-options.png)
 
-이러한 옵션은 페이지가 열린 후 몇 초 후에 페이지 하단에 나타납니다. 피드백 영역을 무시하면 페이지를 다시 로드하여 다시 가져올 수 있습니다.
+이러한 옵션은 페이지가 열리고 몇 초 후에 페이지 하단에 표시됩니다. 피드백 영역을 닫은 경우 페이지를 다시 로드하여 가져올 수 있습니다.
 
 이 안내서는 이 자료 세트에 상호 작용하고 기여하기 위해 알아야 할 모든 사항을 개략적으로 설명합니다.
 
@@ -44,19 +44,19 @@ Adobe Experience Cloud 및 기타 Adobe Enterprise 제품에 대한 기술 문�
 
 ## 페이지의 유용성 평가 및 댓글 작성
 
-페이지를 열고 몇 초 후에 페이지 하단에 피드백 영역이 나타납니다. 페이지가 유용했는지 여부를 표시하려면 위쪽 또는 아래쪽을 클릭합니다.
+페이지를 열고 몇 초가 지나면 페이지 하단에 피드백 영역이 표시됩니다. 위 또는 아래를 클릭하여 페이지가 도움이 되었는지 표시합니다.
 
-추가 피드백을 제공하려면 언제든지 댓글을 남겨 주십시오.
+추가 피드백을 제공하려면 자유롭게 댓글을 남겨 주십시오.
 
 ## 기존 문서의 빠른 편집
 
-보다 자세한 피드백을 제공하려면 빠르게 편집하는 것이 문서의 사소한 오류와 누락을 수정하는 좋은 방법입니다. 편집을 제안할 때, 귀하는 당사에 수정/제안을 제출하기 위한 가져오기 요청(PR)을 제출하며, 당사는 제안을 검토, 승인 및 게시할 수 있습니다.
+더 자세한 피드백을 제공하려면 빠른 편집을 통해 문서의 사소한 오류와 누락을 수정하는 것이 좋습니다. 문서를 편집하고자 할 때, 가져오기 요청(PR)을 제출하여 수정/제안을 Adobe에 제출하십시오. 그러면 Adobe에서 제안을 조사하고, 승인하고, 게시할 수 있습니다.
 
 1. 수락하려면 [기여자 라이선스 계약(CLA)](http://opensource.adobe.com/cla.html)에 서명하십시오.
 
    Adobe CLA는 한 번만 제출하면 됩니다.
 
-1. 문서 하단에 나타나는 피드백 영역에서 을 클릭합니다. **[!UICONTROL Detailed feedback options]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Suggest an edit]** GitHub의 Markdown 소스 파일로 이동합니다.
+1. 문서 하단에 표시되는 피드백 영역에서 **[!UICONTROL Detailed feedback options]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Suggest an edit]**&#x200B;을(를) 클릭하여 GitHub의 Markdown 소스 파일로 이동합니다.
 
    ![이 페이지 아이콘 편집](/help/assets/feedback-suggest-edit.png)
 
@@ -88,7 +88,7 @@ Adobe Experience Cloud 및 기타 Adobe Enterprise 제품에 대한 기술 문�
 
 한 내용에 있는 문제에 대해 Adobe에 알리는 또 다른 간단한 방법은 **[!UICONTROL Report an issue]**&#x200B;을 사용하는 것입니다.
 
-1. 문서 하단에 나타나는 피드백 영역에서 을 클릭합니다. **[!UICONTROL Detailed feedback options]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Report an issue]** GitHub의 Markdown 소스 파일로 이동합니다.
+1. 문서 하단에 표시되는 피드백 영역에서 **[!UICONTROL Detailed feedback options]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Report an issue]**&#x200B;을(를) 클릭하여 GitHub의 Markdown 소스 파일로 이동합니다.
 
    ![문제 보고](assets/feedback-report-issue.png)
 
