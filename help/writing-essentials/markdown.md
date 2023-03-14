@@ -2,10 +2,10 @@
 title: 설명서 작성에 Markdown을 사용하는 방법
 description: Markdown 작성의 기본 사항에 대해 알아보십시오. 문서 작성에 사용되는 Markdown 언어에 대한 참조 정보를 확인하십시오.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
-workflow-type: ht
-source-wordcount: '1500'
-ht-degree: 100%
+source-git-commit: 065e43d5251f80050deef02e9c18b3fb4e9c1204
+workflow-type: tm+mt
+source-wordcount: '1430'
+ht-degree: 97%
 
 ---
 
@@ -86,11 +86,13 @@ This is not \*italicized\* type.
 1. Perform this step.
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
+
 1. Make sure that your table looks like this: 
 
    | Hello | World |
    |---|---|
    | How | are you? |  
+
 1. This is the fourth step.
 
    >[!NOTE]
@@ -106,11 +108,13 @@ This is not \*italicized\* type.
 1. Perform this step.
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
+
 1. Make sure that your table looks like this:
 
    | Hello | World |
    |---|---|
    | How | are you? |
+
 1. This is the fourth step.
 
    >[!NOTE]
@@ -177,8 +181,6 @@ See [Overview example article](../../overview.md)
 
 ![Adobe 로고](assets/no-localize/adobe_standard_logo.png "마우스로 가리키면 표시되는 텍스트")
 
-**참고:** 현지화하면 안 되는 이미지의 경우 에셋 폴더에 별도의 `do-not-localize` 폴더를 생성합니다. 일반적으로 텍스트가 없는 이미지 또는 샘플 콘텐츠만 포함된 이미지가 배치됩니다. 이렇게 하면 에셋 폴더에서 “노이즈”가 제거되고 질문의 양이 줄어듭니다.
-
 ### 코드 블록
 
 Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 “펜싱된” 블록으로 배치할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)
@@ -208,10 +210,10 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 * 참고 블록
 * 임베드된 비디오
-* 현지화하지 않음
-* 다른 제목 ID를 제목에 지정하는 것과 같은 구성 요소 속성
+* 번역 태그
+* 다른 제목 ID를 제목에 할당하고 이미지 크기를 지정하는 것과 같은 구성 요소 속성
 
-참고 사항과 같은 확장된 구성 요소를 함께 연결하려면 각 줄의 맨 앞에 Markdown 블록 따옴표(>)를 사용하십시오. 구성 요소 내에 하위 구성 요소를 사용해야 하는 경우에는 해당 하위 구성 요소 섹션용으로 추가 블록 따옴표(> >)를 추가합니다. 예를 들어 DONOTLOCALIZE 섹션 내의 NOTE는 >    >로 시작해야 합니다.
+참고 사항과 같은 확장된 구성 요소를 함께 연결하려면 각 줄의 맨 앞에 Markdown 블록 따옴표(>)를 사용하십시오.
 
 제목 및 코드 블록과 같은 일부 일반적인 Markdown 요소에는 확장된 속성이 포함됩니다. 기본 속성을 변경해야 하는 경우 구성 요소 뒤에 프랑스식 중괄호 /{ /}로 매개변수를 추가하십시오. 확장된 속성은 문맥 내에 설명되어 있습니다.
 
@@ -229,7 +231,6 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 * `[!PREREQUISITES]`
 
 일반적으로 참고 블록은 문맥을 끊을 수 있으므로 제한적으로 사용해야 합니다. 참고 블록에 코드 블록, 이미지, 목록, 링크를 사용할 수도 있지만 참고 블록은 간단하고 단순하게 유지하도록 하십시오.
-
 
 ```markdown
 >[!NOTE]
@@ -273,6 +274,7 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 
 ```markdown
 >[!MORELIKETHIS]
+>
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
@@ -280,6 +282,7 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 표시:
 
 >[!MORELIKETHIS]
+>
 >* [Article 1](https://helpx.adobe.com/kr/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/kr/support/audience-manager.html)
 
@@ -334,7 +337,7 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 ![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
-다음과 같은 텍스트를 사용하는 것이 좋습니다(파일 이름에서 밑줄(_) 대신 하이픈(-) 사용).
+파일 이름에서 밑줄(_) 대신 하이픈(-)을 사용하는 것이 좋습니다.
 
 ```markdown
 ![Settings-Step-2](/assets/settings-step-2.png)
