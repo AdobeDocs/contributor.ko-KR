@@ -3,9 +3,9 @@ title: Adobe Experience Cloud 제품 설명서에 대한 언어 지원
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
 exl-id: 6ba93c9f-15c3-47ba-aa41-d226f5d4e435
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe에서는 자동 번역 기능을 이용하여 콘텐츠 생성과 최대�
 
 ### 피드백
 
-기본적으로 또는 사용자 조치를 통해 콘텐츠가 자동으로 번역될 때마다 번역에 대한 피드백을 Adobe에 제공하는 옵션이 있습니다. 페이지 상단의 밝은 파란색 가로 막대에서 &quot;이 번역이 유용했습니까?&quot;라는 질문에 &quot;예&quot; 또는 &quot;아니요&quot;로 답변할 수 있습니다. Adobe에서는 콘텐츠 번역에 대한 의사를 결정하기 위해 이 귀중한 지표를 수집하여 축적된 데이터를 분석합니다. Adobe에서는 피드백을 존중하며 응답을 장려합니다.
+기본적으로 또는 사용자 조치를 통해 콘텐츠가 자동으로 번역될 때마다 번역에 대한 피드백을 Adobe에 제공하는 옵션이 있습니다. 페이지 맨 위의 담청색 가로 막대에서 “이 번역이 유용했습니까?”라는 질문에 “예” 또는 “아니요”로 답변할 수 있습니다. Adobe에서는 콘텐츠 번역에 대한 의사를 결정하기 위해 이 귀중한 지표를 수집하여 축적된 데이터를 분석합니다. Adobe에서는 피드백을 존중하며 응답을 장려합니다.
 
 ![피드백](assets/machine-translation-feedback.png)
 
