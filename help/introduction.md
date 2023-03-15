@@ -5,9 +5,9 @@ description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추�
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 source-git-commit: 2721a71924c46e1536394625c945bdd791e8ac70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '904'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Cloud 및 기타 Adobe Enterprise 제품에 대한 기술 문�
 
 직원, 파트너, 고객 또는 잠재 고객인 경우와 상관없이 이 자료의 사용자인 경우, 귀하는 몇 가지 간단한 방법으로 이 문서에 기여하도록 선택할 수 있습니다.
 
-* 페이지의 유용성을 평가하고 ❶ 선택적 주석을 ❷ 작성하십시오.
+* 페이지의 유용성 평가 ❶ 및 댓글 작성 (선택 사항) ❷
 * 특정 페이지에 대한 문제 보고 (Git 로그인 필요) ❸
 * 에셋 및 코드 샘플이 포함된 전체 문서를 작성하여 빠른 편집 제출 (Git 로그인 필요) ❹
 
