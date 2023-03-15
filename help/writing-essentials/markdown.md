@@ -3,9 +3,9 @@ title: 설명서 작성에 Markdown을 사용하는 방법
 description: Markdown 작성의 기본 사항에 대해 알아보십시오. 문서 작성에 사용되는 Markdown 언어에 대한 참조 정보를 확인하십시오.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 065e43d5251f80050deef02e9c18b3fb4e9c1204
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -331,13 +331,13 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 
 ### 대체 텍스트
 
-밑줄이 포함된 대체 텍스트는 올바로 렌더링되지 않습니다. 예를 들어 아래 텍스트를 사용하는 대신
+밑줄이 포함된 대체 텍스트는 올바로 렌더링되지 않습니다. 예를 들어 이를 사용하는 대신
 
 ```markdown
 ![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
-파일 이름에서 밑줄(_) 대신 하이픈(-)을 사용하는 것이 좋습니다.
+당사의 모범 사례는 파일 이름에서 밑줄(_) 대신 하이픈(-)을 사용하는 것입니다.
 
 ```markdown
 ![Settings-Step-2](/assets/settings-step-2.png)
