@@ -2,10 +2,10 @@
 title: 설명서 작성에 Markdown을 사용하는 방법
 description: Markdown 작성의 기본 사항에 대해 알아보십시오. 문서 작성에 사용되는 Markdown 언어에 대한 참조 정보를 확인하십시오.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 19ea281ffce60c91edd0a47449152fc1138031c5
-workflow-type: ht
-source-wordcount: '1420'
-ht-degree: 100%
+source-git-commit: aec38dde9195855f96e7469c91c28d50ad516ae6
+workflow-type: tm+mt
+source-wordcount: '1419'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ This is not \*italicized\* type.
 
 * First item in an unordered list.
 * Another item.
-* Here we go again.
+* 다시 시작하겠습니다
 
 목록 내에 목록을 임베드하고 목록 항목 사이에 내용을 추가할 수도 있습니다.
 
@@ -119,7 +119,7 @@ This is not \*italicized\* type.
 
    >[!NOTE]
    >
-   >This is note text.
+   >참고 텍스트입니다.
 
 1. Do another step.
 
@@ -285,9 +285,8 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 표시:
 
 >[!MORELIKETHIS]
->
->* [Article 1](https://helpx.adobe.com/kr/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/kr/support/audience-manager.html)
+* [Article 1](https://helpx.adobe.com/kr/support/analytics.html)
+* [Article 2](https://helpx.adobe.com/kr/support/audience-manager.html)
 
 
 ### UICONTROL 및 DNL
@@ -312,7 +311,8 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**참고:** 세 가지 태그 지정 옵션 중 고품질을 제공하는 데 가장 중요하며 필수입니다.
+>[!NOTE]
+세 가지 태그 지정 옵션 중 고품질 전달을 위해 가장 중요하며 필수입니다.
 
 **`[!DNL]`**
 
