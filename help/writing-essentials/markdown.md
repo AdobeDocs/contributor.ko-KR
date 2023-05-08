@@ -2,10 +2,10 @@
 title: 설명서 작성에 Markdown을 사용하는 방법
 description: Markdown 작성의 기본 사항에 대해 알아보십시오. 문서 작성에 사용되는 Markdown 언어에 대한 참조 정보를 확인하십시오.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: aec38dde9195855f96e7469c91c28d50ad516ae6
+source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 98%
+source-wordcount: '1421'
+ht-degree: 97%
 
 ---
 
@@ -275,12 +275,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 나타납니다. 이 구성 요소는 관련 링크를 표시합니다. 문서가 렌더링되면 미니 목차에 추가되지 않고 수준 2 제목(##)과 동일한 서식을 지정할 수 있습니다.
 
-```markdown
->[!MORELIKETHIS]
->
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
-```
+![morelikethis 구문](assets/more-like-this-syntax.png)
 
 표시:
 
