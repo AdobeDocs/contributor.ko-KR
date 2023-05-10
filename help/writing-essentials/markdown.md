@@ -5,7 +5,7 @@ exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
 workflow-type: tm+mt
 source-wordcount: '1421'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ This is not \*italicized\* type.
 
 * First item in an unordered list.
 * Another item.
-* 다시 시작하겠습니다
+* 또 다른 항목입니다.
 
 목록 내에 목록을 임베드하고 목록 항목 사이에 내용을 추가할 수도 있습니다.
 
@@ -307,7 +307,7 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 ```
 
 >[!NOTE]
-세 가지 태그 지정 옵션 중 고품질 전달을 위해 가장 중요하며 필수입니다.
+세 가지 태그 지정 옵션 중 고품질을 제공하는 데 가장 중요하며 필수입니다.
 
 **`[!DNL]`**
 
