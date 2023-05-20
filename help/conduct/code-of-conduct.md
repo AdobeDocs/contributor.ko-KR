@@ -3,7 +3,7 @@ title: Adobe 행동 강령
 description: 문제 보고 및 편집 변경 사항 제출에 대한 Adobe 행동 강령
 exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
 source-git-commit: 06b0a397f0612e5ecfca82fc7105a45ed167efc9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 100%
 
@@ -42,7 +42,8 @@ ht-degree: 100%
 
 ## 범위
 
-이 행동 강령은 개인이 프로젝트나 지역 사회를 대표할 때 프로젝트 공간과 공공 장소 모두에 적용됩니다. 프로젝트 또는 지역 사회를 대표하는 예로는 공식 프로젝트 이메일 주소 사용, 공식 소셜 미디어 계정을 통해 게시 또는 온라인 또는 오프라인 이벤트에서 지정된 대표자 역할을 수행하는 것 등이 있습니다. 프로젝트 대표는 프로젝트 관리자가 더 정확하고 명확하게 정의할 수 있습니다.
+이 행동 강령은 개인이 프로젝트나 지역 사회를 대표할 때 프로젝트 공간과
+공공 장소 모두에 적용됩니다. 프로젝트 또는 지역 사회를 대표하는 예로는 공식 프로젝트 이메일 주소 사용, 공식 소셜 미디어 계정을 통해 게시 또는 온라인 또는 오프라인 이벤트에서 지정된 대표자 역할을 수행하는 것 등이 있습니다. 프로젝트 대표는 프로젝트 관리자가 더 정확하고 명확하게 정의할 수 있습니다.
 
 ## 시행
 
@@ -52,6 +53,6 @@ ht-degree: 100%
 
 선의로 행동 강령을 준수하거나 시행하지 않는 프로젝트 관리자들은 해당 프로젝트 경영진의 판단에 따라 일시적 또는 영구적 영향을 받을 수 있습니다.
 
-## 귀속
+## 속성
 
-이 행동 강령은 [Contributor Covenant](https://contributor-covenant.org)(콘텐츠 작가 규약) 버전 1.4를 개작한 것이며 다음 사이트에서 확인할 수 있습니다. [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+이 행동 강령은 [콘텐츠 작가 규약](https://contributor-covenant.org), 버전 1.4([https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/))에서 다운로드할 수 있습니다.

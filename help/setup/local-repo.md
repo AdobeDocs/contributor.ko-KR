@@ -3,7 +3,7 @@ title: 로컬로 Git 리포지토리 설정
 description: 이 문서에서는 포크 및 복제 프로세스를 포함하여, 로컬 Git 리포지토리를 만들고 Adobe 설명서에 기여하는 지침을 제공합니다.
 exl-id: 679c07a2-030b-4a30-ba14-7780f88dae11
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
 

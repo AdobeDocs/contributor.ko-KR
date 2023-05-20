@@ -3,7 +3,7 @@ title: 설명서 작성에 Markdown을 사용하는 방법
 description: Markdown 작성의 기본 사항에 대해 알아보십시오. 문서 작성에 사용되는 Markdown 언어에 대한 참조 정보를 확인하십시오.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 100%
 
@@ -280,8 +280,8 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 표시:
 
 >[!MORELIKETHIS]
->* [Article 1](https://helpx.adobe.com/kr/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/kr/support/audience-manager.html)
+* [Article 1](https://helpx.adobe.com/kr/support/analytics.html)
+* [Article 2](https://helpx.adobe.com/kr/support/audience-manager.html)
 
 
 ### UICONTROL 및 DNL
@@ -307,7 +307,7 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 ```
 
 >[!NOTE]
->세 가지 태그 지정 옵션 중 고품질을 제공하는 데 가장 중요하며 필수입니다.
+세 가지 태그 지정 옵션 중 고품질을 제공하는 데 가장 중요하며 필수입니다.
 
 **`[!DNL]`**
 

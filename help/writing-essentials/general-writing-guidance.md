@@ -4,8 +4,8 @@ title: 외부 참여자를 위한 작성 스타일 지침
 description: Experience League의 외부 참여자를 위한 작성 및 에디토리얼 가이드라인에 대해 알아봅니다.
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 source-git-commit: 03d46c9ffb664824f9526f781d776069d486f271
-workflow-type: ht
-source-wordcount: '2227'
+workflow-type: tm+mt
+source-wordcount: '2224'
 ht-degree: 100%
 
 ---
@@ -162,7 +162,7 @@ _제목_ 및 _설명_ 메타데이터는 SEO, 콘텐츠 검색 및 Experience Le
 | _클릭_&#x200B;이라는 표현을 _이동_ 또는 _선택_&#x200B;이라는 표현으로 변경 | _클릭_&#x200B;은 특정 디바이스에 국한된 단어로서(접근성 문제 있음), 점점 사용하지 않는 추세입니다. 이 표현을 변경하는 데 대한 제안 사항은 다음과 같습니다.<ul><li>탐색: _파일 > 인쇄로 이동합니다_.</li><li>클릭: _파일 > 인쇄를 선택합니다_ 또는 _확인을 선택합니다_. </li></ul>다양한 상황에서 최상의 단어 선택에 대한 자세한 아이디어는 [UI와의 상호 작용 설명](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/describing-interactions-with-ui)을 참조하십시오. |
 | VSC에서 Acrolinx 실행 | Acrolinx는 스타일 및 문법 문제를 확인합니다. URL, 용어, 맞춤법 등을 확인합니다. 명확성을 개선하고 Experience League 콘텐츠의 번역을 개선하는 데 도움이 됩니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 몇 가지 추가 모범 사례 및 리소스:
 

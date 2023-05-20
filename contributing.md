@@ -3,8 +3,8 @@ title: 기여
 description: AdobeDocs 설명서에 기고하는 방법에 대한 정보입니다.
 source-git-commit: 99540be2c2310e2250a0ceb14fb133b630ec397e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '301'
+ht-degree: 100%
 
 ---
 

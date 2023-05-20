@@ -3,7 +3,7 @@ title: 기여
 description: 이 프로젝트에 기여할 때 이 지침을 따르십시오.
 exl-id: 01dc5fd4-4676-41b1-be7b-aa4a9ea2fe14
 source-git-commit: 758ff966b959b614dd9250017c2a4eb5df47ffd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -17,9 +17,7 @@ ht-degree: 100%
 
 ## 행동 강령
 
-이 프로젝트는 Adobe [행동 강령](code-of-conduct.md)을 준수합니다. 참여 시
-이 수칙을 준수해야 합니다. 부적절한 행동은
-[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com)에 신고해 주십시오.
+이 프로젝트는 Adobe [행동 강령](code-of-conduct.md)을 준수합니다. 참여 시 이 수칙을 준수해야 합니다. 부적절한 행동은 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com)에 신고해 주십시오.
 
 ## 질문이 있습니까?
 

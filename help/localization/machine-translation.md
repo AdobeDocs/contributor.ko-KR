@@ -3,7 +3,7 @@ title: Adobe Experience Cloud 제품 설명서에 대한 언어 지원
 description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추가 사항을 제공하는 방법에 대해 설명합니다.
 exl-id: 6ba93c9f-15c3-47ba-aa41-d226f5d4e435
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 100%
 

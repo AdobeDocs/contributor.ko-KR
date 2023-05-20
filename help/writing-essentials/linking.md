@@ -1,17 +1,16 @@
 ---
 lastModified: 2018-06-28T00:00:00Z
 title: 설명서에서 링크 사용
-seo-title: Adobe Git/Markdown 설명서에서 링크 사용
+seo-title: Using links in Adobe Git/Markdown documentation
 description: 이 문서에서는 콘텐츠 및 이미지에 대한 링크 만들기에 대한 지침을 제공합니다.
-seo-description: 이 문서에서는 Adobe 설명서에 대한 콘텐츠 및 이미지에 대한 링크 만들기에 대한 지침을 제공합니다.
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
-source-wordcount: '340'
+seo-description: This article provides guidance on creating links to content and images for Adobe documentation.
+exl-id: f9d61aa9-931c-4654-ab21-c6e47936954e
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
+workflow-type: tm+mt
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
-
 
 # 설명서에서 링크 사용
 

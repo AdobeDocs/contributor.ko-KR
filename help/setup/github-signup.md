@@ -1,14 +1,13 @@
 ---
 title: GitHub 계정 설정 절차
 description: Adobe 설명서에 내용을 기여하기 위해 필요한 GitHub용 계정을 설정하는 프로세스를 차근차근 수행합니다.
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
+exl-id: 62be9e5a-bbbc-4a78-82e9-24cf658e6d35
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 
 ---
-
 
 # GitHub 계정 설정
 
