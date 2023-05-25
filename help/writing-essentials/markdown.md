@@ -185,7 +185,7 @@ See [Overview example article](../../overview.md)
 
 Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 “펜싱된” 블록으로 배치할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)
 
-백틱(`` ` ``)을 사용하여 단락 내에 인라인 코드 스타일을 만듭니다. 특정 여러 줄 코드 블록을 생성하려면 코드 블록(Markdown에서는 “펜스 코드 블록”이라고 하며 AEM에서는 “코드 블록” 구성 요소라고 함) 전후에 세 개의 백틱(` ``` `)을 추가합니다. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예: ` ```javascript`
+백틱(`` ` ``)을 사용하여 단락 내에 인라인 코드 스타일을 만듭니다. 특정 여러 줄 코드 블록을 생성하려면 코드 블록(Markdown에서는 “펜스 코드 블록”이라고 하며 AEM에서는 “코드 블록” 구성 요소라고 함) 전후에 세 개의 백틱(` ` `` `)을 추가합니다. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예: ` `` `javascript`
 
 예:
 
@@ -280,17 +280,17 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 표시:
 
 >[!MORELIKETHIS]
-* [Article 1](https://helpx.adobe.com/kr/support/analytics.html)
-* [Article 2](https://helpx.adobe.com/kr/support/audience-manager.html)
+>* [Article 1](https://helpx.adobe.com/kr/support/analytics.html)
+>* [Article 2](https://helpx.adobe.com/kr/support/audience-manager.html)
 
 
 ### UICONTROL 및 DNL
 
 모든 Markdown 도움말 콘텐츠는 초기에 기계 번역을 사용하여 현지화됩니다. 도움말이 현지화되지 않은 경우 기계 번역을 유지합니다. 그러나 도움말 콘텐츠가 과거에 현지화된 경우 기계 번역된 콘텐츠는 사람 번역 과정의 플레이스 홀더로서 기능합니다.
 
-**``**
+**&grave;&grave;**
 
-기계 번역 중에 ``로 태그가 지정된 항목은 적절한 번역을 위해 현지화 데이터베이스에 대해 확인됩니다. UI가 현지화되지 않은 경우 이 태그를 사용하면 시스템에서 특정 언어에 대한 UI 참조를 영어로 남길 수 있습니다.(예: 이탈리아어로 된 Analytics 참조).
+기계 번역 중에 &grave;&grave;로 태그가 지정된 항목은 적절한 번역을 위해 현지화 데이터베이스에 대해 확인됩니다. UI가 현지화되지 않은 경우 이 태그를 사용하면 시스템에서 특정 언어에 대한 UI 참조를 영어로 남길 수 있습니다.(예: 이탈리아어로 된 Analytics 참조).
 
 **예:**
 
@@ -307,7 +307,7 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 ```
 
 >[!NOTE]
-세 가지 태그 지정 옵션 중 고품질을 제공하는 데 가장 중요하며 필수입니다.
+>세 가지 태그 지정 옵션 중 고품질을 제공하는 데 가장 중요하며 필수입니다.
 
 **`[!DNL]`**
 
