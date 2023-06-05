@@ -5,8 +5,8 @@ description: 이 안내서에서는 Adobe 설명서 사이트에 제안과 추�
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 source-git-commit: 2721a71924c46e1536394625c945bdd791e8ac70
-workflow-type: tm+mt
-source-wordcount: '904'
+workflow-type: ht
+source-wordcount: '925'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Adobe Experience Cloud 및 기타 Adobe Enterprise 제품에 대한 기술 문�
 
    Adobe CLA는 한 번만 제출하면 됩니다.
 
-1. 문서 하단에 표시되는 피드백 영역에서 **[!UICONTROL Detailed feedback options]**&#x200B;를 클릭한 다음 **[!UICONTROL Suggest an edit]**&#x200B;를 클릭하여 GitHub의 Markdown 소스 파일로 이동합니다.
+1. 문서 하단에 표시되는 피드백 영역에서 **[!UICONTROL 자세한 피드백 옵션]**&#x200B;을 클릭한 다음 **[!UICONTROL 편집 제안]**&#x200B;을 클릭하여 GitHub의 마크다운 소스 파일로 이동합니다.
 
    ![이 페이지 아이콘 편집](/help/assets/feedback-suggest-edit.png)
 
@@ -70,25 +70,25 @@ Adobe Experience Cloud 및 기타 Adobe Enterprise 제품에 대한 기술 문�
 
 1. 웹 편집기에서 변경 작업을 수행합니다.
 
-   **[!UICONTROL Preview changes]** 탭을 클릭하여 변경 내용의 서식을 확인할 수 있습니다.
+   **[!UICONTROL 변경 내용 미리보기]** 탭을 클릭하여 변경 내용의 서식을 확인할 수 있습니다.
 
 1. 변경 작업을 수행한 후 페이지 하단으로 스크롤합니다.
 
-   다음 그림과 같이 PR의 제목과 설명을 입력한 다음 **[!UICONTROL Propose file change]**&#x200B;을 클릭합니다.
+   다음 그림과 같이 PR의 제목과 설명을 입력한 다음 **[!UICONTROL 파일 변경 제안]**&#x200B;을 클릭합니다.
 
    ![변경 제안](assets/submit-pull-request.png)
 
    >[!NOTE]
    >
-   >기여자 라이선스 계약(CLA) 서명과 관련한 인증 오류 메시지가 표시되는 경우 **[!UICONTROL Details]**&#x200B;를 클릭하여 사용권 계약을 엽니다. 수락하려면 계약서에 서명합니다. 그런 다음 가져오기 요청을 닫았다가 열고 계속합니다.
+   >기여자 라이선스 계약(CLA) 서명과 관련한 인증 오류 메시지가 표시되는 경우, **[!UICONTROL 세부 정보]**&#x200B;를 클릭하여 사용권 계약을 엽니다. 수락하려면 계약서에 서명합니다. 그런 다음 가져오기 요청을 닫았다가 열고 계속합니다.
 
 이제 모두 완료되었습니다. 설명서 팀원이 가져오기 요청을 검토하고 병합하게 됩니다. 감사합니다.
 
 ## 문제 보고
 
-한 내용에 있는 문제에 대해 Adobe에 알리는 또 다른 간단한 방법은 **[!UICONTROL Report an issue]**&#x200B;을 사용하는 것입니다.
+콘텐츠의 일부에서 발생하는 문제를 당사에 알리는 또 하나의 간단한 방법은 **[!UICONTROL 문제 신고]** 옵션을 사용하는 것입니다.
 
-1. 문서 하단에 표시되는 피드백 영역에서 **[!UICONTROL Detailed feedback options]**&#x200B;를 클릭한 다음 **[!UICONTROL Report an issue]**&#x200B;를 클릭하여 GitHub의 Markdown 소스 파일로 이동합니다.
+1. 문서 하단에 표시되는 피드백 영역에서 **[!UICONTROL 자세한 피드백 옵션]**&#x200B;을 클릭한 다음 **[!UICONTROL 문제 신고]**&#x200B;를 클릭하여 GitHub의 마크다운 소스 파일로 이동합니다.
 
    ![문제 보고](assets/feedback-report-issue.png)
 
