@@ -2,10 +2,10 @@
 title: 설명서 작성에 Markdown을 사용하는 방법
 description: Markdown 작성의 기본 사항에 대해 알아보십시오. 문서 작성에 사용되는 Markdown 언어에 대한 참조 정보를 확인하십시오.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: bd0a7b34320435e1cebae95bc267ddf05b06a0f9
+source-git-commit: d3d478f8745c14ee500a43021597eecfebc7b06b
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 96%
+source-wordcount: '1466'
+ht-degree: 92%
 
 ---
 
@@ -292,23 +292,25 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 
 기계 번역 중에 ``로 태그가 지정된 항목은 적절한 번역을 위해 현지화 데이터베이스에 대해 확인됩니다. UI가 현지화되지 않은 경우 이 태그를 사용하면 시스템에서 특정 언어에 대한 UI 참조를 영어로 남길 수 있습니다.(예: 이탈리아어로 된 Analytics 참조).
 
-**예:**
+**소스 콘텐츠 예:**
 
-1. 로 이동 **프로세스 실행** 화면.
-1. 선택 **파일** > **인쇄** > **모두 인쇄** 서버의 모든 파일을 인쇄합니다.
-1. 처리 규칙 대화 상자가 나타납니다.
+1. 로 이동 **&amp;lbrack;!UICONTROL Run Process&amp;rbrack;** 화면.
+1. 선택 **&amp;lbrack;!UICONTROL File&amp;rbrack; > &amp;lbrack;!UICONTROL Print&amp;rbrack; > &amp;lbrack;!UICONTROL Print All&amp;rbrack;** 서버의 모든 파일을 인쇄합니다.
+1. &amp;lbrack;!UICONTROL 처리 규칙&amp;rbrack; 대화 상자가 나타납니다.
 
-**소스 -**
+<!--
+**Source:**
 
 ```markdown
 1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
 1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
 1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
 ```
+-->
 
 >[!NOTE]
 >
-세 가지 태그 지정 옵션 중 고품질을 제공하는 데 가장 중요하며 필수입니다.
+두 가지 태그 지정 옵션 중 고품질을 제공하는 데 가장 중요하며 필수입니다.
 
 **`[!DNL]`**
 
@@ -316,15 +318,17 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 
 **예:**
 
-* Target을 사용하여 최적의 것을 찾기 위한 A/B 테스트를 만들 수 있습니다.
-* Adobe Analytics는 사이트에서 분석을 수집하는 강력한 솔루션입니다. Analytics는 또한 해당 데이터를 쉽게 요약할 수 있도록 보고하는 데 도움이 될 수 있습니다.
+* &amp;lbrack;!DNL Target&amp;rbrack;를 사용하면 최적의 것을 찾기 위한 A/B 테스트를 작성할 수 있습니다
+* Adobe Analytics는 사이트에서 분석을 수집하는 강력한 솔루션입니다. &amp;lbrack;!DNL Analytics&amp;rbrack;는 해당 데이터를 쉽게 요약할 수 있도록 보고하는 데 도움이 될 수도 있습니다.
 
-**소스 -**
+<!--
+**Source:**
 
 ```markdown
 * With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
 * Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
 ```
+-->
 
 ## 과제 및 문제 해결
 
