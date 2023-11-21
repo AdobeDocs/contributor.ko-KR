@@ -2,10 +2,10 @@
 title: 설명서 작성에 Markdown을 사용하는 방법
 description: Markdown 작성의 기본 사항에 대해 알아보십시오. 문서 작성에 사용되는 Markdown 언어에 대한 참조 정보를 확인하십시오.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 109b2b72bd842a8d3f45bd5667690d8e71a6e329
+source-git-commit: fff920c9e98ca821a4180157174c2a2ee1b84cb8
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 97%
+source-wordcount: '1361'
+ht-degree: 99%
 
 ---
 
@@ -304,11 +304,11 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 1. Choose **[!UICONTROL File] > [!UICONTROL Print] > [!UICONTROL Print All]** to print all the files on your server.
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
--->
 
 >[!NOTE]
 >
-두 가지 태그 지정 옵션 중 고품질을 제공하는 데 가장 중요하며 필수입니다.
+>Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
+-->
 
 **`[!DNL]`**
 
