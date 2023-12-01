@@ -281,8 +281,8 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 
 >[!MORELIKETHIS]
 >
-* [Article 1](https://helpx.adobe.com/kr/support/analytics.html)
-* [Article 2](https://helpx.adobe.com/kr/support/audience-manager.html)
+>* [Article 1](https://helpx.adobe.com/kr/support/analytics.html)
+>* [Article 2](https://helpx.adobe.com/kr/support/audience-manager.html)
 
 ### UICONTROL 및 DNL
 
