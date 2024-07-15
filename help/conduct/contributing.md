@@ -4,7 +4,7 @@ description: 이 프로젝트에 기여할 때 이 지침을 따르십시오.
 exl-id: 01dc5fd4-4676-41b1-be7b-aa4a9ea2fe14
 source-git-commit: 758ff966b959b614dd9250017c2a4eb5df47ffd2
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
@@ -55,4 +55,4 @@ Adobe는 커뮤니티의 기여를 환영합니다. 콘텐츠 작가를 넘어 �
 
 ## 보안 문제
 
-보안 문제는 이 문제 추적기에서 보고할 수 없습니다. 대신, [보안 전문가에게 문제를 제기하십시오.](https://helpx.adobe.com/kr/security/alertus.html)
+보안 문제는 이 문제 추적기에서 보고할 수 없습니다. 대신 [보안 전문가에게 문제를 제기](https://helpx.adobe.com/security/alertus.html)합니다.

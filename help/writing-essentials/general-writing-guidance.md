@@ -5,8 +5,8 @@ description: Experience League의 외부 참여자를 위한 작성 및 에디�
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 source-git-commit: 03d46c9ffb664824f9526f781d776069d486f271
 workflow-type: tm+mt
-source-wordcount: '2224'
-ht-degree: 100%
+source-wordcount: '2203'
+ht-degree: 99%
 
 ---
 
@@ -188,17 +188,17 @@ Google는 SEO 결과에서 대체 텍스트를 고려합니다.
 
 * `DNL`
 
-   DNL은 _현지화하지 않음(do not localize)_&#x200B;을 의미합니다. 상표가 등록된 Adobe 제품 이름에만 사용하며 이러한 이름은 모두 영어로 유지되어야 합니다.
+  DNL은 _현지화하지 않음(do not localize)_&#x200B;을 의미합니다. 상표가 등록된 Adobe 제품 이름에만 사용하며 이러한 이름은 모두 영어로 유지되어야 합니다.
 
-   구문 예: `[!DNL Adobe Campaign]` 또는 `[!DNL Workfront]`
+  구문 예: `[!DNL Adobe Campaign]` 또는 `[!DNL Workfront]`
 
-   DNL은 파일 이름이나 URL에는 해당되지 않습니다.
+  DNL은 파일 이름이나 URL에는 해당되지 않습니다.
 
 * `UICONTROL`
 
-   UICONTROL은 인터페이스 제어(예: UI의 옵션, 필드, 탭, 페이지, 옵션 그룹 또는 기능 이름)를 나타냅니다.
+  UICONTROL은 인터페이스 제어(예: UI의 옵션, 필드, 탭, 페이지, 옵션 그룹 또는 기능 이름)를 나타냅니다.
 
-   구문 예: `Select **[!UICONTROL Project]**, then select **[!UICONTROL Save]**.`
+  구문 예: `Select **[!UICONTROL Project]**, then select **[!UICONTROL Save]**.`
 
 >[!IMPORTANT]
 >
@@ -218,7 +218,7 @@ _대상자는 방문자의 컬렉션입니다(방문자 ID 목록). Adobe의 대
 
 샘플 첫 번째 단락(작업):
 
-_고객 속성 소스(CSV 및 FIN 파일)를 생성하고 데이터를 업로드하십시오. 준비가 되면 데이터 소스를 활성화할 수도 있습니다. 데이터 소스가 활성화되면 속성 데이터를 Analytics 및 Target과 공유합니다._
+_고객 속성 소스(CSV 및 FIN 파일)를 생성하고 데이터를 업로드하십시오. 준비가 되면 데이터 소스를 활성화할 수도 있습니다. 데이터 소스가 활성화되면 특성 데이터를 Analytics 및 Target에 공유합니다._
 
 ### 첫 단락에 대한 SEO 팁{#seo}
 

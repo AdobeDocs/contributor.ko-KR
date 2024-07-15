@@ -4,8 +4,8 @@ description: 이 문서에서는 포크 및 복제 프로세스를 포함하여,
 exl-id: 679c07a2-030b-4a30-ba14-7780f88dae11
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 98%
 
 ---
 

@@ -4,7 +4,7 @@ description: 이 문서에서는 Git, GitHub 리포지토리 및 내용이 구�
 exl-id: 2b2ec764-4201-4bcd-802d-a034d6675793
 source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '658'
 ht-degree: 100%
 
 ---

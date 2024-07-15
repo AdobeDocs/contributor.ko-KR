@@ -3,9 +3,9 @@ title: 설명서 작성에 Markdown을 사용하는 방법
 description: Markdown 작성의 기본 사항에 대해 알아보십시오. 문서 작성에 사용되는 Markdown 언어에 대한 참조 정보를 확인하십시오.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: fff920c9e98ca821a4180157174c2a2ee1b84cb8
-workflow-type: ht
-source-wordcount: '1361'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1340'
+ht-degree: 98%
 
 ---
 
@@ -145,7 +145,7 @@ This is not \*italicized\* type.
 
 표 만들기에 대한 자세한 내용은 다음을 참조하십시오.
 
-* GitHub의 [표 구성 정보](https://help.github.com/articles/organizing-information-with-tables/)
+* GitHub의 [테이블을 사용하여 정보 구성](https://help.github.com/articles/organizing-information-with-tables/)
 * [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) 웹 앱
 * [HTML 표를 Markdown으로 변환](https://jmalarcon.github.io/markdowntables/)
 
@@ -183,7 +183,7 @@ See [Overview example article](../../overview.md)
 
 ### 코드 블록
 
-Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 “펜싱된” 블록으로 배치할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)
+Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 “펜싱된” 블록으로 배치할 수 있습니다. 자세한 내용은 [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)을 참조하세요.
 
 백틱(`` ` ``)을 사용하여 단락 내에 인라인 코드 스타일을 만듭니다. 특정 여러 줄 코드 블록을 생성하려면 코드 블록(Markdown에서는 “펜스 코드 블록”이라고 하며 AEM에서는 “코드 블록” 구성 요소라고 함) 전후에 세 개의 백틱(` ``` `)을 추가합니다. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예: ` ```javascript`
 
@@ -349,7 +349,7 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 
 이러한 “스마트” 버전의 문장 부호는 다음과 같이 인코딩합니다.
 
-* 왼쪽(열린) 큰따옴표 - `&#8220;`
+* 왼쪽(열린) 큰따옴표: `&#8220;`
 * 오른쪽(닫힌) 큰따옴표 - `&#8221;`
 * 오른쪽(닫힌) 작은따옴표 또는 아포스트로피 - `&#8217;`
 * 왼쪽(열린) 작은따옴표(거의 사용 안 함) - `&#8216;`
@@ -358,7 +358,7 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 
 파일에서 텍스트(코드가 아님)에 꺾쇠 괄호를 사용하는 경우(예를 들어 자리 표시자를 표시하기 위해)에는 꺾쇠 괄호를 수동으로 인코딩해야 합니다. 그렇지 않으면 Markdown에서는 해당 기호를 HTML 태그로 인식합니다.
 
-예를 들어 `<script name>`을 다음과 같이 인코딩하십시오. `&lt;script name&gt;`
+예를 들어 `<script name>`을(를) `&lt;script name&gt;`(으)로 인코딩하십시오
 
 ### 제목의 앰퍼샌드
 

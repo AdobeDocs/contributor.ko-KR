@@ -35,27 +35,27 @@ ht-degree: 100%
 
 - 디렉토리의 문서가 동일한 디렉토리에 있는 다른 문서에 연결됩니다.
 
-   `[link text](article-name.md)`
+  `[link text](article-name.md)`
 
 - 문서가 하위 디렉토리에서 루트 디렉토리에 있는 문서에 연결됩니다.
 
-   `[link text](../article-name.md)`
+  `[link text](../article-name.md)`
 
 - 문서가 하위 디렉토리의 하위 디렉토리에서 루트 디렉토리에 있는 문서에 연결됩니다.
 
-   `[link text](../../article-name.md)`
+  `[link text](../../article-name.md)`
 
 - 루트 디렉토리에 있는 문서가 하위 디렉토리에 있는 문서에 연결됩니다.
 
-   `[link text](./directory/article-name.md)`
+  `[link text](./directory/article-name.md)`
 
 - 하위 디렉토리에 있는 문서가 다른 하위 디렉토리에 있는 문서에 연결됩니다.
 
-   `[link text](../directory/article-name.md)`
+  `[link text](../directory/article-name.md)`
 
 - 하위 디렉토리의 하위 디렉토리에 있는 문서가 다른 하위 디렉토리에 있는 문서에 연결됩니다.
 
-   `[link text](../../directory/article-name.md)`
+  `[link text](../../directory/article-name.md)`
 
 ## 앵커에 연결된 링크
 
@@ -63,21 +63,21 @@ ht-degree: 100%
 
 - 동일한 문서 내의 제목에 연결하려면
 
-   `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
+  `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
 
-   `[Link to anchors](#links-to-anchors)`
+  `[Link to anchors](#links-to-anchors)`
 
 - 동일한 하위 디렉토리의 다른 문서에 있는 앵커에 연결하려면
 
-   `[link text](article-name.md#anchor-name)`
+  `[link text](article-name.md#anchor-name)`
 
-   `[Configure your profile](overview.md#getting-started)`
+  `[Configure your profile](overview.md#getting-started)`
 
 - 다른 서비스 하위 디렉토리에 있는 앵커에 연결하려면
 
-   `[link text](../directory/article-name.md#anchor-name)`
+  `[link text](../directory/article-name.md#anchor-name)`
 
-   `[Configure your profile](../overview.md#configure-your-profile)`
+  `[Configure your profile](../overview.md#configure-your-profile)`
 
 ## 이미지에 연결된 링크
 
@@ -85,8 +85,8 @@ ht-degree: 100%
 
 - 문서가 `assets` 하위 디렉토리에 있는 이미지에 연결됩니다.
 
-   `![alt text](assets/image-name.png)`
+  `![alt text](assets/image-name.png)`
 
 - 문서가 `assets/no-localize` 하위 디렉토리에 있는 이미지에 연결됩니다.
 
-   `![alt text](assets/no-localize/image-name.png)`
+  `![alt text](assets/no-localize/image-name.png)`

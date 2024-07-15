@@ -4,7 +4,7 @@ description: 이 문서는 Git/GitHub 및 Markdown 파일 편집에 필요한 �
 exl-id: 930185cf-fff5-485a-9824-70c32c55800d
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---

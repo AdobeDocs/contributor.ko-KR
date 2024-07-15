@@ -4,7 +4,7 @@ description: Adobe 설명서에 내용을 기여하기 위해 필요한 GitHub�
 exl-id: 62be9e5a-bbbc-4a78-82e9-24cf658e6d35
 source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '201'
 ht-degree: 100%
 
 ---
@@ -24,8 +24,7 @@ GitHub 프로필에서 모든 소속을 식별합니다. 식별은 모든 활동
 ## 기여자 라이선스 계약(CLA)에 서명
 
 본 프로젝트에 대한 모든 제3자 기여는 서명된 기여자 라이선스 계약을
-동반해야 합니다. 이를 통해 Adobe는 귀하의 기여를 프로젝트의 일부로서
-재배포할 수 있는 권한을 얻게 됩니다.
+동반해야 합니다. 이를 통해 Adobe는 귀하의 기여를 프로젝트의 일부로서 재배포할 수 있는 권한을 얻게 됩니다.
 
 1. 수락하려면 [기여자 라이선스 계약(CLA)](http://opensource.adobe.com/cla.html)에 서명하십시오.
 
