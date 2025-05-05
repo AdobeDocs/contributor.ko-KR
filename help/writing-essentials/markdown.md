@@ -185,7 +185,7 @@ See [Overview example article](../../overview.md)
 
 Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 “펜싱된” 블록으로 배치할 수 있습니다. 자세한 내용은 [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)을 참조하세요.
 
-백틱(`` ` ``)을 사용하여 단락 내에 인라인 코드 스타일을 만듭니다. 특정 여러 줄 코드 블록을 생성하려면 코드 블록(Markdown에서는 “펜스 코드 블록”이라고 하며 AEM에서는 “코드 블록” 구성 요소라고 함) 전후에 세 개의 백틱(` ``` `)을 추가합니다. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예: ` ```javascript`
+백틱(`` ` ``)을 사용하여 단락 내에 인라인 코드 스타일을 만듭니다. 특정 여러 줄 코드 블록을 생성하려면 코드 블록(Markdown에서는 “펜스 코드 블록”이라고 하며 AEM에서는 “코드 블록” 구성 요소라고 함) 전후에 세 개의 백틱(` ` `` `)을 추가합니다. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예: ` `` `javascript`
 
 예:
 
@@ -226,11 +226,11 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 * `[!IMPORTANT]`
 * `[!CAUTION]`
 * `[!WARNING]`
-* `[!ADMINISTRATION]`
+* `[ !ADMINISTRATION]`
 * `[!AVAILABILITY]`
 * `[!PREREQUISITES]`
 * `[!ERROR]`
-* `[!ADMINISTRATION]`
+* `[ !ADMINISTRATION]`
 * `[!INFO]`
 * `[!SUCCESS]`
 
@@ -288,13 +288,13 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 
 모든 Markdown 도움말 콘텐츠는 초기에 기계 번역을 사용하여 현지화됩니다. 도움말이 현지화되지 않은 경우 기계 번역을 유지합니다. 단, 도움말 콘텐츠가 과거에 현지화된 경우 기계 번역된 콘텐츠는 인간 번역 과정의 플레이스홀더로서 기능합니다.
 
-**``**
+**&grave;&grave;**
 
-기계 번역 중에 ``로 태그가 지정된 항목은 적절한 번역을 위해 현지화 데이터베이스에 대해 확인됩니다. UI가 현지화되지 않은 경우 이 태그를 사용하면 시스템에서 특정 언어에 대한 UI 참조를 영어로 남길 수 있습니다.(예: 이탈리아어로 된 Analytics 참조).
+기계 번역 중에 &grave;&grave;로 태그가 지정된 항목은 적절한 번역을 위해 현지화 데이터베이스에 대해 확인됩니다. UI가 현지화되지 않은 경우 이 태그를 사용하면 시스템에서 특정 언어에 대한 UI 참조를 영어로 남길 수 있습니다.(예: 이탈리아어로 된 Analytics 참조).
 
 **예시 소스 콘텐츠:**
 
-![샘플 UICONTROL 텍스트](assets/sample-uicontrol.png)
+![[!UICONTROL 샘플 텍스트]](assets/sample-uicontrol.png)
 
 <!--
 **Source:**
@@ -310,13 +310,13 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 >Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
 -->
 
-**`[!DNL]`**
+**``**
 
 일반적으로 기계 번역 엔진에 영어로 무엇을 유지해야 하는지를 알리기 위해 “번역하지 않음” 목록을 사용합니다. 가장 일반적인 항목은 “Adobe Analytics”, “Adobe Campaign”, “Adobe Target”과 같은 긴 솔루션 이름입니다. 그러나 해당 용어가 특정하거나 일반적인 방법으로 사용될 수 있으므로 엔진에 영어를 사용하도록 강제해야 하는 경우가 있을 수 있습니다. 이 가장 명백한 사례는 “Analytics”, “Campaign”, “Target” 등과 같은 솔루션의 짧은 이름입니다. 이러한 이름은 일반적인 용어가 아니라 솔루션 이름이라는 것을 기계가 이해하기 어려울 것입니다. 태그는 항상 영어로 유지되는 서드파티 이름/기능이나 영어로 유지되어야 하는 문구 또는 문장과 같은 짧은 텍스트 섹션에도 사용될 수 있습니다.
 
 **예시 소스 콘텐츠:**
 
-![샘플 DNL 텍스트](assets/sample-dnl.png)
+![[!DNL 샘플 텍스트]](assets/sample-dnl.png)
 
 <!--
 **Source:**
