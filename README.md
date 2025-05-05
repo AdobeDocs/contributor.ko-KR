@@ -37,7 +37,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Adobe 직원의 주요 변경 사항
 
-[!UICONTROL Adobe Experience Cloud] 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 저장소(`https://git.corp.adobe.com/AdobeDocs`)를 사용해야 합니다. [내부 공동 작업 안내서](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html)를 참조하십시오.
+[!UICONTROL Adobe Experience Cloud] 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 저장소(`https://git.corp.adobe.com/AdobeDocs`)를 사용해야 합니다. [내부 공동 작업 안내서](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=ko)를 참조하십시오.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
