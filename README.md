@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2b359dd199979fbba8c0491490d9d071b0e5db50
+source-git-commit: 540aa4213e4fe4cb15d065262d88095c977b7b5f
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 99%
@@ -14,7 +14,6 @@ Adobe는 Adobe 커뮤니티와 설명서 팀이 아닌 Adobe 직원들의 내용
 이 프로젝트에서는 [Adobe 오픈 소스 행동 수칙](code-of-conduct.md) 또는 [.NET Foundation 행동 수칙](https://dotnetfoundation.org/code-of-conduct)이 채택되었습니다. 자세한 내용은 [기여](contributing.md) 문서를 참조하십시오.
 
 ## Adobe 콘텐츠에 대한 귀하의 기여 관련 정보
-
 
 [Adobe 문서 기여자 안내서](https://docs.adobe.com/help/ko/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
@@ -38,7 +37,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Adobe 직원의 주요 변경 사항
 
-[!UICONTROL Adobe Experience Cloud] 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 리포지토리(`https://git.corp.adobe.com/AdobeDocs`)를 사용해야 합니다. [내부 공동 작업 안내서](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=ko)를 참조하십시오.
+[!UICONTROL Adobe Experience Cloud] 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 리포지토리(`https://git.corp.adobe.com/AdobeDocs`)를 사용해야 합니다. [내부 공동 작업 안내서](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html)를 참조하십시오.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
