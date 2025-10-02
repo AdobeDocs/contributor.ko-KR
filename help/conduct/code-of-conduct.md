@@ -2,10 +2,10 @@
 title: Adobe 행동 강령
 description: 문제 보고 및 편집 변경 사항 제출에 대한 Adobe 행동 강령
 exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
-source-git-commit: 06b0a397f0612e5ecfca82fc7105a45ed167efc9
+source-git-commit: 9b3e4e2a7a007d4e417a5bf156d2290ea60b64ec
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '441'
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,8 @@ ht-degree: 100%
 
 ## 시행
 
-학대, 괴롭힘 등의 용납될 수 없는 행동 사례는 프로젝트 팀(Grp-opensourceoffice@adobe.com)에 문의하여 보고할 수 있습니다. 모든 불만 사항은 검토와 조사를 거칠 것이며, 상황에 적절하고 필요하다고 간주되는 대응을 할 것입니다. 프로젝트 팀은
+학대, 괴롭힘 또는 다른 용납할 수 없는 행동의 사례는 다음과 같습니다.
+<Grp-opensourceoffice@adobe.com>의 프로젝트 팀에 연락하여 보고되었습니다. 모든 불만 사항은 검토와 조사를 거칠 것이며, 상황에 적절하고 필요하다고 간주되는 대응을 할 것입니다. 프로젝트 팀은
 사고 발생 보고서와 관련하여 기밀을 유지할 의무가 있습니다.
 특정 시행 정책에 대한 자세한 내용은 별도로 게시될 수 있습니다.
 
