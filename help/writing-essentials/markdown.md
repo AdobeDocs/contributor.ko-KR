@@ -310,7 +310,7 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 >Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
 -->
 
-**``**
+**&grave;&grave;**
 
 일반적으로 기계 번역 엔진에 영어로 무엇을 유지해야 하는지를 알리기 위해 “번역하지 않음” 목록을 사용합니다. 가장 일반적인 항목은 “Adobe Analytics”, “Adobe Campaign”, “Adobe Target”과 같은 긴 솔루션 이름입니다. 그러나 해당 용어가 특정하거나 일반적인 방법으로 사용될 수 있으므로 엔진에 영어를 사용하도록 강제해야 하는 경우가 있을 수 있습니다. 이 가장 명백한 사례는 “Analytics”, “Campaign”, “Target” 등과 같은 솔루션의 짧은 이름입니다. 이러한 이름은 일반적인 용어가 아니라 솔루션 이름이라는 것을 기계가 이해하기 어려울 것입니다. 태그는 항상 영어로 유지되는 서드파티 이름/기능이나 영어로 유지되어야 하는 문구 또는 문장과 같은 짧은 텍스트 섹션에도 사용될 수 있습니다.
 
