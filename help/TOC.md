@@ -2,11 +2,13 @@
 git-repo: https://github.com/AdobeDocs/contributor.ko-KR
 solution: Experience Cloud
 cloud: Experience Cloud
+user-guide-title: 기여자 안내서
+user-guide-description: Adobe 설명서 기여자 지침
 index: true
-source-git-commit: d8a27428d0c264ae95740ad18231f96602a9136f
+source-git-commit: 38494017a88a638b8bf7b5033993c2647cfb09c6
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 100%
+source-wordcount: '74'
+ht-degree: 86%
 
 ---
 
@@ -28,5 +30,5 @@ ht-degree: 100%
    + [Adobe Experience Cloud 제품 설명서에 대한 언어 지원](localization/machine-translation.md)
 + [Git 및 GitHub 학습 리소스](resources.md)
 + 행동 및 기여 {#conduct-contributions}
-   + [행동 강령](conduct/code-of-conduct.md)
+   + [행동 수칙](conduct/code-of-conduct.md)
    + [기여 개요](conduct/contributing.md)
