@@ -2,9 +2,9 @@
 title: 작성 도구 설치
 description: 이 문서는 Git/GitHub 및 Markdown 파일 편집에 필요한 클라이언트 도구를 다운로드하고 설치하는 데 도움이 됩니다.
 exl-id: 930185cf-fff5-485a-9824-70c32c55800d
-source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+source-git-commit: 2ea5ddf33ae857dd9a5a764cac1fde8dcc4bc7d4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 >
 >부분 변경 사항만 문서에 적용하는 경우에는 이 문서의 절차를 완료하지 *않아도 됩니다*. 웹 브라우저에서 간단히 변경할 수 있습니다.
 >
->주요 기여자는 [주요 변경 사항 워크플로우](local-repo.md)를 사용할 수 있도록 이러한 절차를 완료하는 것이 좋습니다. 주 리포지토리에 쓰기 권한이 있더라도 리포지토리를 포크하고 복제하는 것이 좋습니다(이 안내서에서 이렇게 가정). 그러면 포크에서 제안된 변경 사항을 저장하기 위한 읽기/쓰기 권한이 생깁니다.
+>주요 기여자는 [주요 변경 사항 워크플로](local-repo.md)를 사용할 수 있도록 이러한 절차를 완료하는 것이 좋습니다. 주 리포지토리에 쓰기 권한이 있더라도 리포지토리를 포크하고 복제하는 것이 좋습니다(이 안내서에서 이렇게 가정). 그러면 포크에서 제안된 변경 사항을 저장하기 위한 읽기/쓰기 권한이 생깁니다.
 
 ## Git 클라이언트 도구 설치
 
@@ -27,7 +27,6 @@ GUI(그래픽 사용자 인터페이스)보다 CLI(명령줄 인터페이스)를
 
 Git 학습 리소스는 다음과 같습니다.
 
-* [Git 기본 사항](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 * [Git 및 GitHub 학습](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 * [Git 용어](https://help.github.com/articles/github-glossary)
 
