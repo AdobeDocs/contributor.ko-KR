@@ -5,7 +5,7 @@ cloud: Experience Cloud
 user-guide-title: 기여자 안내서
 user-guide-description: Adobe 설명서 기여자 지침
 index: true
-source-git-commit: 5412da76ebf2e8f67c35b09940b6a3d5cf442691
+source-git-commit: 64268158ee78464e49ae3409255850015dd2b6e2
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 77%
@@ -33,5 +33,5 @@ ht-degree: 77%
    + [행동 수칙](conduct/code-of-conduct.md)
    + [기여 개요](conduct/contributing.md)
 + 테스트 무시 {#testing}
-   + [ID가 인 Analytics](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/overview)
+   + ID가 있는 [Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
    + [인증 가이드](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
