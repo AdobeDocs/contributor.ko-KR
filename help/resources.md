@@ -2,10 +2,10 @@
 title: Git 및 GitHub 학습 리소스
 description: Git 및 GitHub에 대한 학습 리소스.
 exl-id: a112954a-76d9-4ee7-86be-676c5bd92994
-source-git-commit: 2ea5ddf33ae857dd9a5a764cac1fde8dcc4bc7d4
+source-git-commit: 7a14bde440f011f94b9eded63512362146336a9d
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 63%
+source-wordcount: '88'
+ht-degree: 68%
 
 ---
 
@@ -13,7 +13,6 @@ ht-degree: 63%
 
 Git 또는 GitHub에 익숙하지 않다면 다음 리소스를 확인하십시오.
 
-- [Git 기본 사항](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics): Git 기본 사항에 대한 기본 개요.
 - [Git 및 GitHub 학습](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 - [대화형 입문서](https://try.github.io/): 온라인 git 자습서입니다. Git의 기본 사항을 보여줍니다.
 - Pro Git 전자책 [웹](https://git-scm.com/book/en/v2) 또는 [PDF](https://progit2.s3.amazonaws.com/en/2016-03-22-f3531/progit-en.1084.pdf): HTML 또는 PDF 형식으로 된 이 완전한 Git 참조를 확인하십시오.
