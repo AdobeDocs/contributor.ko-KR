@@ -5,7 +5,7 @@ cloud: Experience Cloud
 user-guide-title: 기여자 안내서
 user-guide-description: Adobe 설명서 기여자 지침
 index: true
-source-git-commit: 64268158ee78464e49ae3409255850015dd2b6e2
+source-git-commit: f0552fbba1aac1b8ffd4116bd66f6c06afab0d39
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 77%
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 # Adobe 설명서에 대한 콘텐츠 작가 안내서{#contributor-guide}
 
-+ [소개](introduction.md)
++ [소개](/help/introduction.md)
 + GitHub 설정 {#setup}
    + [GitHub 계정 설정](setup/github-signup.md)
    + [Git 및 Markdown 작성 도구 설치](setup/install-tools.md)
