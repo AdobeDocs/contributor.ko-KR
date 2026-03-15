@@ -2,10 +2,10 @@
 title: 주요 변경 사항에 대한 GitHub 기여 워크플로
 description: Experience League에서 Adobe 설명서에 기여하는 방법을 알아봅니다.
 exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
-source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+source-git-commit: df75e37ceec55476cc8b558e3bcccb474d329586
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '951'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../../contributing.md) article.
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
---->
+-->
 
 ## 개요
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ### 검토 및 승인
 
-모든 PR 프로세스가 완료되면 결과(PR 댓글, 미리보기 URL 등)를 검토하여, 병합을 위해 승인하기 전에 해당 파일에 대한 추가 변경 내용이 필요한지 결정해야 합니다. PR 검토자가 가져오기 요청을 검토한 경우에는 병합하기 전에 해결해야 할 미해결 문제/질문이 있으면 댓글을 통해 피드백을 제공할 수도 있습니다.
+모든 PR 프로세스가 완료되면 결과(PR 주석, 미리보기 URL 등)를 검토하여, 병합을 위해 승인하기 전에 해당 파일에 대한 추가 변경 내용이 필요한지 결정해야 합니다. PR 검토자가 가져오기 요청을 검토한 경우에는 병합하기 전에 해결해야 할 미해결 문제/질문이 있으면 댓글을 통해 피드백을 제공할 수도 있습니다.
 
 가져오기 요청에 문제가 없고 승인되면 변경 사항이 상위 분기로 다시 병합되고 가져오기 요청이 닫힙니다.
 
