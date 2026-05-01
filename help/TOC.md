@@ -1,13 +1,14 @@
 ---
-git-repo: https://github.com/AdobeDocs/contributor.ko-KR
+git-repo: https://github.com/AdobeDocs/contributor.en
 solution: Experience Cloud
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 cloud: Experience Cloud
 user-guide-title: 기여자 안내서
 user-guide-description: Adobe 설명서 기여자 지침
 index: true
-source-git-commit: 0d6cb6c676affb3aa7604b7cf6e983dd817df24e
+source-git-commit: 68728714de2ef9acf198b5ce14599e7b5ae647be
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: 101
 ht-degree: 66%
 
 ---
@@ -33,5 +34,5 @@ ht-degree: 66%
    + [행동 수칙](conduct/code-of-conduct.md)
    + [기여 개요](conduct/contributing.md)
 + 테스트 무시 {#testing}
-   + [ID가 있는 Analytics](https://experienceleague.adobe.com/ko/docs/analytics/implementation/id/overview)
+   + [ID가 있는 Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
    + [인증 안내서](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
