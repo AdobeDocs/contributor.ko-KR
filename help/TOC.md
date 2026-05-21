@@ -3,11 +3,12 @@ git-repo: https://github.com/AdobeDocs/contributor.ko-KR
 solution: Experience Cloud
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+usetq: true
 cloud: Experience Cloud
 user-guide-title: 기여자 안내서
 user-guide-description: Adobe 설명서 기여자 지침
 index: true
-source-git-commit: dad6d9b7633f6dea1786504c9e741c1aed5754a1
+source-git-commit: b71fc84ae8678816d5c800d3c3a0ec49010f80f9
 workflow-type: tm+mt
 source-wordcount: 101
 ht-degree: 66%
