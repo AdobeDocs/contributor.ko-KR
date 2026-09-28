@@ -287,13 +287,13 @@ AEM의 &quot;More Like This&quot; 구성 요소는 문서의 끝에 나타납니
 
 모든 Markdown 도움말 콘텐츠는 초기에 기계 번역을 사용하여 현지화됩니다. 도움말이 현지화되지 않은 경우 기계 번역을 유지합니다. 단, 도움말 콘텐츠가 과거에 현지화된 경우 기계 번역된 콘텐츠는 인간 번역 과정의 플레이스홀더로서 기능합니다.
 
-**``**
+**&grave;&grave;**
 
-기계 번역 중에 ``로 태그가 지정된 항목은 적절한 번역을 위해 현지화 데이터베이스에 대해 확인됩니다. UI가 현지화되지 않은 경우 이 태그를 사용하면 시스템에서 특정 언어에 대한 UI 참조를 영어로 남길 수 있습니다(예: 이탈리아어의 Analytics 참조).
+기계 번역 중에 &grave;&grave;로 태그가 지정된 항목은 적절한 번역을 위해 현지화 데이터베이스에 대해 확인됩니다. UI가 현지화되지 않은 경우 이 태그를 사용하면 시스템에서 특정 언어에 대한 UI 참조를 영어로 남길 수 있습니다(예: 이탈리아어의 Analytics 참조).
 
 **예시 소스 콘텐츠:**
 
-![샘플 UICONTROL 텍스트](assets/sample-uicontrol.png)
+![[!UICONTROL 샘플 텍스트]](assets/sample-uicontrol.png)
 
 <!--
 **Source:**
@@ -315,7 +315,7 @@ AEM의 &quot;More Like This&quot; 구성 요소는 문서의 끝에 나타납니
 
 **예시 소스 콘텐츠:**
 
-![샘플 DNL 텍스트](assets/sample-dnl.png)
+![[!DNL 샘플 텍스트]](assets/sample-dnl.png)
 
 <!--
 **Source:**
