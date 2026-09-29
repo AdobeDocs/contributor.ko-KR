@@ -1,14 +1,12 @@
 ---
 title: 설명서 작성에 Markdown을 사용하는 방법
-description: Markdown 작성의 기본 사항에 대해 알아보십시오. 문서 작성에 사용되는 Markdown 언어에 대한 참조 정보를 확인하십시오.
+description: Markdown 작성의 기본 사항에 대해 알아보십시오. 기사 작성에 사용되는 Markdown 언어에 대한 참조 정보를 확인하십시오.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 6510db0d89ac9224df8a73ab50776e65068b7e08
+source-git-commit: 67075e2ca1ac4f63c0bdc30507dbb0444a922afd
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1309'
 ht-degree: 91%
-
 ---
-
 # 기술 설명서 작성에 Markdown을 사용하는 방법
 
 Adobe 기술 설명서 문서는 읽기 쉽고 배우기 쉬운 [Markdown](https://daringfireball.net/projects/markdown/)이라는 간단한 마크업 언어로 작성됩니다.
@@ -33,7 +31,7 @@ Adobe Docs 내용은 GitHub에 저장되므로 일반적인 형식 요구 사항
 
 ### 기본 텍스트
 
-단락에는 Markdown으로 된 특별한 구문이 필요하지 않습니다.
+Markdown에서는 단락에 특별한 구문이 필요하지 않습니다.
 
 텍스트 서식을 **굵게**&#x200B;로 지정하려면 두 개의 별표로 묶습니다. 텍스트 서식을 *기울임꼴*&#x200B;로 지정하려면 한 개의 별표로 묶습니다.
 
@@ -61,8 +59,8 @@ This is not \*italicized\* type.
 
 표시 -
 
-1. This is step 1.
-1. This is the next step.
+1. 1단계입니다.
+1. 다음 단계입니다.
 1. This is yet another step, the third.
 
 글머리 기호 목록을 만들려면 줄을 \* 또는 - 또는 +로 시작하되, 동일한 목록 내에서 형식들을 혼합하지 마십시오. (동일한 문서 내에서 \* 및 \+와 같은 글머리 기호 형식을 혼합하지 마십시오.)
@@ -75,11 +73,11 @@ This is not \*italicized\* type.
 
 표시 -
 
-* First item in an unordered list.
+* 순서 없는 목록의 첫 번째 항목입니다.
 * Another item.
 * 또 다른 항목입니다.
 
-목록 내에 목록을 임베드하고 목록 항목 사이에 내용을 추가할 수도 있습니다.
+목록 내에 목록을 임베드하고 목록 항목 사이에 콘텐츠를 추가할 수도 있습니다.
 
 ```markdown
 1. Set up your table and code blocks.
@@ -104,28 +102,28 @@ This is not \*italicized\* type.
 
 표시 -
 
-1. Set up your table and code blocks.
-1. Perform this step.
+1. 테이블과 코드 블록을 설정합니다.
+1. 이 단계를 수행합니다.
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
 
-1. Make sure that your table looks like this:
+1. 테이블이 다음과 같은 모양인지 확인합니다:
 
    | Hello | World |
    |---|---|
    | How | are you? |
 
-1. This is the fourth step.
+1. 이것은 네 번째 단계입니다.
 
    >[!NOTE]
    >
    >참고 텍스트입니다.
 
-1. Do another step.
+1. 다음 단계를 수행합니다.
 
 ### 테이블
 
-테이블은 주요 Markdown 사양의 일부가 아니지만 Adobe에서는 어느 정도 지원합니다. Markdown은 셀에서 여러 줄 목록을 지원하지 않습니다. 테이블에서는 여러 줄을 사용하지 않는 것이 좋습니다. 파이프(|) 문자로 열과 행을 그려 테이블을 만들 수 있습니다. 하이픈은 각 열의 헤더를 만드는 반면 파이프는 각 열을 분리합니다. 테이블이 올바로 렌더링되도록 테이블 앞에 빈 줄을 포함하십시오.
+테이블은 주요 Markdown 사양의 일부가 아니지만 Adobe에서는 어느 정도 지원합니다. Markdown은 셀에서 여러 줄 목록을 지원하지 않습니다. 테이블에서는 여러 줄을 사용하지 않는 것이 좋습니다. 파이프(|) 문자를 사용하여 열과 행을 구분해 테이블을 만들 수 있습니다. 하이픈은 각 열의 헤더를 만드는 반면 파이프는 각 열을 분리합니다. 테이블이 올바로 렌더링되도록 테이블 앞에 빈 줄을 포함하십시오.
 
 ```markdown
 | Header | Another header | Yet another header |
@@ -136,12 +134,12 @@ This is not \*italicized\* type.
 
 표시 -
 
-| Header | Another header | Yet another header |
+| Header | Another header | 또 다른 헤더 |
 |--- |--- |--- |
 | row 1 | column 2 | column 3 |
 | row 2 | row 2 column 2 | row 2 column 3 |
 
-간단한 테이블은 Markdown으로 적절히 작동합니다. 그러나 셀 내에 여러 단락이나 목록을 포함하는 테이블은 함께 사용하기 어렵습니다. 이러한 내용의 경우 제목 및 텍스트와 같이 서로 다른 형식을 사용하는 것이 좋습니다.
+간단한 테이블은 Markdown으로 적절히 작동합니다. 그러나 셀 내에 여러 단락이나 목록을 포함하는 테이블은 함께 사용하기 어렵습니다. 이러한 콘텐츠의 경우 제목 및 텍스트와 같은 다른 형식을 사용하는 것이 좋습니다.
 
 테이블 만들기에 대한 자세한 내용은 다음을 참조하십시오.
 
@@ -184,7 +182,9 @@ See [Overview example article](../../overview.md)
 
 Markdown에서는 코드 블록을 문장에서 인라인으로 배치하거나 문장 사이에 별도의 “펜싱된” 블록으로 배치할 수 있습니다. 자세한 내용은 [코드 블록에 대한 Markdown의 네이티브 지원](https://daringfireball.net/projects/markdown/syntax#precode)을 참조하세요.
 
-백틱(`` ` ``)을 사용하여 단락 내에 인라인 코드 스타일을 만듭니다. 특정 여러 줄 코드 블록을 생성하려면 코드 블록(Markdown에서는 “펜스 코드 블록”이라고 하며 AEM에서는 “코드 블록” 구성 요소라고 함) 전후에 세 개의 백틱(` ` `` `)을 추가합니다. 펜싱된 코드 블록의 경우에는 Markdown이 코드 구문을 올바르게 강조 표시하도록 첫 번째 역따옴표 세트의 뒤에 코드 언어를 추가하십시오. 예: ` `` `javascript`
+<!--
+Use back ticks (`` ` ``) to create inline code styles within a paragraph. To create a specific multi-line code block, add three back ticks (` ``` `) before and after the code block (called a "fenced code block" in Markdown and just a "code block" component in AEM). For fenced code blocks, add the code language after the first set of back ticks so that Markdown correctly highlights code syntax. Example: ` ```javascript`
+-->
 
 예:
 
@@ -205,7 +205,7 @@ function test() {
 
 ## 맞춤형 Markdown 확장 기능
 
-Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에 표준 Markdown을 사용합니다. 더 많은 서식의 경우 문서는 다음과 같은 확장된 Markdown 기능을 사용할 수 있습니다.
+Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에 표준 Markdown을 사용합니다. 더 풍부한 서식을 위해 문서에서는 다음과 같은 확장된 Markdown 기능을 사용할 수 있습니다.1
 
 * 참고 블록
 * 임베드된 비디오
@@ -225,11 +225,11 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 * `[!IMPORTANT]`
 * `[!CAUTION]`
 * `[!WARNING]`
-* `[ !ADMINISTRATION]`
+* `[!ADMINISTRATION]`
 * `[!AVAILABILITY]`
 * `[!PREREQUISITES]`
 * `[!ERROR]`
-* `[ !ADMINISTRATION]`
+* `[!ADMINISTRATION]`
 * `[!INFO]`
 * `[!SUCCESS]`
 
@@ -272,7 +272,7 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 
 ### 다음과 같음
 
-AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 나타납니다. 이 구성 요소는 관련 링크를 표시합니다. 문서가 렌더링되면 미니 목차에 추가되지 않고 수준 2 제목(##)과 동일한 서식을 지정할 수 있습니다.
+AEM의 &quot;More Like This&quot; 구성 요소는 문서의 끝에 나타납니다. 이 구성 요소는 관련 링크를 표시합니다. 문서가 렌더링되면 미니 목차에 추가되지 않고 수준 2 제목(##)과 동일한 서식을 지정할 수 있습니다.
 
 ![morelikethis 구문](assets/more-like-this-syntax.png)
 
@@ -309,7 +309,7 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 >Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
 -->
 
-**``**
+**`[!DNL]`**
 
 일반적으로 기계 번역 엔진에 영어로 무엇을 유지해야 하는지를 알리기 위해 “번역하지 않음” 목록을 사용합니다. 가장 일반적인 항목은 “Adobe Analytics”, “Adobe Campaign”, “Adobe Target”과 같은 긴 솔루션 이름입니다. 그러나 해당 용어가 특정하거나 일반적인 방법으로 사용될 수 있으므로 엔진에 영어를 사용하도록 강제해야 하는 경우가 있을 수 있습니다. 이 가장 명백한 사례는 &quot;Analytics&quot;, &quot;Campaign&quot;, &quot;Target&quot; 등과 같은 솔루션의 짧은 이름입니다. 이러한 이름은 일반적인 용어가 아니라 솔루션 이름이라는 것을 기계가 이해하기 어려울 것입니다. 태그는 항상 영어로 유지되는 서드파티 이름/기능이나 영어로 유지되어야 하는 문구 또는 문장과 같은 짧은 텍스트 섹션에도 사용될 수 있습니다.
 
@@ -346,7 +346,7 @@ AEM의 “다음과 같음”(More Like This) 구성 요소는 문서의 끝에 
 
 텍스트를 Markdown 편집기에 복사하는 경우 텍스트에 “스마트”(둥근) 아포스트로피나 큰따옴표가 있을 수 있습니다. 이러한 기호는 인코딩하거나 기본 아포스트로피나 큰따옴표로 변경해야 합니다. 그렇지 않을 경우 파일이 게시되면 Itâ€™s와 같이 이상한 문자가 표시됩니다.
 
-이러한 “스마트” 버전의 문장 부호는 다음과 같이 인코딩합니다.
+이러한 &quot;스마트&quot; 버전의 문장 부호에 대한 인코딩은 다음과 같습니다.
 
 * 왼쪽(열린) 큰따옴표: `&#8220;`
 * 오른쪽(닫힌) 큰따옴표 - `&#8221;`
