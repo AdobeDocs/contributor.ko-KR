@@ -153,7 +153,7 @@ This is not \*italicized\* type.
 `[link text](file-name.md)`
 
 ```markdown
-[Adobe](https://www.adobe.com)
+[Adobe](https://www.adobe.com/kr)
 ```
 
 표시:
