@@ -263,12 +263,12 @@ Adobe 문서는 단락, 링크, 목록, 제목 등 대부분의 문서 서식에
 임베드된 비디오는 기본적으로 Markdown으로 렌더링되지는 않지만 이 Markdown 확장 기능을 사용할 수 있습니다.
 
 ```markdown
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507558/?captions=kor&quality=12)
 ```
 
 표시:
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507558/?captions=kor&quality=12)
 
 ### 다음과 같음
 
